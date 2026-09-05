@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "source_sha256": "c42a5a0dc9190c7ca6187117470d261041fa4dfd0f0e2baa51ecefa547a56eab",
+  "source_units": "millimeter (inferred from plausible assembly bounds; verify before manufacturing use)",
+  "source_bounds_mm": {
+    "min": [
+      -160.07012939453125,
+      -411.3754577636719,
+      -62.67730712890625
+    ],
+    "max": [
+      160.07012939453125,
+      86.76151275634766,
+      209.4243927001953
+    ],
+    "size": [
+      320.1402587890625,
+      498.13697052001953,
+      272.10169982910156
+    ]
+  },
+  "visual_mesh": "data/cad_assets/clawbot/visual.obj",
+  "raw_faces": 2257122,
+  "visual_faces": 298792,
+  "visual_vertices": 145532,
+  "tessellation_tolerance_mm": 0.8,
+  "elapsed_s": 45.52296825000667,
+  "collision_model": null,
+  "mass_kg": null,
+  "center_of_mass": null,
+  "connection_points": null
+}

@@ -1,0 +1,27 @@
+{
+  "id": "p00020",
+  "name": "12T High Strength Gear (276-2251)",
+  "mesh": "data/cad_assets/clawbot/parts/p00020.obj",
+  "bounds_mm": [
+    [
+      -7.23387319009432,
+      -6.35,
+      -7.23387319009432
+    ],
+    [
+      7.23387319009432,
+      6.35,
+      7.23387319009432
+    ]
+  ],
+  "faces": 2240,
+  "rgba": [
+    0.31854677200317383,
+    0.31854677200317383,
+    0.31854677200317383,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

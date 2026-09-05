@@ -1,0 +1,303 @@
+{
+  "name": "Open-Bay Four-Bar Pin Cradle",
+  "chassis": {
+    "layout": "u_front",
+    "drive": "traction",
+    "length_mm": 390.0,
+    "width_mm": 350.0,
+    "wheelbase_mm": 330.0,
+    "wheel_diameter_mm": 101.6,
+    "wheel_count": 6,
+    "battery_xy_mm": [
+      -95.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Roller intake feeding a four-bar lifting cradle",
+  "scoring_sequence": "Capture a lying or upright Pin between compliant rollers, settle it into the curved cradle, then raise and tip the four-bar to place it onto a Goal.",
+  "distinguishing_idea": "The open-front chassis surrounds the object while paired four-bar links keep a deep cradle approximately level through most of the lift.",
+  "main_uncertainty": "Approximate cradle clearances and passive orientation behavior require development; joints and controllers are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "left_tower",
+      "shape": "box",
+      "center_mm": [
+        -35.0,
+        125.0,
+        205.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        300.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right_tower",
+      "shape": "box",
+      "center_mm": [
+        -35.0,
+        -125.0,
+        205.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        300.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "tower_crossbrace",
+      "shape": "box",
+      "center_mm": [
+        -35.0,
+        0.0,
+        342.0
+      ],
+      "size_mm": [
+        35.0,
+        250.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left_lower_link",
+      "shape": "capsule",
+      "center_mm": [
+        60.0,
+        108.0,
+        212.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        245.0
+      ],
+      "rotation_deg": [
+        0.0,
+        63.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_lower_link",
+      "shape": "capsule",
+      "center_mm": [
+        60.0,
+        -108.0,
+        212.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        245.0
+      ],
+      "rotation_deg": [
+        0.0,
+        63.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left_upper_link",
+      "shape": "capsule",
+      "center_mm": [
+        48.0,
+        108.0,
+        278.0
+      ],
+      "size_mm": [
+        16.0,
+        16.0,
+        235.0
+      ],
+      "rotation_deg": [
+        0.0,
+        63.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_upper_link",
+      "shape": "capsule",
+      "center_mm": [
+        48.0,
+        -108.0,
+        278.0
+      ],
+      "size_mm": [
+        16.0,
+        16.0,
+        235.0
+      ],
+      "rotation_deg": [
+        0.0,
+        63.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "cradle_floor",
+      "shape": "box",
+      "center_mm": [
+        163.0,
+        0.0,
+        258.0
+      ],
+      "size_mm": [
+        135.0,
+        175.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "cradle_back",
+      "shape": "box",
+      "center_mm": [
+        111.0,
+        0.0,
+        314.0
+      ],
+      "size_mm": [
+        18.0,
+        175.0,
+        105.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left_intake_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        190.0,
+        83.0,
+        170.0
+      ],
+      "size_mm": [
+        46.0,
+        46.0,
+        145.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right_intake_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        190.0,
+        -83.0,
+        170.0
+      ],
+      "size_mm": [
+        46.0,
+        46.0,
+        145.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "roller_cross_axle",
+      "shape": "cylinder",
+      "center_mm": [
+        190.0,
+        0.0,
+        170.0
+      ],
+      "size_mm": [
+        10.0,
+        10.0,
+        205.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "fourbar_motor",
+      "shape": "box",
+      "center_mm": [
+        -55.0,
+        95.0,
+        106.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "intake_motor",
+      "shape": "box",
+      "center_mm": [
+        130.0,
+        -115.0,
+        143.0
+      ],
+      "size_mm": [
+        60.0,
+        42.0,
+        42.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

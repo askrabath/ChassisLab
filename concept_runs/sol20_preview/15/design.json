@@ -1,0 +1,343 @@
+{
+  "name": "Cartesian Goal-Side Gantry",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "holonomic",
+    "length_mm": 440.0,
+    "width_mm": 410.0,
+    "wheelbase_mm": 360.0,
+    "wheel_diameter_mm": 69.85,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -135.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Overhead longitudinal gantry with rack-lowered expanding gripper",
+  "scoring_sequence": "A front funnel and centering rollers stage an upright object between the pods; the overhead carriage travels forward, lowers an internal expanding gripper, lifts the object vertically, traverses beyond the bumper, and lowers it onto a Goal.",
+  "distinguishing_idea": "Independent horizontal and vertical Cartesian axes approach the object and Goal from above while the chassis remains clear around the staging bay.",
+  "main_uncertainty": "Required mast stiffness and gripper expansion range for stable top-down handling at the highest approximate Goal.",
+  "parts": [
+    {
+      "name": "left gantry mast",
+      "shape": "box",
+      "center_mm": [
+        -55.0,
+        150.0,
+        235.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        360.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right gantry mast",
+      "shape": "box",
+      "center_mm": [
+        -55.0,
+        -150.0,
+        235.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        360.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left overhead rail",
+      "shape": "box",
+      "center_mm": [
+        55.0,
+        150.0,
+        407.0
+      ],
+      "size_mm": [
+        360.0,
+        30.0,
+        35.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right overhead rail",
+      "shape": "box",
+      "center_mm": [
+        55.0,
+        -150.0,
+        407.0
+      ],
+      "size_mm": [
+        360.0,
+        30.0,
+        35.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "moving bridge",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        0.0,
+        407.0
+      ],
+      "size_mm": [
+        45.0,
+        330.0,
+        40.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "vertical slide",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        0.0,
+        326.0
+      ],
+      "size_mm": [
+        38.0,
+        45.0,
+        180.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "gripper hub",
+      "shape": "cylinder",
+      "center_mm": [
+        128.0,
+        0.0,
+        232.0
+      ],
+      "size_mm": [
+        65.0,
+        65.0,
+        40.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left expanding finger",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        35.0,
+        196.0
+      ],
+      "size_mm": [
+        25.0,
+        18.0,
+        85.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -10.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right expanding finger",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        -35.0,
+        196.0
+      ],
+      "size_mm": [
+        25.0,
+        18.0,
+        85.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left centering roller",
+      "shape": "cylinder",
+      "center_mm": [
+        166.0,
+        72.0,
+        66.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        120.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right centering roller",
+      "shape": "cylinder",
+      "center_mm": [
+        166.0,
+        -72.0,
+        66.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        120.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "left funnel rail",
+      "shape": "box",
+      "center_mm": [
+        181.0,
+        112.0,
+        60.0
+      ],
+      "size_mm": [
+        150.0,
+        18.0,
+        35.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -18.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right funnel rail",
+      "shape": "box",
+      "center_mm": [
+        181.0,
+        -112.0,
+        60.0
+      ],
+      "size_mm": [
+        150.0,
+        18.0,
+        35.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        18.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "bridge drive motor",
+      "shape": "cylinder",
+      "center_mm": [
+        -95.0,
+        174.0,
+        407.0
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        70.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "vertical drive motor",
+      "shape": "cylinder",
+      "center_mm": [
+        128.0,
+        -42.0,
+        392.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "gripper motor",
+      "shape": "cylinder",
+      "center_mm": [
+        128.0,
+        0.0,
+        275.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        55.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scene": "data/cad_assets/clawbot/inspection.xml",
+  "screenshot": "data/cad_assets/clawbot/inspection.png",
+  "finite": true,
+  "visual_only": true,
+  "physical_collision_geometry": false,
+  "source_bounds_m": [
+    0.3201402587890625,
+    0.49813697052001954,
+    0.27210169982910154
+  ]
+}

@@ -1,0 +1,15 @@
+.env*
+!.env.example
+.venv/
+.venv-cad/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/cad_assets/**/canonical.step
+data/cad_assets/**/visual_raw.stl
+data/cad_assets/**/visual.stl
+data/cad_assets/**/visual.obj
+# Downloaded upstream CAD archives exceed GitHub's normal Git file limit.
+# Keep locally; provenance and download sources are recorded in the catalog.
+data/official_catalog/Override_library.zip
+data/official_catalog/community_parts.zip

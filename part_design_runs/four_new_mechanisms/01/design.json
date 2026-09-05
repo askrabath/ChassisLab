@@ -1,0 +1,33 @@
+{
+  "name": "Parallel Fork Elevator",
+  "mechanism": "four_bar_fork",
+  "display_angle_deg": 38.0,
+  "lateral_spacing_mm": 127.0,
+  "rationale": "Two parallel 276-7285 fork rails approach beneath objects while paired linkage arms preserve an approximately level display pose. An 84T/12T reduction concept distinguishes acquisition by lifting from below rather than gripping or feeding.",
+  "scoring_sequence": [
+    "Drive forks beneath objects.",
+    "Raise the parallel linkage.",
+    "Approach and lower toward the target."
+  ],
+  "hypothesis": "A level-rising fork pair may present two supported objects at a useful height, but object fit, linkage travel, deflection, and target compatibility remain unevaluated.",
+  "required_parts": [
+    "276-7285",
+    "276-2304",
+    "276-4842",
+    "276-3438",
+    "276-7368",
+    "276-1209",
+    "228-2500-124",
+    "276-2010",
+    "276-1408",
+    "276-4996",
+    "275-1026",
+    "275-1025"
+  ],
+  "unresolved_connections": [
+    "The four-bar pivot stack, shaft lengths, bearing alignment, collars, washers, screws, nuts, gear mesh, motor coupling, and chassis supports are not mating-solved; several listed items lack source CAD.",
+    "No fork-tip backstop or side retention is defined, so objects could slide during acceleration or when the linkage pose changes.",
+    "The 38-degree display is static; linkage interference, achievable range, motor torque, rail deflection, and center-of-mass stability are unknown.",
+    "Fork spacing and elevation have not been calibrated to benchmark objects or field-goal openings."
+  ]
+}

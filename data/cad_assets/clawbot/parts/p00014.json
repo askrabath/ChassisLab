@@ -1,0 +1,27 @@
+{
+  "id": "p00014",
+  "name": "1/8\" x\u200e\u200f\u200f\u200e \u200e1/2\" OD x #8 Nylon Spacer\u200e\u200f\u200f\u200e \u200e(275-1066)",
+  "mesh": "data/cad_assets/clawbot/parts/p00014.obj",
+  "bounds_mm": [
+    [
+      -6.334531719149884,
+      -6.346131751571257,
+      -1.5875
+    ],
+    [
+      6.35,
+      6.346131751571257,
+      1.5875
+    ]
+  ],
+  "faces": 360,
+  "rgba": [
+    0.8227857351303101,
+    0.8227857351303101,
+    0.8227857351303101,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

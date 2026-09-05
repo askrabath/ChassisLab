@@ -1,0 +1,306 @@
+{
+  "id": "seed",
+  "parent": null,
+  "design": {
+    "version": "assembly-1",
+    "name": "Image-inspired arm and claw",
+    "parts": [
+      {
+        "id": "arm",
+        "parent": "chassis",
+        "attachment": "origin",
+        "catalog": "beam",
+        "offset_m": [
+          -0.0508,
+          0.0,
+          0.14
+        ],
+        "size_m": [
+          0.27,
+          0.04,
+          0.0127
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits": [
+            -0.45,
+            1.1
+          ],
+          "reduction": 5,
+          "role": "lift"
+        }
+      },
+      {
+        "id": "wrist",
+        "parent": "arm",
+        "attachment": "tip",
+        "catalog": "tool_mount",
+        "offset_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_m": [
+          0.03,
+          0.14,
+          0.016
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits": [
+            -1.2,
+            0.6
+          ],
+          "reduction": 3,
+          "role": "wrist"
+        }
+      },
+      {
+        "id": "left_finger",
+        "parent": "wrist",
+        "attachment": "tool",
+        "catalog": "finger",
+        "offset_m": [
+          0.0,
+          0.06,
+          0.0
+        ],
+        "size_m": [
+          0.08,
+          0.009,
+          0.04
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits": [
+            -0.8,
+            0.35
+          ],
+          "reduction": 1,
+          "role": "grip_left"
+        }
+      },
+      {
+        "id": "right_finger",
+        "parent": "wrist",
+        "attachment": "tool",
+        "catalog": "finger",
+        "offset_m": [
+          0.0,
+          -0.06,
+          0.0
+        ],
+        "size_m": [
+          0.08,
+          0.009,
+          0.04
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits": [
+            -0.35,
+            0.8
+          ],
+          "reduction": 1,
+          "role": "grip_right"
+        }
+      }
+    ]
+  },
+  "architecture": "beam+finger+tool_mount",
+  "source": "image-inspired handwritten seed",
+  "hypothesis": "Arm and claw can acquire and place one upright Pin.",
+  "controller_closure": 0.58,
+  "development": [
+    {
+      "timeout_s": 32,
+      "seed": 41,
+      "task": "pin",
+      "success": false,
+      "time_s": null,
+      "elapsed_s": 17.838000000000992,
+      "picked_up": false,
+      "placed_subset": false,
+      "phase": "failed_pickup",
+      "failures": [
+        "pickup_failed"
+      ],
+      "drop": false,
+      "jam": true,
+      "recovery_attempts": 1,
+      "pickup_time_s": null,
+      "pickup_best_error_m": 0.00036593032750137247,
+      "placement_error_m": 0.2835540261425356,
+      "peak_object_height_m": 0.08483805777104829,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.06602477856261912,
+      "wheel_travel_m": [
+        0.20117701130966636,
+        0.1954075324748538,
+        0.20607910545143743,
+        0.2025622365138029
+      ],
+      "friction": 0.5377912240364606,
+      "initial_object_xy": [
+        0.36726641764739204,
+        0.004286913450169589
+      ],
+      "controller": {
+        "closure": 0.58,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.39213469143307944,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.149000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 3.819999999999801,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 6.321999999999526,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 10.322000000000116,
+          "from_phase": "lift",
+          "to_phase": "approach"
+        },
+        {
+          "time_s": 11.334000000000454,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 13.83400000000129,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 17.836000000000993,
+          "from_phase": "lift",
+          "to_phase": "failed_pickup"
+        }
+      ]
+    },
+    {
+      "timeout_s": 32,
+      "seed": 53,
+      "task": "pin",
+      "success": false,
+      "time_s": null,
+      "elapsed_s": 17.730000000001052,
+      "picked_up": false,
+      "placed_subset": false,
+      "phase": "failed_pickup",
+      "failures": [
+        "pickup_failed"
+      ],
+      "drop": false,
+      "jam": true,
+      "recovery_attempts": 1,
+      "pickup_time_s": null,
+      "pickup_best_error_m": 0.00047750700169230673,
+      "placement_error_m": 0.676264377668165,
+      "peak_object_height_m": 0.08498178662328283,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.0664692611393119,
+      "wheel_travel_m": [
+        0.19451519621131866,
+        0.18920914438599482,
+        0.19877518352328372,
+        0.19384949137742122
+      ],
+      "friction": 0.5993381573452986,
+      "initial_object_xy": [
+        0.35217803191302827,
+        0.0035025704602832147
+      ],
+      "controller": {
+        "closure": 0.58,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.39213469143307944,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.149000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 3.711999999999813,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 6.213999999999538,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 10.21400000000008,
+          "from_phase": "lift",
+          "to_phase": "approach"
+        },
+        {
+          "time_s": 11.226000000000418,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 13.726000000001253,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 17.728000000001053,
+          "from_phase": "lift",
+          "to_phase": "failed_pickup"
+        }
+      ]
+    }
+  ]
+}

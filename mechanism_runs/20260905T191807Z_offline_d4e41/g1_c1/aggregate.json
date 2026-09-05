@@ -1,0 +1,56 @@
+{
+  "id": "g1_c1",
+  "parent": "seed",
+  "architecture": "beam+guide+roller+tool_mount",
+  "source": "handwritten fixture edit",
+  "development": {
+    "trials": 2,
+    "successes": 2,
+    "success_rate": 1.0,
+    "mean_success_time_s": 25.50999999999674,
+    "ranking": [
+      -2,
+      0,
+      0,
+      25.50999999999674,
+      -2
+    ],
+    "failures": [],
+    "collision_episodes": 0,
+    "unstable_trials": 0
+  },
+  "final": {
+    "trials": 2,
+    "successes": 2,
+    "success_rate": 1.0,
+    "mean_success_time_s": 24.886999999997087,
+    "ranking": [
+      -2,
+      0,
+      0,
+      24.886999999997087,
+      -2
+    ],
+    "failures": [],
+    "collision_episodes": 0,
+    "unstable_trials": 0
+  },
+  "cup_extension": {
+    "trials": 1,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_success_time_s": null,
+    "ranking": [
+      0,
+      0,
+      0,
+      32.0,
+      0
+    ],
+    "failures": [
+      "pickup_failed"
+    ],
+    "collision_episodes": 0,
+    "unstable_trials": 0
+  }
+}

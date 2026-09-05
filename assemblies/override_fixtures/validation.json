@@ -1,0 +1,42 @@
+{
+  "pin_goal": {
+    "finite": true,
+    "warnings": 0,
+    "max_speed": 1.7714956848467372e-07,
+    "pin_placed": true,
+    "pin_z": 0.09247815218773944
+  },
+  "pin_cup_stack": {
+    "finite": true,
+    "warnings": 0,
+    "max_speed": 0.0024373641318785194,
+    "pin_placed": true,
+    "pin_z": 0.09246446245473064,
+    "cup_z": 0.18269446477581042,
+    "upper_pin_z": 0.2729482785127317,
+    "stable_stack": true
+  },
+  "outside_goal": {
+    "finite": true,
+    "warnings": 0,
+    "max_speed": 1.0150834785694187e-08,
+    "pin_placed": false,
+    "pin_z": 0.08246362464581346
+  },
+  "falling_cup": {
+    "finite": true,
+    "warnings": 0,
+    "max_speed": 5.35842312471586e-11
+  },
+  "full_field": {
+    "finite": true,
+    "warnings": 0,
+    "max_speed": 0.685926051460757,
+    "toggles": 4
+  },
+  "scoring_negative_tests": {
+    "above_rim_rejected": true,
+    "near_but_outside_rejected": true,
+    "horizontal_two_half_rejected": true
+  }
+}

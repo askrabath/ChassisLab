@@ -1,0 +1,128 @@
+{
+  "version": "cad-drive-1",
+  "source_hashes": {
+    "clawbot": "c42a5a0dc9190c7ca6187117470d261041fa4dfd0f0e2baa51ecefa547a56eab",
+    "override_field": "3f24b7572d21195522ad44f265b358bc96d0f5767920cdc6fc817c2891477a1e"
+  },
+  "wheels": [
+    {
+      "name": "wheel_i00010",
+      "center_m": [
+        0.0889251949408463,
+        -0.14664108087536049,
+        -2.5748426602382676e-05
+      ],
+      "radius_m": 0.0508,
+      "driven": true,
+      "source_instance": "i00010"
+    },
+    {
+      "name": "wheel_i00013",
+      "center_m": [
+        -0.08892524967493061,
+        -0.1384730607196095,
+        2.5725903315306983e-05
+      ],
+      "radius_m": 0.05305,
+      "driven": false,
+      "source_instance": "i00013"
+    },
+    {
+      "name": "wheel_i00021",
+      "center_m": [
+        -0.08892511942486205,
+        0.13857693928039053,
+        2.5704764520717224e-05
+      ],
+      "radius_m": 0.05305,
+      "driven": false,
+      "source_instance": "i00021"
+    },
+    {
+      "name": "wheel_i00024",
+      "center_m": [
+        0.08892517415894632,
+        0.1465372023145795,
+        -2.568224123364153e-05
+      ],
+      "radius_m": 0.0508,
+      "driven": true,
+      "source_instance": "i00024"
+    }
+  ],
+  "field_contact_proxies": 473,
+  "field_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.29458920000017735
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "robot_transform": [
+    [
+      0.0,
+      -1.0,
+      0.0,
+      -0.08140690124986669
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      5.193928039051027e-05
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.009600596268336897
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "assumptions": [
+    "CAD is visual geometry; collision proxies use convex hulls of larger field parts.",
+    "Field game objects and Toggles are fixed in this driving experiment; goal/cup openings are not usable for scoring.",
+    "Arm and claw are locked at their supplied pose. Fasteners are rigid attachments; STEP supplies no verified mates.",
+    "Two driven traction wheels, two passive omni wheels. Omni lateral behavior approximated with low isotropic friction, not individual rollers.",
+    "Masses: frame/electronics 1.35 kg, battery .35 kg, fixed arm/claw .65 kg, each wheel .12 kg. These are estimates, not verified CAD mass properties.",
+    "Motor approximation: .5 Nm stall, 200 rpm no-load, linear torque-speed envelope; model is not a calibrated V5 motor.",
+    "No AI proposals or API calls in this CAD import/driving demonstration."
+  ],
+  "dependencies": {
+    "mujoco": "3.12.0",
+    "numpy": "2.5.2"
+  },
+  "timestep_s": 0.002,
+  "optimization": {
+    "lightweight_visuals": false,
+    "local_field": false,
+    "region_xy_m": null,
+    "removed_field_geoms": 0,
+    "retained_field_instances": 1120,
+    "physics_note": "Retained contact meshes, mass, joints, timestep and motor limits unchanged; no artificial crop boundary walls."
+  }
+}

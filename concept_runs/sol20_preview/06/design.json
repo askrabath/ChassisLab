@@ -1,0 +1,343 @@
+{
+  "name": "Turntable Crane Collar",
+  "chassis": {
+    "layout": "rectangle",
+    "drive": "holonomic",
+    "length_mm": 390.0,
+    "width_mm": 330.0,
+    "wheelbase_mm": 330.0,
+    "wheel_diameter_mm": 82.55,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -95.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Slewing crane with cable-suspended capture collar",
+  "scoring_sequence": "Side rollers center an upright Cup or Pin beneath the collar; the collar closes, the winch raises it, and the turret slews the boom over the selected Goal for lowering.",
+  "distinguishing_idea": "A rotating crane separates vertical cable lift from horizontal placement and can approach Goals from several headings.",
+  "main_uncertainty": "Controlling swing and preventing the suspended object from twisting during travel.",
+  "parts": [
+    {
+      "name": "turret bearing plate",
+      "shape": "cylinder",
+      "center_mm": [
+        -25.0,
+        0.0,
+        108.0
+      ],
+      "size_mm": [
+        145.0,
+        145.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "turret mast left",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        -38.0,
+        275.0
+      ],
+      "size_mm": [
+        25.0,
+        25.0,
+        330.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "turret mast right",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        38.0,
+        275.0
+      ],
+      "size_mm": [
+        25.0,
+        25.0,
+        330.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "mast crosshead",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        0.0,
+        432.0
+      ],
+      "size_mm": [
+        35.0,
+        105.0,
+        25.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "boom",
+      "shape": "box",
+      "center_mm": [
+        95.0,
+        0.0,
+        455.0
+      ],
+      "size_mm": [
+        270.0,
+        30.0,
+        30.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "boom brace",
+      "shape": "box",
+      "center_mm": [
+        55.0,
+        0.0,
+        380.0
+      ],
+      "size_mm": [
+        190.0,
+        18.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        38.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "boom pivot axle",
+      "shape": "cylinder",
+      "center_mm": [
+        -25.0,
+        0.0,
+        430.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        125.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "slew motor",
+      "shape": "box",
+      "center_mm": [
+        -92.0,
+        0.0,
+        137.0
+      ],
+      "size_mm": [
+        60.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "winch motor",
+      "shape": "box",
+      "center_mm": [
+        -8.0,
+        -62.0,
+        350.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "winch drum",
+      "shape": "cylinder",
+      "center_mm": [
+        -8.0,
+        0.0,
+        350.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        70.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "hoist line",
+      "shape": "cylinder",
+      "center_mm": [
+        220.0,
+        0.0,
+        333.0
+      ],
+      "size_mm": [
+        8.0,
+        8.0,
+        230.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "capture collar crossbar",
+      "shape": "box",
+      "center_mm": [
+        220.0,
+        0.0,
+        218.0
+      ],
+      "size_mm": [
+        28.0,
+        125.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left collar jaw",
+      "shape": "capsule",
+      "center_mm": [
+        220.0,
+        52.0,
+        165.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        115.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right collar jaw",
+      "shape": "capsule",
+      "center_mm": [
+        220.0,
+        -52.0,
+        165.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        115.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left centering roller",
+      "shape": "cylinder",
+      "center_mm": [
+        178.0,
+        55.0,
+        135.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right centering roller",
+      "shape": "cylinder",
+      "center_mm": [
+        178.0,
+        -55.0,
+        135.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    }
+  ]
+}

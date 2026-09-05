@@ -1,0 +1,506 @@
+[
+  {
+    "id": 0,
+    "parent": null,
+    "source": "handwritten fixture",
+    "proposal": {
+      "design": {
+        "frame_width_m": 0.25,
+        "frame_length_m": 0.34,
+        "wheelbase_m": 0.27,
+        "track_width_m": 0.3,
+        "wheel_diameter_m": 0.1016,
+        "gearing_rpm": 200,
+        "battery": {
+          "x_m": 0.0,
+          "y_m": 0.0
+        },
+        "ballast": null
+      },
+      "rationale": "Handwritten sample: centered battery and conventional long wheelbase.",
+      "predicted_benefit": "Stable four-wheel drive through the complete course.",
+      "hypothesis": "Complete all three development trials without collision."
+    },
+    "mass_kg": 3.7800000000000002,
+    "aggregates": {
+      "development": {
+        "trials": 3,
+        "clean_completions": 3,
+        "completions": 3,
+        "ranking_key": [
+          -3,
+          -3,
+          0,
+          0,
+          -1.0,
+          36.449333333331914,
+          0.053848991925270116
+        ],
+        "mean_time_with_timeout_s": 36.449333333331914,
+        "mean_tracking_error_m": 0.053848991925270116,
+        "mean_progress": 1.0,
+        "collision_episodes": 0,
+        "unstable_runs": 0,
+        "failures": []
+      },
+      "final": {
+        "trials": 3,
+        "clean_completions": 3,
+        "completions": 3,
+        "ranking_key": [
+          -3,
+          -3,
+          0,
+          0,
+          -1.0,
+          36.23866666666499,
+          0.060731578212920447
+        ],
+        "mean_time_with_timeout_s": 36.23866666666499,
+        "mean_tracking_error_m": 0.060731578212920447,
+        "mean_progress": 1.0,
+        "collision_episodes": 0,
+        "unstable_runs": 0,
+        "failures": []
+      }
+    },
+    "trials": {
+      "development": [
+        {
+          "seed": 11,
+          "friction": 0.5571722520929862,
+          "initial_pose": [
+            -0.01857148986154002,
+            -3.6106877994251944e-05,
+            0.008119868609868597
+          ],
+          "completed": true,
+          "completion_time_s": 34.521999999996225,
+          "elapsed_s": 34.521999999996225,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.054340953678934614,
+          "parking_position_error_m": 0.06266340173645661,
+          "parking_heading_error_rad": 0.023815188038097013,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            9.516012197082702,
+            9.513186232570831,
+            9.762338875580737,
+            9.926828934045258
+          ],
+          "saturation_fraction": 0.5953594809107235,
+          "distance_traveled_m": 7.2272529599689435,
+          "peak_speed_m_s": 0.8476537074109751,
+          "braking_stop_time_s": 2.7799999999996943
+        },
+        {
+          "seed": 23,
+          "friction": 0.5784270125328324,
+          "initial_pose": [
+            0.009696654032868214,
+            0.007072911043911528,
+            -0.029708462054589102
+          ],
+          "completed": true,
+          "completion_time_s": 38.36400000000092,
+          "elapsed_s": 38.36400000000092,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.05397579429995161,
+          "parking_position_error_m": 0.05038562985340821,
+          "parking_heading_error_rad": 0.0012442031450881075,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            9.771892952082998,
+            9.698704563061268,
+            10.291015719086708,
+            10.28021679583875
+          ],
+          "saturation_fraction": 0.5989469294129913,
+          "distance_traveled_m": 7.358305574142223,
+          "peak_speed_m_s": 0.7943243020625547,
+          "braking_stop_time_s": 0.7279999999999198
+        },
+        {
+          "seed": 37,
+          "friction": 0.7257004117774297,
+          "initial_pose": [
+            0.01020765158067848,
+            0.008083436040123704,
+            -0.0344805411014382
+          ],
+          "completed": true,
+          "completion_time_s": 36.461999999998596,
+          "elapsed_s": 36.461999999998596,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.05323022779692412,
+          "parking_position_error_m": 0.0587040992323411,
+          "parking_heading_error_rad": 0.01935183478237379,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            9.696733724558992,
+            9.70274686009447,
+            10.331667967808166,
+            10.368464671397367
+          ],
+          "saturation_fraction": 0.6386649114146234,
+          "distance_traveled_m": 7.2165150992273235,
+          "peak_speed_m_s": 0.7870107081847909,
+          "braking_stop_time_s": 1.4039999999998458
+        }
+      ],
+      "final": [
+        {
+          "seed": 101,
+          "friction": 0.697819546307353,
+          "initial_pose": [
+            0.022176625280527697,
+            -0.0070289483329213425,
+            0.022784432957598168
+          ],
+          "completed": true,
+          "completion_time_s": 35.09999999999693,
+          "elapsed_s": 35.09999999999693,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.05768625383623103,
+          "parking_position_error_m": 0.057851270002587385,
+          "parking_heading_error_rad": 0.022957573115192087,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            9.625287824077763,
+            9.703968509040156,
+            9.96927943923523,
+            10.005545599668952
+          ],
+          "saturation_fraction": 0.6268518518518519,
+          "distance_traveled_m": 7.2291176462037,
+          "peak_speed_m_s": 0.8089452886531832,
+          "braking_stop_time_s": 0.6399999999999295
+        },
+        {
+          "seed": 211,
+          "friction": 0.7107207876328979,
+          "initial_pose": [
+            -0.00266445724807064,
+            -0.006119010468547826,
+            -0.02322301229902352
+          ],
+          "completed": true,
+          "completion_time_s": 36.70199999999889,
+          "elapsed_s": 36.70199999999889,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.06119165167908119,
+          "parking_position_error_m": 0.07654062870529312,
+          "parking_heading_error_rad": 0.027348633790002186,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            9.730357592836825,
+            9.757633959501149,
+            10.321769351681468,
+            10.283716648192108
+          ],
+          "saturation_fraction": 0.6302790038689989,
+          "distance_traveled_m": 7.227568661823358,
+          "peak_speed_m_s": 0.7914454207329763,
+          "braking_stop_time_s": 0.40799999999995507
+        },
+        {
+          "seed": 307,
+          "friction": 0.7757954957769285,
+          "initial_pose": [
+            0.006646016484236634,
+            0.008683676918109945,
+            0.012572535370850693
+          ],
+          "completed": true,
+          "completion_time_s": 36.91399999999915,
+          "elapsed_s": 36.91399999999915,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.06331682912344913,
+          "parking_position_error_m": 0.0486619530091567,
+          "parking_heading_error_rad": 0.03158875536534911,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            10.024201840266874,
+            10.05250925483175,
+            10.415285091991374,
+            10.397648905872414
+          ],
+          "saturation_fraction": 0.6463536869480414,
+          "distance_traveled_m": 7.253256307280461,
+          "peak_speed_m_s": 0.8144014460963928,
+          "braking_stop_time_s": 0.6279999999999308
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "parent": 0,
+    "source": "handwritten fixture",
+    "proposal": {
+      "design": {
+        "frame_width_m": 0.25,
+        "frame_length_m": 0.34,
+        "wheelbase_m": 0.2,
+        "track_width_m": 0.3,
+        "wheel_diameter_m": 0.1016,
+        "gearing_rpm": 200,
+        "battery": {
+          "x_m": 0.0,
+          "y_m": 0.0
+        },
+        "ballast": null
+      },
+      "rationale": "Handwritten sample: shorter wheelbase to reduce skid-steer scrub.",
+      "predicted_benefit": "Faster cornering with less wheel scrub.",
+      "hypothesis": "At least 5% lower mean completion time with no loss of clean completions."
+    },
+    "mass_kg": 3.7800000000000002,
+    "aggregates": {
+      "development": {
+        "trials": 3,
+        "clean_completions": 3,
+        "completions": 3,
+        "ranking_key": [
+          -3,
+          -3,
+          0,
+          0,
+          -1.0,
+          26.526666666662845,
+          0.050261249339333264
+        ],
+        "mean_time_with_timeout_s": 26.526666666662845,
+        "mean_tracking_error_m": 0.050261249339333264,
+        "mean_progress": 1.0,
+        "collision_episodes": 0,
+        "unstable_runs": 0,
+        "failures": []
+      },
+      "final": {
+        "trials": 3,
+        "clean_completions": 3,
+        "completions": 3,
+        "ranking_key": [
+          -3,
+          -3,
+          0,
+          0,
+          -1.0,
+          28.331333333328512,
+          0.051722261576980205
+        ],
+        "mean_time_with_timeout_s": 28.331333333328512,
+        "mean_tracking_error_m": 0.051722261576980205,
+        "mean_progress": 1.0,
+        "collision_episodes": 0,
+        "unstable_runs": 0,
+        "failures": []
+      }
+    },
+    "trials": {
+      "development": [
+        {
+          "seed": 11,
+          "friction": 0.5571722520929862,
+          "initial_pose": [
+            -0.01857148986154002,
+            -3.6106877994251944e-05,
+            0.008119868609868597
+          ],
+          "completed": true,
+          "completion_time_s": 26.10799999999641,
+          "elapsed_s": 26.10799999999641,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.045859205486339975,
+          "parking_position_error_m": 0.044379549776509236,
+          "parking_heading_error_rad": 0.01439007409295856,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.410193367417179,
+            8.424054696813002,
+            8.825075117293457,
+            8.807926979151066
+          ],
+          "saturation_fraction": 0.5503294009499005,
+          "distance_traveled_m": 7.150879922169573,
+          "peak_speed_m_s": 0.833967830627534,
+          "braking_stop_time_s": 0.5059999999999443
+        },
+        {
+          "seed": 23,
+          "friction": 0.5784270125328324,
+          "initial_pose": [
+            0.009696654032868214,
+            0.007072911043911528,
+            -0.029708462054589102
+          ],
+          "completed": true,
+          "completion_time_s": 25.843999999996555,
+          "elapsed_s": 25.843999999996555,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.04887466714734713,
+          "parking_position_error_m": 0.07376713426140555,
+          "parking_heading_error_rad": 0.009752255883539451,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.293685703164803,
+            8.302421763086578,
+            8.727169302968987,
+            8.752286859609853
+          ],
+          "saturation_fraction": 0.5526040860547903,
+          "distance_traveled_m": 7.0560081269661055,
+          "peak_speed_m_s": 0.7993173693952372,
+          "braking_stop_time_s": 1.0559999999998841
+        },
+        {
+          "seed": 37,
+          "friction": 0.7257004117774297,
+          "initial_pose": [
+            0.01020765158067848,
+            0.008083436040123704,
+            -0.0344805411014382
+          ],
+          "completed": true,
+          "completion_time_s": 27.627999999995566,
+          "elapsed_s": 27.627999999995566,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.056049875384312685,
+          "parking_position_error_m": 0.07136109974629129,
+          "parking_heading_error_rad": 0.0022304131356043477,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.512679346655016,
+            8.509132932722396,
+            8.910011267174802,
+            8.90639294404911
+          ],
+          "saturation_fraction": 0.5709606196612133,
+          "distance_traveled_m": 7.168984070241501,
+          "peak_speed_m_s": 0.7974221704599291,
+          "braking_stop_time_s": 0.38199999999995793
+        }
+      ],
+      "final": [
+        {
+          "seed": 101,
+          "friction": 0.697819546307353,
+          "initial_pose": [
+            0.022176625280527697,
+            -0.0070289483329213425,
+            0.022784432957598168
+          ],
+          "completed": true,
+          "completion_time_s": 28.407999999995134,
+          "elapsed_s": 28.407999999995134,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.052404601386025415,
+          "parking_position_error_m": 0.07698042975604517,
+          "parking_heading_error_rad": 0.012340713194946673,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.701766133718966,
+            8.737236959044616,
+            9.050867949429636,
+            9.011696890361335
+          ],
+          "saturation_fraction": 0.5545620951844551,
+          "distance_traveled_m": 7.141023838345533,
+          "peak_speed_m_s": 0.8071559893324072,
+          "braking_stop_time_s": 1.0899999999998804
+        },
+        {
+          "seed": 211,
+          "friction": 0.7107207876328979,
+          "initial_pose": [
+            -0.00266445724807064,
+            -0.006119010468547826,
+            -0.02322301229902352
+          ],
+          "completed": true,
+          "completion_time_s": 27.951999999995387,
+          "elapsed_s": 27.951999999995387,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.04994787939439893,
+          "parking_position_error_m": 0.06395528664315095,
+          "parking_heading_error_rad": 0.02030849306024418,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.651900061725815,
+            8.658165333883636,
+            9.081369223692244,
+            9.10705796589644
+          ],
+          "saturation_fraction": 0.5660775615340584,
+          "distance_traveled_m": 7.126010249770678,
+          "peak_speed_m_s": 0.7977315619691911,
+          "braking_stop_time_s": 1.1319999999998758
+        },
+        {
+          "seed": 307,
+          "friction": 0.7757954957769285,
+          "initial_pose": [
+            0.006646016484236634,
+            0.008683676918109945,
+            0.012572535370850693
+          ],
+          "completed": true,
+          "completion_time_s": 28.63399999999501,
+          "elapsed_s": 28.63399999999501,
+          "waypoint_progress": 1.0,
+          "waypoints_reached": 6,
+          "collision_episodes": 0,
+          "rms_tracking_error_m": 0.05281430395051628,
+          "parking_position_error_m": 0.07044886460864266,
+          "parking_heading_error_rad": 0.024848172752682807,
+          "unstable": false,
+          "failures": [],
+          "wheel_travel_m": [
+            8.870402377566197,
+            8.799617135204306,
+            9.120750462843883,
+            9.115095246591506
+          ],
+          "saturation_fraction": 0.5750506391003702,
+          "distance_traveled_m": 7.131019950939727,
+          "peak_speed_m_s": 0.8118378667533389,
+          "braking_stop_time_s": 0.8839999999999026
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,343 @@
+{
+  "name": "Skew-Roller Spiral Tower",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "mixed_omni",
+    "length_mm": 420.0,
+    "width_mm": 390.0,
+    "wheelbase_mm": 350.0,
+    "wheel_diameter_mm": 82.55,
+    "wheel_count": 8,
+    "battery_xy_mm": [
+      -125.0,
+      0.0
+    ],
+    "gearing_rpm": 600
+  },
+  "mechanism_family": "Counter-rotating skew-roller chimney with top placement gate",
+  "scoring_sequence": "A wide floor throat captures a lying Pin or Cup; lower rollers center it, successive opposing skew rollers rotate and advance it upward, and a hinged top gate guides the emerging object onto the selected Goal.",
+  "distinguishing_idea": "Helical surface motion from angled rollers both orients and elevates the object continuously, without a lift carriage, bucket chain, or conveyor belt.",
+  "main_uncertainty": "Roller skew angle and surface compliance needed to generate upward travel without ejecting irregularly oriented objects.",
+  "parts": [
+    {
+      "name": "left chimney rail",
+      "shape": "box",
+      "center_mm": [
+        5.0,
+        102.0,
+        215.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        340.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right chimney rail",
+      "shape": "box",
+      "center_mm": [
+        5.0,
+        -102.0,
+        215.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        340.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "lower brace",
+      "shape": "box",
+      "center_mm": [
+        5.0,
+        0.0,
+        65.0
+      ],
+      "size_mm": [
+        35.0,
+        225.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "upper brace",
+      "shape": "box",
+      "center_mm": [
+        5.0,
+        0.0,
+        365.0
+      ],
+      "size_mm": [
+        35.0,
+        225.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left lower skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        55.0,
+        58.0,
+        115.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right lower skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        55.0,
+        -58.0,
+        115.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        -18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "left middle skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        15.0,
+        58.0,
+        215.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        -18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right middle skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        15.0,
+        -58.0,
+        215.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "left upper skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        -25.0,
+        58.0,
+        315.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right upper skew roller",
+      "shape": "capsule",
+      "center_mm": [
+        -25.0,
+        -58.0,
+        315.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        68.0,
+        -18.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "front funnel guide",
+      "shape": "box",
+      "center_mm": [
+        155.0,
+        82.0,
+        67.0
+      ],
+      "size_mm": [
+        155.0,
+        18.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -18.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "rear funnel guide",
+      "shape": "box",
+      "center_mm": [
+        155.0,
+        -82.0,
+        67.0
+      ],
+      "size_mm": [
+        155.0,
+        18.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        18.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "top placement gate",
+      "shape": "box",
+      "center_mm": [
+        78.0,
+        0.0,
+        382.0
+      ],
+      "size_mm": [
+        170.0,
+        130.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -12.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left roller motor",
+      "shape": "cylinder",
+      "center_mm": [
+        -5.0,
+        127.0,
+        210.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "right roller motor",
+      "shape": "cylinder",
+      "center_mm": [
+        -5.0,
+        -127.0,
+        210.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "gate motor",
+      "shape": "cylinder",
+      "center_mm": [
+        2.0,
+        -120.0,
+        365.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        60.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

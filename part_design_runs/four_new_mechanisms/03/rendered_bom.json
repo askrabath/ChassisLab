@@ -1,0 +1,86 @@
+[
+  {
+    "definition": "p00002",
+    "name": "V5 Smart Motor (5.5W) (276-4842)",
+    "quantity": 3,
+    "mesh": "data/cad_assets/clawbot/parts/p00002.obj"
+  },
+  {
+    "definition": "p00003",
+    "name": "Flat Bearing (276-1209)",
+    "quantity": 6,
+    "mesh": "data/cad_assets/clawbot/parts/p00003.obj"
+  },
+  {
+    "definition": "p00004",
+    "name": "3/8\" x\u200e\u200f\u200f\u200e \u200e3/8\" OD x #8 Nylon Spacer\u200e\u200f\u200f\u200e \u200e(276-6340)",
+    "quantity": 4,
+    "mesh": "data/cad_assets/clawbot/parts/p00004.obj"
+  },
+  {
+    "definition": "p00005",
+    "name": "2 x 2 x\u200e \u200e20\u200e \u200eAluminum Angle (276-2304)",
+    "quantity": 2,
+    "mesh": "data/cad_assets/clawbot/parts/p00005.obj"
+  },
+  {
+    "definition": "p00006",
+    "name": "1-Post Hex Nut Retainer with Bearing Flat (276-6481)",
+    "quantity": 3,
+    "mesh": "data/cad_assets/clawbot/parts/p00006.obj"
+  },
+  {
+    "definition": "p00007",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "quantity": 3,
+    "mesh": "data/cad_assets/clawbot/parts/p00007.obj"
+  },
+  {
+    "definition": "p00008",
+    "name": "V5 Battery Clip (276-6020)",
+    "quantity": 2,
+    "mesh": "data/cad_assets/clawbot/parts/p00008.obj"
+  },
+  {
+    "definition": "p00009",
+    "name": "V5 Robot Battery (276-4811)",
+    "quantity": 1,
+    "mesh": "data/cad_assets/clawbot/parts/p00009.obj"
+  },
+  {
+    "definition": "p00010",
+    "name": "4\" High Traction Wheel",
+    "quantity": 2,
+    "mesh": "data/cad_assets/clawbot/parts/p00010.obj"
+  },
+  {
+    "definition": "p00011",
+    "name": "V5 Robot Brain (276-4810)",
+    "quantity": 1,
+    "mesh": "data/cad_assets/clawbot/parts/p00011.obj"
+  },
+  {
+    "definition": "p00012",
+    "name": "4\" Omni-Directional Wheel (276-2185)",
+    "quantity": 2,
+    "mesh": "data/cad_assets/clawbot/parts/p00012.obj"
+  },
+  {
+    "definition": "p00015",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e15\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "quantity": 3,
+    "mesh": "data/cad_assets/clawbot/parts/p00015.obj"
+  },
+  {
+    "definition": "p00019",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "quantity": 5,
+    "mesh": "data/cad_assets/clawbot/parts/p00019.obj"
+  },
+  {
+    "definition": "p00022",
+    "name": "84T High Strength Gear (276-3438)",
+    "quantity": 1,
+    "mesh": "data/cad_assets/clawbot/parts/p00022.obj"
+  }
+]

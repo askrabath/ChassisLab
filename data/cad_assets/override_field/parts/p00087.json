@@ -1,0 +1,27 @@
+{
+  "id": "p00087",
+  "name": "276-9250-031_Blue Loader",
+  "mesh": "data/cad_assets/override_field/parts/p00087.obj",
+  "bounds_mm": [
+    [
+      -56.144372089936695,
+      -3.9272000000002416,
+      -46.0
+    ],
+    [
+      56.14437208993997,
+      361.0728,
+      90.97450392362316
+    ]
+  ],
+  "faces": 6106,
+  "rgba": [
+    0.65,
+    0.68,
+    0.71,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

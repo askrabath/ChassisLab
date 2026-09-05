@@ -1,0 +1,14 @@
+{
+  "tests_passed": 15,
+  "test_command": "/private/tmp/chassis-lab-venv/bin/python -m pytest -q",
+  "offline_experiment": "complete",
+  "screenshots": "both candidates rendered",
+  "native_replay_exit_code": 0,
+  "native_replay_visual_inspection": "unverified: macOS accessibility permissions pending",
+  "headless_replay_frames": 1756,
+  "report_links_checked": 13,
+  "report_tracks_checked": 2,
+  "html_browser_inspection": "blocked by local-file URL policy",
+  "secret_leak_check": "passed: environment key absent from source and JSON/HTML records",
+  "ai_live": "blocked: HTTP 401 AuthenticationError; no proposal or usage returned"
+}

@@ -1,0 +1,9 @@
+{
+  "designs": 4,
+  "source": "OpenAI Responses API restricted to source-part wheel variants",
+  "physics_steps": 0,
+  "performance_tests_run": false,
+  "high_detail_source": "supplied Clawbot canonical STEP and per-definition tessellations",
+  "design_scope": "four wheel configurations; identical source arm/claw",
+  "buildability_verified": false
+}

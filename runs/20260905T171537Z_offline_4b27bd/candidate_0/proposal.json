@@ -1,0 +1,20 @@
+{
+  "parent": null,
+  "source": "handwritten fixture",
+  "design": {
+    "frame_width_m": 0.25,
+    "frame_length_m": 0.34,
+    "wheelbase_m": 0.27,
+    "track_width_m": 0.3,
+    "wheel_diameter_m": 0.1016,
+    "gearing_rpm": 200,
+    "battery": {
+      "x_m": 0.0,
+      "y_m": 0.0
+    },
+    "ballast": null
+  },
+  "rationale": "Handwritten sample: centered battery and conventional long wheelbase.",
+  "predicted_benefit": "Stable four-wheel drive through the complete course.",
+  "hypothesis": "Complete all three development trials without collision."
+}

@@ -1,0 +1,12 @@
+{
+  "assembled_in_simulation": true,
+  "implemented_construction_checks": true,
+  "reviewed_physically_buildable": false,
+  "official_legality": false,
+  "initial_envelope_m": [
+    0.39213469143307944,
+    0.3175,
+    0.4288303493381285
+  ],
+  "mass_kg": 4.149000000000002
+}

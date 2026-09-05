@@ -1,0 +1,216 @@
+{
+  "$defs": {
+    "Edit": {
+      "additionalProperties": false,
+      "properties": {
+        "operation": {
+          "enum": [
+            "add",
+            "remove",
+            "replace"
+          ],
+          "title": "Operation",
+          "type": "string"
+        },
+        "target": {
+          "title": "Target",
+          "type": "string"
+        },
+        "part": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Part"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "operation",
+        "target",
+        "part"
+      ],
+      "title": "Edit",
+      "type": "object"
+    },
+    "Joint": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "fixed",
+            "revolute",
+            "prismatic"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "axis": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Axis",
+          "type": "array"
+        },
+        "limits": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Limits",
+          "type": "array"
+        },
+        "reduction": {
+          "enum": [
+            1,
+            3,
+            5
+          ],
+          "title": "Reduction",
+          "type": "integer"
+        },
+        "role": {
+          "enum": [
+            "passive",
+            "lift",
+            "wrist",
+            "grip_left",
+            "grip_right",
+            "roller_left",
+            "roller_right"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "axis",
+        "limits",
+        "reduction",
+        "role"
+      ],
+      "title": "Joint",
+      "type": "object"
+    },
+    "Part": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]{0,31}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "parent": {
+          "title": "Parent",
+          "type": "string"
+        },
+        "attachment": {
+          "enum": [
+            "origin",
+            "tip",
+            "tool"
+          ],
+          "title": "Attachment",
+          "type": "string"
+        },
+        "catalog": {
+          "enum": [
+            "beam",
+            "tool_mount",
+            "finger",
+            "roller",
+            "guide"
+          ],
+          "title": "Catalog",
+          "type": "string"
+        },
+        "offset_m": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Offset M",
+          "type": "array"
+        },
+        "size_m": {
+          "description": "Full x/y/z dimensions; roller x=length,y=z=diameter",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Size M",
+          "type": "array"
+        },
+        "joint": {
+          "$ref": "#/$defs/Joint"
+        }
+      },
+      "required": [
+        "id",
+        "parent",
+        "attachment",
+        "catalog",
+        "offset_m",
+        "size_m",
+        "joint"
+      ],
+      "title": "Part",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "parent_id": {
+      "title": "Parent Id",
+      "type": "string"
+    },
+    "edits": {
+      "items": {
+        "$ref": "#/$defs/Edit"
+      },
+      "maxItems": 10,
+      "minItems": 1,
+      "title": "Edits",
+      "type": "array"
+    },
+    "hypothesis": {
+      "maxLength": 1000,
+      "title": "Hypothesis",
+      "type": "string"
+    },
+    "expected_effect": {
+      "maxLength": 600,
+      "title": "Expected Effect",
+      "type": "string"
+    },
+    "extension_request": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Unsupported generator proposal; quarantined, never executed",
+      "title": "Extension Request"
+    }
+  },
+  "required": [
+    "parent_id",
+    "edits",
+    "hypothesis",
+    "expected_effect",
+    "extension_request"
+  ],
+  "title": "Proposal",
+  "type": "object"
+}

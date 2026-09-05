@@ -1,0 +1,14 @@
+{
+  "representation_checks": {
+    "body_mass": true,
+    "body_inertia": true,
+    "jnt_axis": true,
+    "jnt_type": true,
+    "actuator_ctrlrange": true,
+    "timestep": true,
+    "iterations": true
+  },
+  "physics_steps": 0,
+  "performance_tests_run": false,
+  "buildability_verified": false
+}

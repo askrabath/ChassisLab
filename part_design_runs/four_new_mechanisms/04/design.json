@@ -1,0 +1,33 @@
+{
+  "name": "Cantilever Source-Claw Placer",
+  "mechanism": "overhead_claw",
+  "display_angle_deg": 47.0,
+  "lateral_spacing_mm": 127.0,
+  "rationale": "A raised cantilever arm carries the supplied source claw so objects are acquired by active gripping and then presented from above. A geared arm pivot provides a layout-level lifting concept distinct from under-support, conveying, or dumping.",
+  "scoring_sequence": [
+    "Grip an object with the source claw.",
+    "Raise and swing the cantilever arm.",
+    "Open the claw near the target."
+  ],
+  "hypothesis": "An overhead gripping approach may offer deliberate single-object placement, but the source claw mapping, grip envelope, arm stiffness, pivot load, and release alignment remain unverified.",
+  "required_parts": [
+    "276-2212",
+    "276-7285",
+    "276-2304",
+    "276-4842",
+    "276-3438",
+    "276-7368",
+    "276-3522",
+    "276-3521",
+    "276-3520",
+    "276-4998",
+    "275-1026",
+    "276-2577-002"
+  ],
+  "unresolved_connections": [
+    "The supplied claw subassembly's mapping to 276-2212 is unverified, including its actuator, mounting holes, transmission, shafts, collars, bearings, screws, and required control connection.",
+    "The cantilever pivot, high-strength shaft stack, gear mesh, motor coupling, gusset pattern, rear support, and chassis interface are not mating-solved; much of this hardware has no source CAD.",
+    "No wrist joint, anti-swing restraint, mechanical stops, or object-retention validation is defined, and claw-arm or claw-chassis interference may occur.",
+    "The 47-degree display is static; reach, torque, stability, claw orientation, and compatibility with benchmark field-goal openings have not been calibrated."
+  ]
+}

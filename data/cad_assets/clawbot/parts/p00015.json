@@ -1,0 +1,27 @@
+{
+  "id": "p00015",
+  "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e15\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+  "mesh": "data/cad_assets/clawbot/parts/p00015.obj",
+  "bounds_mm": [
+    [
+      -127.0,
+      -14.500000000000002,
+      -12.7000000000003
+    ],
+    [
+      63.5,
+      14.5000000000003,
+      1.6
+    ]
+  ],
+  "faces": 19628,
+  "rgba": [
+    0.7912979125976562,
+    0.7912979125976562,
+    0.7912979125976562,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

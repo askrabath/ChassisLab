@@ -1,0 +1,27 @@
+{
+  "id": "p00075",
+  "name": "94629A270_Thread-Cutting Screws for Plastic_94629A270",
+  "mesh": "data/cad_assets/override_field/parts/p00075.obj",
+  "bounds_mm": [
+    [
+      -4.726056726532504,
+      -4.737100000000002,
+      -6.451600000000001
+    ],
+    [
+      4.726056726532504,
+      4.7371,
+      6.4516
+    ]
+  ],
+  "faces": 5168,
+  "rgba": [
+    0.5906188488006592,
+    0.637596845626831,
+    0.8549926280975342,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

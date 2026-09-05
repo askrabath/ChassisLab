@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><title>Imported CAD driving test</title><style>body{font:16px system-ui;max-width:1000px;margin:40px auto;background:#172029;color:#eee}img{max-width:100%}pre{white-space:pre-wrap}</style><h1>Imported CAD driving test</h1><p>Physical wheel actuation; handwritten test program. Arm, claw and field objects fixed.</p><img src="cad_drive.gif"><h2>Measured results</h2><pre>{
+  &quot;duration_s&quot;: 10.000000000000009,
+  &quot;total_mass_kg&quot;: 2.8300000000000005,
+  &quot;finite&quot;: true,
+  &quot;straight_displacement_m&quot;: 0.7337402866539253,
+  &quot;turn_heading_change_deg&quot;: 98.8374444659681,
+  &quot;total_displacement_m&quot;: 0.7918082891148891,
+  &quot;max_tilt_deg&quot;: 0.7926167174901707,
+  &quot;obstacle_contact_episodes&quot;: 1,
+  &quot;collision_episode_clearance_s&quot;: 0.2,
+  &quot;saturation_fraction&quot;: 0.0002,
+  &quot;wheel_travel_m&quot;: {
+    &quot;wheel_i00010&quot;: 1.4058658440452956,
+    &quot;wheel_i00013&quot;: 1.2387617648875227,
+    &quot;wheel_i00021&quot;: 1.2881014286439096,
+    &quot;wheel_i00024&quot;: 1.4898866025139124
+  },
+  &quot;final_position_m&quot;: [
+    -0.1498509571734593,
+    -0.6975665492501685,
+    0.05190448593440361
+  ],
+  &quot;root_forces_used&quot;: false,
+  &quot;protocol&quot;: &quot;fixed drive/brake/turn; not an Override scoring benchmark&quot;
+}</pre><h2>Model limitations</h2><pre>CAD is visual geometry; collision proxies use convex hulls of larger field parts.
+Field game objects and Toggles are fixed in this driving experiment; goal/cup openings are not usable for scoring.
+Arm and claw are locked at their supplied pose. Fasteners are rigid attachments; STEP supplies no verified mates.
+Two driven traction wheels, two passive omni wheels. Omni lateral behavior approximated with low isotropic friction, not individual rollers.
+Masses: frame/electronics 1.35 kg, battery .35 kg, fixed arm/claw .65 kg, each wheel .12 kg. These are estimates, not verified CAD mass properties.
+Motor approximation: .5 Nm stall, 200 rpm no-load, linear torque-speed envelope; model is not a calibrated V5 motor.
+No AI proposals or API calls in this CAD import/driving demonstration.</pre><img src="field.png">

@@ -1,0 +1,14 @@
+{
+  "families": 4,
+  "valid_skus": true,
+  "unscaled_rigid_transforms": true,
+  "high_low_same_instances_and_poses": true,
+  "instances": [
+    46,
+    44,
+    38,
+    113
+  ],
+  "physics_steps": 0,
+  "buildability_checked": false
+}

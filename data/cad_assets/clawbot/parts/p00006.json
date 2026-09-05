@@ -1,0 +1,27 @@
+{
+  "id": "p00006",
+  "name": "1-Post Hex Nut Retainer with Bearing Flat (276-6481)",
+  "mesh": "data/cad_assets/clawbot/parts/p00006.obj",
+  "bounds_mm": [
+    [
+      -8.629923826114664,
+      -5.7946257221831,
+      -6.3000000000000025
+    ],
+    [
+      23.14462572218311,
+      5.7946257221831,
+      3.175
+    ]
+  ],
+  "faces": 9552,
+  "rgba": [
+    0.07421357184648514,
+    0.07421357184648514,
+    0.07421357184648514,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

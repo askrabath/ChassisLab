@@ -1,0 +1,323 @@
+{
+  "name": "Barrel-Cam Carousel Setter",
+  "chassis": {
+    "layout": "h_frame",
+    "drive": "holonomic",
+    "length_mm": 430.0,
+    "width_mm": 400.0,
+    "wheelbase_mm": 330.0,
+    "wheel_diameter_mm": 69.85,
+    "wheel_count": 8,
+    "battery_xy_mm": [
+      -130.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Vertical-axis staging carousel with barrel-cam follower saddles",
+  "scoring_sequence": "Side rollers feed an object into a radial saddle; carousel rotation indexes it around the column while a cam follower raises that saddle, and a radial pusher completes placement.",
+  "distinguishing_idea": "Rotation around a shaped central cam simultaneously indexes and elevates individual saddles, providing staged storage and lift without a conventional linear elevator.",
+  "main_uncertainty": "The cam profile, follower loading, and reliable retention of both Cup and Pin orientations are only conceptual; joints and controls are not implemented.",
+  "parts": [
+    {
+      "name": "carousel column",
+      "shape": "cylinder",
+      "center_mm": [
+        15.0,
+        0.0,
+        215.0
+      ],
+      "size_mm": [
+        62.0,
+        62.0,
+        300.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "lower carousel plate",
+      "shape": "cylinder",
+      "center_mm": [
+        15.0,
+        0.0,
+        98.0
+      ],
+      "size_mm": [
+        210.0,
+        210.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper carousel plate",
+      "shape": "cylinder",
+      "center_mm": [
+        15.0,
+        0.0,
+        326.0
+      ],
+      "size_mm": [
+        190.0,
+        190.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "rising cam sleeve",
+      "shape": "cylinder",
+      "center_mm": [
+        15.0,
+        0.0,
+        216.0
+      ],
+      "size_mm": [
+        112.0,
+        112.0,
+        220.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "front saddle arm",
+      "shape": "box",
+      "center_mm": [
+        105.0,
+        0.0,
+        276.0
+      ],
+      "size_mm": [
+        170.0,
+        28.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "front object saddle",
+      "shape": "capsule",
+      "center_mm": [
+        170.0,
+        0.0,
+        302.0
+      ],
+      "size_mm": [
+        92.0,
+        92.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "side saddle arm",
+      "shape": "box",
+      "center_mm": [
+        15.0,
+        90.0,
+        185.0
+      ],
+      "size_mm": [
+        170.0,
+        28.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "side object saddle",
+      "shape": "capsule",
+      "center_mm": [
+        15.0,
+        160.0,
+        185.0
+      ],
+      "size_mm": [
+        90.0,
+        90.0,
+        145.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "cam follower link",
+      "shape": "box",
+      "center_mm": [
+        72.0,
+        0.0,
+        225.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        135.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "feed roller upper",
+      "shape": "cylinder",
+      "center_mm": [
+        145.0,
+        112.0,
+        104.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        120.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "feed roller lower",
+      "shape": "cylinder",
+      "center_mm": [
+        145.0,
+        55.0,
+        104.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        120.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "radial placement pusher",
+      "shape": "box",
+      "center_mm": [
+        160.0,
+        0.0,
+        343.0
+      ],
+      "size_mm": [
+        145.0,
+        75.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "carousel motor",
+      "shape": "box",
+      "center_mm": [
+        -65.0,
+        0.0,
+        78.0
+      ],
+      "size_mm": [
+        62.0,
+        55.0,
+        55.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "pusher motor",
+      "shape": "cylinder",
+      "center_mm": [
+        88.0,
+        -70.0,
+        342.0
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        54.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "column top brace",
+      "shape": "box",
+      "center_mm": [
+        -40.0,
+        0.0,
+        365.0
+      ],
+      "size_mm": [
+        150.0,
+        24.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    }
+  ]
+}

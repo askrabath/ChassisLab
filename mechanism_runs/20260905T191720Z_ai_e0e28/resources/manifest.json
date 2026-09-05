@@ -1,0 +1,30 @@
+{
+  "manual.pdf": {
+    "source_url": "https://content.vexrobotics.com/docs/2026-2027/override/files/override-2.0.pdf",
+    "resolved_url": "https://content.vexrobotics.com/docs/2026-2027/override/files/override-2.0.pdf",
+    "content_type": "application/pdf",
+    "bytes": 10935336,
+    "sha256": "f694684deae414b222f18c48bdceb28284fca4c0ad610947ad700db805209860",
+    "downloaded_utc": "2026-09-05T18:38:33.657026+00:00"
+  },
+  "field_cad.zip": {
+    "source_url": "https://link.vex.com/docs/26-27/v5rc/field-cad",
+    "error": "HTTPError",
+    "status": 403
+  },
+  "assembly.html": {
+    "source_url": "https://link.vex.com/docs/26-27/v5rc/buildinstructions",
+    "error": "HTTPError",
+    "status": 403
+  },
+  "manual_complement.html": {
+    "source_url": "https://www.vexrobotics.com/override-manual",
+    "error": "HTTPError",
+    "status": 403
+  },
+  "game_page.html": {
+    "source_url": "https://www.vexrobotics.com/v5/competition/vrc-current-game",
+    "error": "HTTPError",
+    "status": 403
+  }
+}

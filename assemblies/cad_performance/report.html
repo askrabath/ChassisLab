@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><title>CAD rendering comparison</title><style>body{font:16px system-ui;max-width:960px;margin:40px auto}img{max-width:100%}pre{white-space:pre-wrap}</style><h1>CAD rendering comparison</h1><p>Same machine, camera and 800 × 600 resolution. Timing includes drawing and pixel readback; interactive viewer performance may differ. Physics parameters are unchanged for retained objects.</p><pre>{
+  &quot;full&quot;: {
+    &quot;load_s&quot;: 1.962380166980438,
+    &quot;physics_10s_wall_s&quot;: 0.16945179202593863,
+    &quot;render_median_ms&quot;: 1247.4769164982717,
+    &quot;render_fps&quot;: 0.8016180393999182,
+    &quot;visible_mesh_triangles&quot;: 23735962,
+    &quot;geoms&quot;: 1748,
+    &quot;renderer&quot;: &quot;800x600 offscreen; 3 warmup + 10 timed frames; update_scene and readback included&quot;
+  },
+  &quot;optimized&quot;: {
+    &quot;load_s&quot;: 0.2292741669807583,
+    &quot;physics_10s_wall_s&quot;: 0.09586137501173653,
+    &quot;render_median_ms&quot;: 15.57741648866795,
+    &quot;render_fps&quot;: 64.1954974194512,
+    &quot;visible_mesh_triangles&quot;: 593950,
+    &quot;geoms&quot;: 182,
+    &quot;renderer&quot;: &quot;800x600 offscreen; 3 warmup + 10 timed frames; update_scene and readback included&quot;
+  },
+  &quot;trajectory_max_abs_difference&quot;: 0.0,
+  &quot;render_speedup&quot;: 80.08240117388975
+}</pre><img src="../cad_drive/field.png"><p>Arm/claw and field objects remain fixed in this driving test. This optimization does not add scoring or improve the existing contact calibration.</p>

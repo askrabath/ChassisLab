@@ -1,0 +1,3122 @@
+{
+  "format_version": 1,
+  "parts": {
+    "275-1028": {
+      "id": "275-1028",
+      "name": "#8-32 Hex Nut (275-1028)",
+      "part_number": "275-1028",
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4996": {
+      "id": "276-4996",
+      "name": "#8-32 x\u200f\u200f\u200f\u200f 1\"\u200f\u200f  Star Drive Screw\u200f\u200f (276-4996 )",
+      "part_number": "276-4996",
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4998": {
+      "id": "276-4998",
+      "name": "#8-32 x\u200f\u200f\u200f\u200f 1-1/2\"\u200f\u200f  Star Drive Screw\u200f\u200f (276-4998 )",
+      "part_number": "276-4998",
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-6481": {
+      "id": "276-6481",
+      "name": "1-Post Hex Nut Retainer with Bearing Flat (276-6481)",
+      "part_number": "276-6481",
+      "category": "bearings",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-8020": {
+      "id": "276-8020",
+      "name": "1-Post Standoff Retainer (276-8020)",
+      "part_number": "276-8020",
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "275-1066": {
+      "id": "275-1066",
+      "name": "1/2\" x\u200f\u200f 1/2\" OD x #8 Nylon Spacer\u200f\u200f  (275-1066)",
+      "part_number": "275-1066",
+      "category": "spacers",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "275-1066_1": {
+      "id": "275-1066",
+      "name": "1/8\" x\u200f\u200f 1/2\" OD x #8 Nylon Spacer\u200f\u200f  (275-1066)",
+      "part_number": "275-1066",
+      "category": "spacers",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-2251": {
+      "id": "276-2251",
+      "name": "12T High Strength Gear (276-2251)",
+      "part_number": "276-2251",
+      "category": "gears",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-7285": {
+      "id": "276-7285",
+      "name": "2 x 2 x 2 x\u200f\u200f \u200f\u200f15\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)",
+      "part_number": "276-7285",
+      "category": "structure",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-7285_2": {
+      "id": "276-7285",
+      "name": "2 x 2 x 2 x\u200f\u200f \u200f\u200f20\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)",
+      "part_number": "276-7285",
+      "category": "structure",
+      "product_definition_occurrences": 2,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-7285_3": {
+      "id": "276-7285",
+      "name": "2 x 2 x 2 x\u200f\u200f \u200f\u200f5\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)",
+      "part_number": "276-7285",
+      "category": "structure",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-2304": {
+      "id": "276-2304",
+      "name": "2 x 2 x 20 A luminum Angle (276-2304)",
+      "part_number": "276-2304",
+      "category": "structure",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-6340": {
+      "id": "276-6340",
+      "name": "3/8\" x\u200f\u200f 3/8\" OD x #8 Nylon Spacer\u200f\u200f  (276-6340)",
+      "part_number": "276-6340",
+      "category": "spacers",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "4_high_traction_wheel": {
+      "id": "4_high_traction_wheel",
+      "name": "4\" High Traction Wheel",
+      "part_number": null,
+      "category": "wheels",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-2185": {
+      "id": "276-2185",
+      "name": "4\" Omni-Directional Wheel (276-2185)",
+      "part_number": "276-2185",
+      "category": "wheels",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-6483": {
+      "id": "276-6483",
+      "name": "4-Post Hex Nut Retainer (276-6483)",
+      "part_number": "276-6483",
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-3438": {
+      "id": "276-3438",
+      "name": "84T High Strength Gear (276-3438)",
+      "part_number": "276-3438",
+      "category": "gears",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-1209": {
+      "id": "276-1209",
+      "name": "Flat Bearing (276-1209)",
+      "part_number": "276-1209",
+      "category": "bearings",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-3881": {
+      "id": "276-3881",
+      "name": "High Strength Gear Shaft Insert (276-3881)",
+      "part_number": "276-3881",
+      "category": "gears",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "rubber_band": {
+      "id": "rubber_band",
+      "name": "Rubber Band",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 2,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-6020": {
+      "id": "276-6020",
+      "name": "V5 Battery Clip (276-6020)",
+      "part_number": "276-6020",
+      "category": "electronics",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_12t_gear": {
+      "id": "v5_claw_12t_gear",
+      "name": "V5 Claw 12T Gear",
+      "part_number": null,
+      "category": "gears",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_1": {
+      "id": "v5_claw_section_1",
+      "name": "V5 Claw Section 1",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_1_1": {
+      "id": "v5_claw_section_1_1",
+      "name": "V5 Claw Section 1.1",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_2": {
+      "id": "v5_claw_section_2",
+      "name": "V5 Claw Section 2",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_2_1": {
+      "id": "v5_claw_section_2_1",
+      "name": "V5 Claw Section 2.1",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_2_2": {
+      "id": "v5_claw_section_2_2",
+      "name": "V5 Claw Section 2.2",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_2_3": {
+      "id": "v5_claw_section_2_3",
+      "name": "V5 Claw Section 2.3",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_3": {
+      "id": "v5_claw_section_3",
+      "name": "V5 Claw Section 3",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_3_1": {
+      "id": "v5_claw_section_3_1",
+      "name": "V5 Claw Section 3.1",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_4": {
+      "id": "v5_claw_section_4",
+      "name": "V5 Claw Section 4",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_4_1": {
+      "id": "v5_claw_section_4_1",
+      "name": "V5 Claw Section 4.1",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_section_5": {
+      "id": "v5_claw_section_5",
+      "name": "V5 Claw Section 5",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 2,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_standoff": {
+      "id": "v5_claw_standoff",
+      "name": "V5 Claw Standoff",
+      "part_number": null,
+      "category": "fasteners",
+      "product_definition_occurrences": 18,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_v2_assembly_1": {
+      "id": "v5_claw_v2_assembly_1",
+      "name": "V5 Claw V2 Assembly <1>",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "v5_claw_washer": {
+      "id": "v5_claw_washer",
+      "name": "V5 Claw Washer",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 8,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4811": {
+      "id": "276-4811",
+      "name": "V5 Robot Battery (276-4811)",
+      "part_number": "276-4811",
+      "category": "electronics",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4810": {
+      "id": "276-4810",
+      "name": "V5 Robot Brain (276-4810)",
+      "part_number": "276-4810",
+      "category": "electronics",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4842": {
+      "id": "276-4842",
+      "name": "V5 Smart Motor (5.5W) (276-4842)",
+      "part_number": "276-4842",
+      "category": "motors",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "claw_1": {
+      "id": "claw_1",
+      "name": "claw <1>",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "claw_bot": {
+      "id": "claw_bot",
+      "name": "claw bot",
+      "part_number": null,
+      "category": "mechanisms",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "clawbot",
+        "path": "data/cad_assets/clawbot/canonical.step"
+      }
+    },
+    "276-4847-011": {
+      "id": "276-4847-011",
+      "name": "276-4847-011",
+      "part_number": "276-4847-011",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-6904-001": {
+      "id": "276-6904-001",
+      "name": "276-6904-001",
+      "part_number": "276-6904-001",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596": {
+      "id": "276-7596",
+      "name": "276-7596-000_Fixed Version",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-003": {
+      "id": "276-7596-003",
+      "name": "276-7596-003",
+      "part_number": "276-7596-003",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_4": {
+      "id": "276-7596",
+      "name": "276-7596-004_Compressed",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-005": {
+      "id": "276-7596-005",
+      "name": "276-7596-005",
+      "part_number": "276-7596-005",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-006": {
+      "id": "276-7596-006",
+      "name": "276-7596-006",
+      "part_number": "276-7596-006",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-008": {
+      "id": "276-7596-008",
+      "name": "276-7596-008",
+      "part_number": "276-7596-008",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-009": {
+      "id": "276-7596-009",
+      "name": "276-7596-009",
+      "part_number": "276-7596-009",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-010": {
+      "id": "276-7596-010",
+      "name": "276-7596-010",
+      "part_number": "276-7596-010",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-014": {
+      "id": "276-7596-014",
+      "name": "276-7596-014",
+      "part_number": "276-7596-014",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-015": {
+      "id": "276-7596-015",
+      "name": "276-7596-015",
+      "part_number": "276-7596-015",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-100": {
+      "id": "276-7596-100",
+      "name": "276-7596-100",
+      "part_number": "276-7596-100",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-200": {
+      "id": "276-7596-200",
+      "name": "276-7596-200",
+      "part_number": "276-7596-200",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596-316": {
+      "id": "276-7596-316",
+      "name": "276-7596-316",
+      "part_number": "276-7596-316",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_5": {
+      "id": "276-7596",
+      "name": "276-7596-317_Corner",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_6": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-301",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_7": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-302",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_8": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-303",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_9": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-304",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_10": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-305",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_11": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-306",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_12": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-307",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_13": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-308",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_14": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-309",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_15": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-310",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_16": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-311",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_17": {
+      "id": "276-7596",
+      "name": "276-7596-350_276-7596-312",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_18": {
+      "id": "276-7596",
+      "name": "276-7596-351_276-7596-313",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_19": {
+      "id": "276-7596",
+      "name": "276-7596-351_276-7596-314",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-7596_20": {
+      "id": "276-7596",
+      "name": "276-7596-351_276-7596-315",
+      "part_number": "276-7596",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-8354-404": {
+      "id": "276-8354-404",
+      "name": "276-8354-404",
+      "part_number": "276-8354-404",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-000": {
+      "id": "276-9250-000",
+      "name": "276-9250-000 (2026-04-26)",
+      "part_number": "276-9250-000",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250": {
+      "id": "276-9250",
+      "name": "276-9250-001_PMS 199c (Bright Red)",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_21": {
+      "id": "276-9250",
+      "name": "276-9250-001_PMS 299c (Bright Blue)",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_22": {
+      "id": "276-9250",
+      "name": "276-9250-001_Yellow",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_23": {
+      "id": "276-9250",
+      "name": "276-9250-002_Clear",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_24": {
+      "id": "276-9250",
+      "name": "276-9250-002_PMS 425c - Dark Gray",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_25": {
+      "id": "276-9250",
+      "name": "276-9250-003_Master",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-004": {
+      "id": "276-9250-004",
+      "name": "276-9250-004",
+      "part_number": "276-9250-004",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-005": {
+      "id": "276-9250-005",
+      "name": "276-9250-005",
+      "part_number": "276-9250-005",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_26": {
+      "id": "276-9250",
+      "name": "276-9250-006_AprilTag 0",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_27": {
+      "id": "276-9250",
+      "name": "276-9250-006_AprilTag 1",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_28": {
+      "id": "276-9250",
+      "name": "276-9250-006_AprilTag 2",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_29": {
+      "id": "276-9250",
+      "name": "276-9250-006_AprilTag 3",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_30": {
+      "id": "276-9250",
+      "name": "276-9250-006_AprilTag 4",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-021": {
+      "id": "276-9250-021",
+      "name": "276-9250-021",
+      "part_number": "276-9250-021",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-022": {
+      "id": "276-9250-022",
+      "name": "276-9250-022",
+      "part_number": "276-9250-022",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_31": {
+      "id": "276-9250",
+      "name": "276-9250-023_GREY",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-024": {
+      "id": "276-9250-024",
+      "name": "276-9250-024",
+      "part_number": "276-9250-024",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-027": {
+      "id": "276-9250-027",
+      "name": "276-9250-027",
+      "part_number": "276-9250-027",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_32": {
+      "id": "276-9250",
+      "name": "276-9250-031_Blue Loader",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_33": {
+      "id": "276-9250",
+      "name": "276-9250-031_Red Loader",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-032": {
+      "id": "276-9250-032",
+      "name": "276-9250-032",
+      "part_number": "276-9250-032",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-033": {
+      "id": "276-9250-033",
+      "name": "276-9250-033",
+      "part_number": "276-9250-033",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-034": {
+      "id": "276-9250-034",
+      "name": "276-9250-034",
+      "part_number": "276-9250-034",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-035": {
+      "id": "276-9250-035",
+      "name": "276-9250-035",
+      "part_number": "276-9250-035",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250-036": {
+      "id": "276-9250-036",
+      "name": "276-9250-036",
+      "part_number": "276-9250-036",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_34": {
+      "id": "276-9250",
+      "name": "276-9250-120_Blue Alliance Side",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_35": {
+      "id": "276-9250",
+      "name": "276-9250-120_Red Alliance Side",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_36": {
+      "id": "276-9250",
+      "name": "276-9250-80x_Blue-Neutral",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_37": {
+      "id": "276-9250",
+      "name": "276-9250-80x_Neutral-Neutral",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 2,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_38": {
+      "id": "276-9250",
+      "name": "276-9250-80x_Red-Blue",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_39": {
+      "id": "276-9250",
+      "name": "276-9250-80x_Red-Neutral",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_40": {
+      "id": "276-9250",
+      "name": "276-9250-81x",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_41": {
+      "id": "276-9250",
+      "name": "276-9250-830_276-9250-831",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_42": {
+      "id": "276-9250",
+      "name": "276-9250-830_276-9250-832",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_43": {
+      "id": "276-9250",
+      "name": "276-9250-840_Blue 2",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_44": {
+      "id": "276-9250",
+      "name": "276-9250-840_Blue 3",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_45": {
+      "id": "276-9250",
+      "name": "276-9250-840_Neutral Goal 0",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_46": {
+      "id": "276-9250",
+      "name": "276-9250-840_Neutral Goal 1",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_47": {
+      "id": "276-9250",
+      "name": "276-9250-840_Neutral Goal 4",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_48": {
+      "id": "276-9250",
+      "name": "276-9250-840_Red 2",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "276-9250_49": {
+      "id": "276-9250",
+      "name": "276-9250-840_Red 3",
+      "part_number": "276-9250",
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "94629a270_thread_cutting_screws_for_plastic_94629a270": {
+      "id": "94629a270_thread_cutting_screws_for_plastic_94629a270",
+      "name": "94629A270_Thread-Cutting Screws for Plastic_94629A270",
+      "part_number": null,
+      "category": "fasteners",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "nny_imperial_275_1027_001": {
+      "id": "nny_imperial_275_1027_001",
+      "name": "NNY_Imperial_275-1027-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_276_4993_001": {
+      "id": "sbt0832_276_4993_001",
+      "name": "SBT0832_276-4993-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_276_5006_001": {
+      "id": "sbt0832_276_5006_001",
+      "name": "SBT0832_276-5006-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_276_5007_001": {
+      "id": "sbt0832_276_5007_001",
+      "name": "SBT0832_276-5007-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_276_8016_001": {
+      "id": "sbt0832_276_8016_001",
+      "name": "SBT0832_276-8016-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_sbt0832_1250zc": {
+      "id": "sbt0832_sbt0832_1250zc",
+      "name": "SBT0832_SBT0832-1250ZC",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sbt0832_sbt0832_2500zc": {
+      "id": "sbt0832_sbt0832_2500zc",
+      "name": "SBT0832_SBT0832-2500ZC",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "sptm3_tc_228_7045_010": {
+      "id": "sptm3_tc_228_7045_010",
+      "name": "SPTM3-TC_228-7045-010",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "thf0832_0250_275_1014_001": {
+      "id": "thf0832_0250_275_1014_001",
+      "name": "THF0832-0250_275-1014-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "thf0832_0250_275_1020_001": {
+      "id": "thf0832_0250_275_1020_001",
+      "name": "THF0832-0250_275-1020-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "thf0832_0250_275_1023_001": {
+      "id": "thf0832_0250_275_1023_001",
+      "name": "THF0832-0250_275-1023-001",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "tape_corner_zone_blue_loader_zone": {
+      "id": "tape_corner_zone_blue_loader_zone",
+      "name": "Tape- Corner Zone_Blue Loader Zone",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "tape_corner_zone_red_loader_zone": {
+      "id": "tape_corner_zone_red_loader_zone",
+      "name": "Tape- Corner Zone_Red Loader Zone",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "tape_toggle_zones_diamond_center_divided_zones": {
+      "id": "tape_toggle_zones_diamond_center_divided_zones",
+      "name": "Tape- Toggle Zones_Diamond Center- Divided Zones",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "wall_alliance_stations_pms_199c_bright_red": {
+      "id": "wall_alliance_stations_pms_199c_bright_red",
+      "name": "Wall Alliance Stations_PMS 199c - Bright Red",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    },
+    "wall_alliance_stations_pms_299c_bright_blue": {
+      "id": "wall_alliance_stations_pms_299c_bright_blue",
+      "name": "Wall Alliance Stations_PMS 299c - Bright Blue",
+      "part_number": null,
+      "category": "uncategorized",
+      "product_definition_occurrences": 1,
+      "canonical_geometry": null,
+      "simulation_mesh": null,
+      "configuration": null,
+      "material": null,
+      "mass_kg": null,
+      "bounding_box_m": null,
+      "center_of_mass_m": null,
+      "connection_points": null,
+      "legal_vrc": null,
+      "source": {
+        "kind": "supplied_step_assembly",
+        "assembly": "override_field",
+        "path": "data/cad_assets/override_field/canonical.step"
+      }
+    }
+  },
+  "identity_collisions": [
+    {
+      "id": "275-1066",
+      "names": [
+        "1/2\" x\u200f\u200f 1/2\" OD x #8 Nylon Spacer\u200f\u200f  (275-1066)",
+        "1/8\" x\u200f\u200f 1/2\" OD x #8 Nylon Spacer\u200f\u200f  (275-1066)"
+      ]
+    },
+    {
+      "id": "276-7285",
+      "names": [
+        "2 x 2 x 2 x\u200f\u200f \u200f\u200f15\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)",
+        "2 x 2 x 2 x\u200f\u200f \u200f\u200f20\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)"
+      ]
+    },
+    {
+      "id": "276-7285",
+      "names": [
+        "2 x 2 x 2 x\u200f\u200f \u200f\u200f15\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)",
+        "2 x 2 x 2 x\u200f\u200f \u200f\u200f5\u200f\u200f  \u200f\u200fAluminum U-Channel\u200f\u200f \u200f\u200f( 276-7285)"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-004_Compressed"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-317_Corner"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-301"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-302"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-303"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-304"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-305"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-306"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-307"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-308"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-309"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-310"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-311"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-350_276-7596-312"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-351_276-7596-313"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-351_276-7596-314"
+      ]
+    },
+    {
+      "id": "276-7596",
+      "names": [
+        "276-7596-000_Fixed Version",
+        "276-7596-351_276-7596-315"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-001_PMS 299c (Bright Blue)"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-001_Yellow"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-002_Clear"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-002_PMS 425c - Dark Gray"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-003_Master"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-006_AprilTag 0"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-006_AprilTag 1"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-006_AprilTag 2"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-006_AprilTag 3"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-006_AprilTag 4"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-023_GREY"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-031_Blue Loader"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-031_Red Loader"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-120_Blue Alliance Side"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-120_Red Alliance Side"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-80x_Blue-Neutral"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-80x_Neutral-Neutral"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-80x_Red-Blue"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-80x_Red-Neutral"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-81x"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-830_276-9250-831"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-830_276-9250-832"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Blue 2"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Blue 3"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Neutral Goal 0"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Neutral Goal 1"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Neutral Goal 4"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Red 2"
+      ]
+    },
+    {
+      "id": "276-9250",
+      "names": [
+        "276-9250-001_PMS 199c (Bright Red)",
+        "276-9250-840_Red 3"
+      ]
+    }
+  ]
+}

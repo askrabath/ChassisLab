@@ -1,0 +1,27 @@
+{
+  "id": "p00018",
+  "name": "High Strength Gear Shaft Insert (276-3881)",
+  "mesh": "data/cad_assets/clawbot/parts/p00018.obj",
+  "bounds_mm": [
+    [
+      -5.013444083741294,
+      -5.004280058128408,
+      0.0
+    ],
+    [
+      5.013444083741294,
+      5.0165,
+      5.08
+    ]
+  ],
+  "faces": 1348,
+  "rgba": [
+    0.13286831974983215,
+    0.13286831974983215,
+    0.13286831974983215,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

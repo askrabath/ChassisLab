@@ -1,0 +1,303 @@
+{
+  "name": "Shoulder-Slide Cup Tongs",
+  "chassis": {
+    "layout": "rectangle",
+    "drive": "holonomic",
+    "length_mm": 395.0,
+    "width_mm": 385.0,
+    "wheelbase_mm": 330.0,
+    "wheel_diameter_mm": 101.6,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -95.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Luffing shoulder with telescoping rack boom and opposed cup tongs",
+  "scoring_sequence": "A low compliant mouth centers an upright or tilted Cup, the opposed tongs close below its rim, the shoulder raises it, and the nested boom extends for controlled release above a Goal.",
+  "distinguishing_idea": "A powered shoulder supplies height while a rack-driven telescoping boom independently supplies reach; the object is retained by rim tongs rather than a tray.",
+  "main_uncertainty": "Tong geometry and compliance required to accommodate approximate Cup and Pin flange profiles without binding.",
+  "parts": [
+    {
+      "name": "left shoulder standard",
+      "shape": "box",
+      "center_mm": [
+        -55.0,
+        92.0,
+        150.0
+      ],
+      "size_mm": [
+        35.0,
+        30.0,
+        190.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right shoulder standard",
+      "shape": "box",
+      "center_mm": [
+        -55.0,
+        -92.0,
+        150.0
+      ],
+      "size_mm": [
+        35.0,
+        30.0,
+        190.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "shoulder axle",
+      "shape": "cylinder",
+      "center_mm": [
+        -55.0,
+        0.0,
+        225.0
+      ],
+      "size_mm": [
+        28.0,
+        28.0,
+        225.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "outer boom",
+      "shape": "box",
+      "center_mm": [
+        45.0,
+        0.0,
+        273.0
+      ],
+      "size_mm": [
+        245.0,
+        70.0,
+        55.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "inner boom",
+      "shape": "box",
+      "center_mm": [
+        171.0,
+        0.0,
+        329.0
+      ],
+      "size_mm": [
+        185.0,
+        48.0,
+        38.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "rack strip",
+      "shape": "box",
+      "center_mm": [
+        116.0,
+        0.0,
+        296.0
+      ],
+      "size_mm": [
+        180.0,
+        12.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left tong link",
+      "shape": "box",
+      "center_mm": [
+        245.0,
+        48.0,
+        342.0
+      ],
+      "size_mm": [
+        95.0,
+        18.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -24.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right tong link",
+      "shape": "box",
+      "center_mm": [
+        245.0,
+        -48.0,
+        342.0
+      ],
+      "size_mm": [
+        95.0,
+        18.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        24.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left grip roller",
+      "shape": "cylinder",
+      "center_mm": [
+        286.0,
+        66.0,
+        342.0
+      ],
+      "size_mm": [
+        32.0,
+        32.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right grip roller",
+      "shape": "cylinder",
+      "center_mm": [
+        286.0,
+        -66.0,
+        342.0
+      ],
+      "size_mm": [
+        32.0,
+        32.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "shoulder gear",
+      "shape": "cylinder",
+      "center_mm": [
+        -55.0,
+        108.0,
+        225.0
+      ],
+      "size_mm": [
+        72.0,
+        72.0,
+        16.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "shoulder motor",
+      "shape": "cylinder",
+      "center_mm": [
+        -105.0,
+        110.0,
+        165.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        70.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "extension motor",
+      "shape": "cylinder",
+      "center_mm": [
+        25.0,
+        -58.0,
+        270.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        65.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "tong motor",
+      "shape": "cylinder",
+      "center_mm": [
+        208.0,
+        0.0,
+        350.0
+      ],
+      "size_mm": [
+        38.0,
+        38.0,
+        55.0
+      ],
+      "rotation_deg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

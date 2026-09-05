@@ -1,0 +1,363 @@
+{
+  "name": "Pocket Chain High-Side Loader",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "tracks",
+    "length_mm": 420.0,
+    "width_mm": 350.0,
+    "wheelbase_mm": 350.0,
+    "wheel_diameter_mm": 69.85,
+    "wheel_count": 6,
+    "battery_xy_mm": [
+      -120.0,
+      0.0
+    ],
+    "gearing_rpm": 100
+  },
+  "mechanism_family": "Continuous bucket-chain elevator with tipping head chute",
+  "scoring_sequence": "A low roller throat pushes lying or upright objects into a flexible pocket; paired chains carry successive pockets upward and invert them over a short top chute.",
+  "distinguishing_idea": "The object rides in circulating pockets rather than on a lifting carriage, allowing acquisition to continue while another pocket approaches scoring height.",
+  "main_uncertainty": "Pocket shape must retain both orientations without jamming as it rounds the upper sprockets.",
+  "parts": [
+    {
+      "name": "left elevator mast",
+      "shape": "box",
+      "center_mm": [
+        40.0,
+        66.0,
+        300.0
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        430.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right elevator mast",
+      "shape": "box",
+      "center_mm": [
+        40.0,
+        -66.0,
+        300.0
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        430.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "upper mast bridge",
+      "shape": "box",
+      "center_mm": [
+        40.0,
+        0.0,
+        515.0
+      ],
+      "size_mm": [
+        35.0,
+        160.0,
+        25.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "lower chain axle",
+      "shape": "cylinder",
+      "center_mm": [
+        35.0,
+        0.0,
+        125.0
+      ],
+      "size_mm": [
+        32.0,
+        32.0,
+        170.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper chain axle",
+      "shape": "cylinder",
+      "center_mm": [
+        35.0,
+        0.0,
+        480.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        170.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left rising chain",
+      "shape": "capsule",
+      "center_mm": [
+        60.0,
+        65.0,
+        302.0
+      ],
+      "size_mm": [
+        15.0,
+        15.0,
+        365.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right rising chain",
+      "shape": "capsule",
+      "center_mm": [
+        60.0,
+        -65.0,
+        302.0
+      ],
+      "size_mm": [
+        15.0,
+        15.0,
+        365.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        175.0,
+        0.0,
+        82.0
+      ],
+      "size_mm": [
+        48.0,
+        48.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "upper intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        145.0,
+        0.0,
+        133.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "intake floor",
+      "shape": "box",
+      "center_mm": [
+        137.0,
+        0.0,
+        69.0
+      ],
+      "size_mm": [
+        145.0,
+        145.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "lower pocket back",
+      "shape": "box",
+      "center_mm": [
+        72.0,
+        0.0,
+        155.0
+      ],
+      "size_mm": [
+        20.0,
+        145.0,
+        120.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower pocket lip",
+      "shape": "box",
+      "center_mm": [
+        112.0,
+        0.0,
+        105.0
+      ],
+      "size_mm": [
+        85.0,
+        145.0,
+        14.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper pocket back",
+      "shape": "box",
+      "center_mm": [
+        57.0,
+        0.0,
+        410.0
+      ],
+      "size_mm": [
+        20.0,
+        145.0,
+        120.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper pocket lip",
+      "shape": "box",
+      "center_mm": [
+        95.0,
+        0.0,
+        455.0
+      ],
+      "size_mm": [
+        85.0,
+        145.0,
+        14.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "tip chute",
+      "shape": "box",
+      "center_mm": [
+        138.0,
+        0.0,
+        470.0
+      ],
+      "size_mm": [
+        175.0,
+        150.0,
+        14.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "chain drive motor",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        -105.0,
+        135.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "intake motor",
+      "shape": "box",
+      "center_mm": [
+        165.0,
+        -105.0,
+        100.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

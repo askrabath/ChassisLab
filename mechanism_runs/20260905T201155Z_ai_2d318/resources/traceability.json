@@ -1,0 +1,75 @@
+{
+  "version": "2.0, September 3 2026; official PDF downloaded",
+  "dimensions": {
+    "pin": {
+      "source": "PDF page 100 / A5",
+      "height_m": 0.165,
+      "tip_diameter_m": 0.0356,
+      "taper_base_diameter_m": 0.0596,
+      "flange_circumscribed_diameter_m": 0.0803
+    },
+    "cup": {
+      "source": "PDF page 101 / A6",
+      "height_m": 0.1645,
+      "rim_diameter_m": 0.0802,
+      "neck_diameter_m": 0.059
+    },
+    "goal": {
+      "source": "PDF page 102 / A7",
+      "opening_diameter_m": 0.0601,
+      "top_width_m": 0.0888,
+      "base_width_m": 0.1425,
+      "base_radius_m": 0.0819,
+      "heights_m": [
+        0.0825,
+        0.1465,
+        0.2227
+      ]
+    },
+    "toggle": {
+      "source": "PDF page 103 / A8",
+      "span_m": 0.6602,
+      "cross_section_m": 0.0516
+    },
+    "field": {
+      "source": "PDF page 105 / A10",
+      "inside_width_m": 3.5664,
+      "goal_coordinates": "field.py GOALS transcribed from A10"
+    }
+  },
+  "rules": {
+    "SC2": {
+      "source": "PDF pages 24\u201325",
+      "implemented": "Conservative upright single-pin half nested across opening plane; reject both halves, outside cavity, above rim. Cup fixture supports nested placed-pin chains. General tilted overlap/complex stacks not complete."
+    },
+    "SC3": {
+      "source": "PDF page 25",
+      "implemented": "Not implemented: no color visibility, Cup occlusion, yellow ownership or official match score. All official_match_score values are null."
+    },
+    "SG6": {
+      "source": "PDF specific game rules",
+      "implemented": "Benchmark contains one target Pin or Cup, so one-of-each limit cannot be exceeded. General possession classifier unimplemented."
+    },
+    "R3_SG2_SG3": {
+      "source": "PDF Robot/Specific Game Rules",
+      "implemented": "Starting 0.4572 m cube geometric screening and declared mechanism limits only. Full expansion and endgame checks unimplemented."
+    },
+    "R10_R11": {
+      "source": "PDF page 57",
+      "implemented": "88 W total / 55 W drivetrain screening of declared catalog motors; full subsystem interpretation unimplemented."
+    },
+    "match_phases": {
+      "source": "PDF game description and SG12",
+      "implemented": "Isolated task scenarios assume Driver Control outside final 10s. No autonomous bonus, AWP, protected zones, robot interaction, endgame or complete match simulation."
+    }
+  },
+  "approximations": [
+    "Pin rounded triangular cross-section approximated by circumscribed circular flange and circular tapers.",
+    "Cup inner wall 2 mm and 2 mm central divider assumed; unknown internal ribs omitted.",
+    "Goal opening modeled as straight 60.1 mm bore with 10 mm floor, outer octagonal details simplified.",
+    "Toggle inertia, friction, stops and pivot height approximate; no official toggle ownership adjudication.",
+    "Full-field inspection scene has nine goals, four moving toggles and perimeter, but only representative loose objects. Loaders and exact starting-object inventory not reconstructed.",
+    "Pin 0.116 kg, Cup 0.108 kg assumed. Contact friction 0.5\u20130.8, tire 0.55\u20130.8, grip 0.9\u20131.3 are sensitivity assumptions, not physical measurements.",
+    "Official CAD ZIP and assembly endpoint returned HTTP 403; no substitute is labeled official CAD."
+  ]
+}

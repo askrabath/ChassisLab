@@ -1,0 +1,679 @@
+{
+  "id": "g1_c1",
+  "generation": 0,
+  "parent": "seed",
+  "design": {
+    "version": "assembly-1",
+    "name": "Image-inspired arm and claw revision",
+    "parts": [
+      {
+        "id": "arm",
+        "parent": "chassis",
+        "attachment": "origin",
+        "catalog": "beam",
+        "offset_m": [
+          -0.0508,
+          0.0,
+          0.14
+        ],
+        "size_m": [
+          0.27,
+          0.04,
+          0.0127
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits": [
+            -0.45,
+            1.1
+          ],
+          "reduction": 5,
+          "role": "lift"
+        }
+      },
+      {
+        "id": "wrist",
+        "parent": "arm",
+        "attachment": "tip",
+        "catalog": "tool_mount",
+        "offset_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "size_m": [
+          0.03,
+          0.14,
+          0.016
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits": [
+            -1.2,
+            0.6
+          ],
+          "reduction": 3,
+          "role": "wrist"
+        }
+      },
+      {
+        "id": "left_finger",
+        "parent": "wrist",
+        "attachment": "tool",
+        "catalog": "roller",
+        "offset_m": [
+          0.065,
+          0.043,
+          0.0
+        ],
+        "size_m": [
+          0.055,
+          0.042,
+          0.042
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits": [
+            -10000.0,
+            10000.0
+          ],
+          "reduction": 1,
+          "role": "roller_left"
+        }
+      },
+      {
+        "id": "right_finger",
+        "parent": "wrist",
+        "attachment": "tool",
+        "catalog": "roller",
+        "offset_m": [
+          0.065,
+          -0.043,
+          0.0
+        ],
+        "size_m": [
+          0.055,
+          0.042,
+          0.042
+        ],
+        "joint": {
+          "kind": "revolute",
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits": [
+            -10000.0,
+            10000.0
+          ],
+          "reduction": 1,
+          "role": "roller_right"
+        }
+      },
+      {
+        "id": "back_guide",
+        "parent": "wrist",
+        "attachment": "tool",
+        "catalog": "guide",
+        "offset_m": [
+          0.015,
+          0.0,
+          -0.015
+        ],
+        "size_m": [
+          0.008,
+          0.07,
+          0.045
+        ],
+        "joint": {
+          "kind": "fixed",
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits": [
+            -1.0,
+            1.0
+          ],
+          "reduction": 1,
+          "role": "passive"
+        }
+      }
+    ]
+  },
+  "architecture": "beam+guide+roller+tool_mount",
+  "source": "handwritten fixture edit",
+  "hypothesis": "Handwritten development mutation: test contact acquisition after a structural or reach change.",
+  "proposal": {
+    "parent_id": "seed",
+    "edits": [
+      {
+        "operation": "replace",
+        "target": "left_finger",
+        "part": {
+          "id": "left_finger",
+          "parent": "wrist",
+          "attachment": "tool",
+          "catalog": "roller",
+          "offset_m": [
+            0.065,
+            0.043,
+            0.0
+          ],
+          "size_m": [
+            0.055,
+            0.042,
+            0.042
+          ],
+          "joint": {
+            "kind": "revolute",
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "limits": [
+              -10000.0,
+              10000.0
+            ],
+            "reduction": 1,
+            "role": "roller_left"
+          }
+        }
+      },
+      {
+        "operation": "replace",
+        "target": "right_finger",
+        "part": {
+          "id": "right_finger",
+          "parent": "wrist",
+          "attachment": "tool",
+          "catalog": "roller",
+          "offset_m": [
+            0.065,
+            -0.043,
+            0.0
+          ],
+          "size_m": [
+            0.055,
+            0.042,
+            0.042
+          ],
+          "joint": {
+            "kind": "revolute",
+            "axis": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "limits": [
+              -10000.0,
+              10000.0
+            ],
+            "reduction": 1,
+            "role": "roller_right"
+          }
+        }
+      },
+      {
+        "operation": "add",
+        "target": "back_guide",
+        "part": {
+          "id": "back_guide",
+          "parent": "wrist",
+          "attachment": "tool",
+          "catalog": "guide",
+          "offset_m": [
+            0.015,
+            0.0,
+            -0.015
+          ],
+          "size_m": [
+            0.008,
+            0.07,
+            0.045
+          ],
+          "joint": {
+            "kind": "fixed",
+            "axis": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "limits": [
+              -1.0,
+              1.0
+            ],
+            "reduction": 1,
+            "role": "passive"
+          }
+        }
+      }
+    ],
+    "hypothesis": "Handwritten development mutation: test contact acquisition after a structural or reach change.",
+    "expected_effect": "Measure pickup and placement; no improvement assumed.",
+    "extension_request": null
+  },
+  "smoke": {
+    "assembled_in_simulation": true,
+    "implemented_construction_checks": true,
+    "reviewed_physically_buildable": false,
+    "official_legality": false,
+    "initial_envelope_m": [
+      0.4046346914330794,
+      0.3175,
+      0.4288303493381285
+    ],
+    "mass_kg": 4.404000000000002
+  },
+  "controller_closure": 0.66,
+  "development": [
+    {
+      "timeout_s": 32,
+      "seed": 41,
+      "task": "pin",
+      "success": true,
+      "time_s": 25.953999999996494,
+      "elapsed_s": 25.953999999996494,
+      "picked_up": true,
+      "placed_subset": true,
+      "phase": "settle",
+      "failures": [],
+      "drop": false,
+      "jam": false,
+      "recovery_attempts": 0,
+      "pickup_time_s": 5.295999999999639,
+      "pickup_best_error_m": 0.002032775996500011,
+      "placement_error_m": 0.00032243979941968805,
+      "peak_object_height_m": 0.27714943524241686,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.19943939277182707,
+      "wheel_travel_m": [
+        0.7112726788050774,
+        0.7298352731447054,
+        0.6954038933299116,
+        0.6806543269142273
+      ],
+      "friction": 0.5377912240364606,
+      "initial_object_xy": [
+        0.36726641764739204,
+        0.004286913450169589
+      ],
+      "controller": {
+        "closure": 0.66,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.4046346914330794,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.404000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 2.501999999999946,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 5.003999999999671,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 9.003999999999676,
+          "from_phase": "lift",
+          "to_phase": "transport"
+        },
+        {
+          "time_s": 12.574000000000868,
+          "from_phase": "transport",
+          "to_phase": "lower"
+        },
+        {
+          "time_s": 23.211999999998014,
+          "from_phase": "lower",
+          "to_phase": "release"
+        },
+        {
+          "time_s": 24.71399999999718,
+          "from_phase": "release",
+          "to_phase": "settle"
+        }
+      ]
+    },
+    {
+      "timeout_s": 32,
+      "seed": 53,
+      "task": "pin",
+      "success": true,
+      "time_s": 25.065999999996986,
+      "elapsed_s": 25.065999999996986,
+      "picked_up": true,
+      "placed_subset": true,
+      "phase": "settle",
+      "failures": [],
+      "drop": false,
+      "jam": false,
+      "recovery_attempts": 0,
+      "pickup_time_s": 5.295999999999639,
+      "pickup_best_error_m": 0.001778728724589516,
+      "placement_error_m": 0.00039767960796812074,
+      "peak_object_height_m": 0.27711297002303675,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.19780778744115535,
+      "wheel_travel_m": [
+        0.7155087553697953,
+        0.7298239594281655,
+        0.7004737241898933,
+        0.6858427858303816
+      ],
+      "friction": 0.5993381573452986,
+      "initial_object_xy": [
+        0.35217803191302827,
+        0.0035025704602832147
+      ],
+      "controller": {
+        "closure": 0.66,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.4046346914330794,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.404000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 2.501999999999946,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 5.003999999999671,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 9.003999999999676,
+          "from_phase": "lift",
+          "to_phase": "transport"
+        },
+        {
+          "time_s": 12.650000000000894,
+          "from_phase": "transport",
+          "to_phase": "lower"
+        },
+        {
+          "time_s": 22.337999999998498,
+          "from_phase": "lower",
+          "to_phase": "release"
+        },
+        {
+          "time_s": 23.839999999997666,
+          "from_phase": "release",
+          "to_phase": "settle"
+        }
+      ]
+    }
+  ],
+  "final": [
+    {
+      "timeout_s": 32,
+      "seed": 1009,
+      "task": "pin",
+      "success": true,
+      "time_s": 24.78599999999714,
+      "elapsed_s": 24.78599999999714,
+      "picked_up": true,
+      "placed_subset": true,
+      "phase": "settle",
+      "failures": [],
+      "drop": false,
+      "jam": false,
+      "recovery_attempts": 0,
+      "pickup_time_s": 5.295999999999639,
+      "pickup_best_error_m": 0.001411117621983841,
+      "placement_error_m": 0.00038598170566696917,
+      "peak_object_height_m": 0.2768239276177319,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.1973593964334705,
+      "wheel_travel_m": [
+        0.6968451303512733,
+        0.690623508223405,
+        0.7072988884145371,
+        0.7219751039871858
+      ],
+      "friction": 0.5149554386219595,
+      "initial_object_xy": [
+        0.352904007392855,
+        -0.0027693505972342116
+      ],
+      "controller": {
+        "closure": 0.66,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.4046346914330794,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.404000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 2.501999999999946,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 5.003999999999671,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 9.003999999999676,
+          "from_phase": "lift",
+          "to_phase": "transport"
+        },
+        {
+          "time_s": 12.630000000000887,
+          "from_phase": "transport",
+          "to_phase": "lower"
+        },
+        {
+          "time_s": 22.069999999998647,
+          "from_phase": "lower",
+          "to_phase": "release"
+        },
+        {
+          "time_s": 23.571999999997814,
+          "from_phase": "release",
+          "to_phase": "settle"
+        }
+      ]
+    },
+    {
+      "timeout_s": 32,
+      "seed": 1013,
+      "task": "pin",
+      "success": true,
+      "time_s": 24.98799999999703,
+      "elapsed_s": 24.98799999999703,
+      "picked_up": true,
+      "placed_subset": true,
+      "phase": "settle",
+      "failures": [],
+      "drop": false,
+      "jam": false,
+      "recovery_attempts": 0,
+      "pickup_time_s": 5.299999999999638,
+      "pickup_best_error_m": 0.0033610963729121548,
+      "placement_error_m": 0.000487796022672162,
+      "peak_object_height_m": 0.2765252560650487,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.1974547782935809,
+      "wheel_travel_m": [
+        0.7007411065701508,
+        0.6661323299434662,
+        0.7265900547954165,
+        0.7462176313658014
+      ],
+      "friction": 0.7017978773890308,
+      "initial_object_xy": [
+        0.364711886644899,
+        -0.006736328454811902
+      ],
+      "controller": {
+        "closure": 0.66,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.4046346914330794,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.404000000000002
+      },
+      "transitions": [
+        {
+          "time_s": 2.501999999999946,
+          "from_phase": "approach",
+          "to_phase": "close"
+        },
+        {
+          "time_s": 5.003999999999671,
+          "from_phase": "close",
+          "to_phase": "lift"
+        },
+        {
+          "time_s": 9.003999999999676,
+          "from_phase": "lift",
+          "to_phase": "transport"
+        },
+        {
+          "time_s": 12.586000000000872,
+          "from_phase": "transport",
+          "to_phase": "lower"
+        },
+        {
+          "time_s": 22.237999999998554,
+          "from_phase": "lower",
+          "to_phase": "release"
+        },
+        {
+          "time_s": 23.73999999999772,
+          "from_phase": "release",
+          "to_phase": "settle"
+        }
+      ]
+    }
+  ],
+  "cup_extension": [
+    {
+      "timeout_s": 32,
+      "seed": 1009,
+      "task": "cup",
+      "success": false,
+      "time_s": null,
+      "elapsed_s": 31.999999999993143,
+      "picked_up": false,
+      "placed_subset": false,
+      "phase": "approach",
+      "failures": [
+        "pickup_failed"
+      ],
+      "drop": false,
+      "jam": false,
+      "recovery_attempts": 0,
+      "pickup_time_s": null,
+      "pickup_best_error_m": 4.188078338758478e-06,
+      "placement_error_m": 0.41521830418726885,
+      "peak_object_height_m": 0.08761269867657982,
+      "collision_episodes": 0,
+      "unstable": false,
+      "saturation_fraction": 0.0,
+      "wheel_travel_m": [
+        0.25287858990206724,
+        0.2169608617978227,
+        0.2538375175234907,
+        0.21680967898123787
+      ],
+      "friction": 0.5149554386219595,
+      "initial_object_xy": [
+        0.352904007392855,
+        -0.0027693505972342116
+      ],
+      "controller": {
+        "closure": 0.66,
+        "privileged_state": true
+      },
+      "rule_violations": [],
+      "official_match_score": null,
+      "construction": {
+        "assembled_in_simulation": true,
+        "implemented_construction_checks": true,
+        "reviewed_physically_buildable": false,
+        "official_legality": false,
+        "initial_envelope_m": [
+          0.4046346914330794,
+          0.3175,
+          0.4288303493381285
+        ],
+        "mass_kg": 4.404000000000002
+      },
+      "transitions": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "reference": "User-provided Clawbot Build Instructions cover",
+  "visible_part_number": "276-6009-750",
+  "sha256": "aadb81124b3adb9f42b4dbe28db8361525c905848894ade0d30363b52f8ed583",
+  "inferred": [
+    "arm length and pivot location",
+    "wrist leveling joint absent or hidden in image",
+    "independently actuated fingers simplified from pictured geared claw",
+    "four drive motors instead of verifying hidden transmission",
+    "replacement cross-bracing and screw fits not engineered"
+  ],
+  "reviewed_as_physically_buildable": false
+}

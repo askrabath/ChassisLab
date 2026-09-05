@@ -1,0 +1,323 @@
+{
+  "name": "Belt-Mast Cup Fork",
+  "chassis": {
+    "layout": "rectangle",
+    "drive": "mixed_omni",
+    "length_mm": 410.0,
+    "width_mm": 330.0,
+    "wheelbase_mm": 345.0,
+    "wheel_diameter_mm": 82.55,
+    "wheel_count": 6,
+    "battery_xy_mm": [
+      -115.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Two-stage belt elevator with centering funnel and fork carriage",
+  "scoring_sequence": "Draw a Cup through the low funnel, center it against the carriage, elevate it vertically, and extend the fork slightly forward for controlled placement.",
+  "distinguishing_idea": "A compact nested mast separates vertical lift from the short placement stroke, avoiding a long swinging arm.",
+  "main_uncertainty": "Cup retention during carriage acceleration and belt routing are unresolved; joints and controllers are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "left_outer_mast",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        105.0,
+        287.0
+      ],
+      "size_mm": [
+        28.0,
+        28.0,
+        430.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right_outer_mast",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        -105.0,
+        287.0
+      ],
+      "size_mm": [
+        28.0,
+        28.0,
+        430.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "mast_top_bridge",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        0.0,
+        493.0
+      ],
+      "size_mm": [
+        30.0,
+        238.0,
+        22.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left_inner_stage",
+      "shape": "box",
+      "center_mm": [
+        8.0,
+        76.0,
+        335.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_inner_stage",
+      "shape": "box",
+      "center_mm": [
+        8.0,
+        -76.0,
+        335.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "carriage_plate",
+      "shape": "box",
+      "center_mm": [
+        45.0,
+        0.0,
+        344.0
+      ],
+      "size_mm": [
+        24.0,
+        180.0,
+        95.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left_fork",
+      "shape": "box",
+      "center_mm": [
+        116.0,
+        55.0,
+        299.0
+      ],
+      "size_mm": [
+        155.0,
+        22.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right_fork",
+      "shape": "box",
+      "center_mm": [
+        116.0,
+        -55.0,
+        299.0
+      ],
+      "size_mm": [
+        155.0,
+        22.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left_funnel_rail",
+      "shape": "box",
+      "center_mm": [
+        142.0,
+        105.0,
+        105.0
+      ],
+      "size_mm": [
+        145.0,
+        18.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -20.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right_funnel_rail",
+      "shape": "box",
+      "center_mm": [
+        142.0,
+        -105.0,
+        105.0
+      ],
+      "size_mm": [
+        145.0,
+        18.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        20.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "funnel_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        174.0,
+        0.0,
+        89.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        185.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "top_belt_pulley",
+      "shape": "cylinder",
+      "center_mm": [
+        -10.0,
+        0.0,
+        466.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        180.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower_belt_pulley",
+      "shape": "cylinder",
+      "center_mm": [
+        -10.0,
+        0.0,
+        116.0
+      ],
+      "size_mm": [
+        35.0,
+        35.0,
+        180.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "elevator_motor",
+      "shape": "box",
+      "center_mm": [
+        -78.0,
+        -105.0,
+        104.0
+      ],
+      "size_mm": [
+        65.0,
+        46.0,
+        46.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "intake_motor",
+      "shape": "box",
+      "center_mm": [
+        118.0,
+        125.0,
+        83.0
+      ],
+      "size_mm": [
+        58.0,
+        42.0,
+        42.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

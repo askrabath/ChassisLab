@@ -1,0 +1,283 @@
+{
+  "name": "Walking-Beam Pin Stepper",
+  "chassis": {
+    "layout": "h_frame",
+    "drive": "traction",
+    "length_mm": 410.0,
+    "width_mm": 360.0,
+    "wheelbase_mm": 345.0,
+    "wheel_diameter_mm": 101.6,
+    "wheel_count": 6,
+    "battery_xy_mm": [
+      -105.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Alternating walking-beam lift with roller entry and top pusher",
+  "scoring_sequence": "Floor rollers draw in a lying Pin; alternating toothed beams support and step it upward, while a top cross-roller turns it upright and a short pusher slides it onto the Goal.",
+  "distinguishing_idea": "Two oscillating ladder beams alternately capture and raise the object through discrete guarded stages rather than carrying it in one carriage.",
+  "main_uncertainty": "Approximate tooth spacing and beam phasing needed to retain both Pins and Cups during each hand-off.",
+  "parts": [
+    {
+      "name": "left tower",
+      "shape": "box",
+      "center_mm": [
+        25.0,
+        112.0,
+        190.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        300.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right tower",
+      "shape": "box",
+      "center_mm": [
+        25.0,
+        -112.0,
+        190.0
+      ],
+      "size_mm": [
+        35.0,
+        25.0,
+        300.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "tower top brace",
+      "shape": "box",
+      "center_mm": [
+        25.0,
+        0.0,
+        335.0
+      ],
+      "size_mm": [
+        35.0,
+        245.0,
+        20.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left walking beam",
+      "shape": "box",
+      "center_mm": [
+        44.0,
+        62.0,
+        205.0
+      ],
+      "size_mm": [
+        220.0,
+        22.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -55.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right walking beam",
+      "shape": "box",
+      "center_mm": [
+        -2.0,
+        -62.0,
+        205.0
+      ],
+      "size_mm": [
+        220.0,
+        22.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -55.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower cross step",
+      "shape": "cylinder",
+      "center_mm": [
+        108.0,
+        0.0,
+        112.0
+      ],
+      "size_mm": [
+        25.0,
+        25.0,
+        132.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "middle cross step",
+      "shape": "cylinder",
+      "center_mm": [
+        42.0,
+        0.0,
+        205.0
+      ],
+      "size_mm": [
+        25.0,
+        25.0,
+        132.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper cross step",
+      "shape": "cylinder",
+      "center_mm": [
+        -22.0,
+        0.0,
+        298.0
+      ],
+      "size_mm": [
+        25.0,
+        25.0,
+        132.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        157.0,
+        67.0,
+        55.0
+      ],
+      "size_mm": [
+        48.0,
+        48.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        157.0,
+        -67.0,
+        55.0
+      ],
+      "size_mm": [
+        48.0,
+        48.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "top orientation roller",
+      "shape": "cylinder",
+      "center_mm": [
+        -56.0,
+        0.0,
+        342.0
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        165.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "scoring pusher",
+      "shape": "box",
+      "center_mm": [
+        65.0,
+        0.0,
+        345.0
+      ],
+      "size_mm": [
+        150.0,
+        105.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "beam drive motor",
+      "shape": "cylinder",
+      "center_mm": [
+        -60.0,
+        126.0,
+        102.0
+      ],
+      "size_mm": [
+        45.0,
+        45.0,
+        70.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

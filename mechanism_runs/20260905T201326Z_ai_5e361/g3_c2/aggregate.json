@@ -1,0 +1,24 @@
+{
+  "id": "g3_c2",
+  "parent": "g1_c1",
+  "architecture": "beam+roller+tool_mount",
+  "source": "OpenAI Responses API",
+  "development": {
+    "trials": 2,
+    "successes": 0,
+    "success_rate": 0.0,
+    "mean_success_time_s": null,
+    "ranking": [
+      0,
+      0,
+      0,
+      32.0,
+      0
+    ],
+    "failures": [
+      "pickup_failed"
+    ],
+    "collision_episodes": 0,
+    "unstable_trials": 0
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "$defs": {
+    "Joint": {
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "fixed",
+            "revolute",
+            "prismatic"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "axis": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Axis",
+          "type": "array"
+        },
+        "limits": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "title": "Limits",
+          "type": "array"
+        },
+        "reduction": {
+          "enum": [
+            1,
+            3,
+            5
+          ],
+          "title": "Reduction",
+          "type": "integer"
+        },
+        "role": {
+          "enum": [
+            "passive",
+            "lift",
+            "wrist",
+            "grip_left",
+            "grip_right",
+            "roller_left",
+            "roller_right"
+          ],
+          "title": "Role",
+          "type": "string"
+        }
+      },
+      "required": [
+        "kind",
+        "axis",
+        "limits",
+        "reduction",
+        "role"
+      ],
+      "title": "Joint",
+      "type": "object"
+    },
+    "Part": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_]{0,31}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "parent": {
+          "title": "Parent",
+          "type": "string"
+        },
+        "attachment": {
+          "enum": [
+            "origin",
+            "tip",
+            "tool"
+          ],
+          "title": "Attachment",
+          "type": "string"
+        },
+        "catalog": {
+          "enum": [
+            "beam",
+            "tool_mount",
+            "finger",
+            "roller",
+            "guide"
+          ],
+          "title": "Catalog",
+          "type": "string"
+        },
+        "offset_m": {
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Offset M",
+          "type": "array"
+        },
+        "size_m": {
+          "description": "Full x/y/z dimensions; roller x=length,y=z=diameter",
+          "items": {
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Size M",
+          "type": "array"
+        },
+        "joint": {
+          "$ref": "#/$defs/Joint"
+        }
+      },
+      "required": [
+        "id",
+        "parent",
+        "attachment",
+        "catalog",
+        "offset_m",
+        "size_m",
+        "joint"
+      ],
+      "title": "Part",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": "assembly-1",
+      "title": "Version",
+      "type": "string"
+    },
+    "name": {
+      "maxLength": 80,
+      "minLength": 1,
+      "title": "Name",
+      "type": "string"
+    },
+    "parts": {
+      "items": {
+        "$ref": "#/$defs/Part"
+      },
+      "maxItems": 14,
+      "minItems": 3,
+      "title": "Parts",
+      "type": "array"
+    }
+  },
+  "required": [
+    "version",
+    "name",
+    "parts"
+  ],
+  "title": "Robot",
+  "type": "object"
+}

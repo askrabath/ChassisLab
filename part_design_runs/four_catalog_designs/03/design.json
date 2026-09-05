@@ -1,0 +1,15 @@
+{
+  "name": "Omni Drive / Traction Passive Representation",
+  "driven_wheels": "source_omni",
+  "passive_wheels": "source_traction",
+  "rationale": "Preserves the original chassis, motor placement, battery, lift transmission, arm, and claw while placing the existing 276-2185 omni-wheel CAD at driven locations and the existing 4-inch traction-wheel CAD at passive locations. As an untested hypothesis, driven omnis may depict different lateral behavior, while passive traction wheels may still introduce scrub or constrain turning; no benefit is claimed. The configuration is solely a conservative real-part representation for lower-detail display and independently defined physics.",
+  "scoring_mechanism": "unchanged_source_clawbot_arm_and_claw",
+  "unresolved_build_risks": [
+    "Axle length and torque-transmitting engagement at the driven omni wheels are unknown because mating constraints and the shaft BOM are unverified.",
+    "Spacer dimensions, wheel offsets, and collar placement are unknown.",
+    "Ground clearance and interference throughout the drivetrain have not been checked.",
+    "Source assembly hardware completeness is unknown, including bearings, collars, hubs, fasteners, washers, and retainers.",
+    "No calibrated mass properties are available for validated center-of-mass or simulation conclusions.",
+    "Physical buildability and competition legality are not established."
+  ]
+}

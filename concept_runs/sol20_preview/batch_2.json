@@ -1,0 +1,1759 @@
+{
+  "concepts": [
+    {
+      "name": "Turntable Crane Collar",
+      "chassis": {
+        "layout": "rectangle",
+        "drive": "holonomic",
+        "length_mm": 390.0,
+        "width_mm": 330.0,
+        "wheelbase_mm": 330.0,
+        "wheel_diameter_mm": 82.55,
+        "wheel_count": 4,
+        "battery_xy_mm": [
+          -95.0,
+          0.0
+        ],
+        "gearing_rpm": 200
+      },
+      "mechanism_family": "Slewing crane with cable-suspended capture collar",
+      "scoring_sequence": "Side rollers center an upright Cup or Pin beneath the collar; the collar closes, the winch raises it, and the turret slews the boom over the selected Goal for lowering.",
+      "distinguishing_idea": "A rotating crane separates vertical cable lift from horizontal placement and can approach Goals from several headings.",
+      "main_uncertainty": "Controlling swing and preventing the suspended object from twisting during travel.",
+      "parts": [
+        {
+          "name": "turret bearing plate",
+          "shape": "cylinder",
+          "center_mm": [
+            -25.0,
+            0.0,
+            108.0
+          ],
+          "size_mm": [
+            145.0,
+            145.0,
+            18.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "turret mast left",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            -38.0,
+            275.0
+          ],
+          "size_mm": [
+            25.0,
+            25.0,
+            330.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "turret mast right",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            38.0,
+            275.0
+          ],
+          "size_mm": [
+            25.0,
+            25.0,
+            330.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "mast crosshead",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            0.0,
+            432.0
+          ],
+          "size_mm": [
+            35.0,
+            105.0,
+            25.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "boom",
+          "shape": "box",
+          "center_mm": [
+            95.0,
+            0.0,
+            455.0
+          ],
+          "size_mm": [
+            270.0,
+            30.0,
+            30.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "boom brace",
+          "shape": "box",
+          "center_mm": [
+            55.0,
+            0.0,
+            380.0
+          ],
+          "size_mm": [
+            190.0,
+            18.0,
+            18.0
+          ],
+          "rotation_deg": [
+            0.0,
+            38.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "boom pivot axle",
+          "shape": "cylinder",
+          "center_mm": [
+            -25.0,
+            0.0,
+            430.0
+          ],
+          "size_mm": [
+            22.0,
+            22.0,
+            125.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "slew motor",
+          "shape": "box",
+          "center_mm": [
+            -92.0,
+            0.0,
+            137.0
+          ],
+          "size_mm": [
+            60.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "winch motor",
+          "shape": "box",
+          "center_mm": [
+            -8.0,
+            -62.0,
+            350.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "winch drum",
+          "shape": "cylinder",
+          "center_mm": [
+            -8.0,
+            0.0,
+            350.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            70.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "hoist line",
+          "shape": "cylinder",
+          "center_mm": [
+            220.0,
+            0.0,
+            333.0
+          ],
+          "size_mm": [
+            8.0,
+            8.0,
+            230.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "capture collar crossbar",
+          "shape": "box",
+          "center_mm": [
+            220.0,
+            0.0,
+            218.0
+          ],
+          "size_mm": [
+            28.0,
+            125.0,
+            18.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left collar jaw",
+          "shape": "capsule",
+          "center_mm": [
+            220.0,
+            52.0,
+            165.0
+          ],
+          "size_mm": [
+            18.0,
+            18.0,
+            115.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "right collar jaw",
+          "shape": "capsule",
+          "center_mm": [
+            220.0,
+            -52.0,
+            165.0
+          ],
+          "size_mm": [
+            18.0,
+            18.0,
+            115.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left centering roller",
+          "shape": "cylinder",
+          "center_mm": [
+            178.0,
+            55.0,
+            135.0
+          ],
+          "size_mm": [
+            35.0,
+            35.0,
+            105.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "right centering roller",
+          "shape": "cylinder",
+          "center_mm": [
+            178.0,
+            -55.0,
+            135.0
+          ],
+          "size_mm": [
+            35.0,
+            35.0,
+            105.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        }
+      ]
+    },
+    {
+      "name": "Pocket Chain High-Side Loader",
+      "chassis": {
+        "layout": "twin_pod",
+        "drive": "tracks",
+        "length_mm": 420.0,
+        "width_mm": 350.0,
+        "wheelbase_mm": 350.0,
+        "wheel_diameter_mm": 69.85,
+        "wheel_count": 6,
+        "battery_xy_mm": [
+          -120.0,
+          0.0
+        ],
+        "gearing_rpm": 100
+      },
+      "mechanism_family": "Continuous bucket-chain elevator with tipping head chute",
+      "scoring_sequence": "A low roller throat pushes lying or upright objects into a flexible pocket; paired chains carry successive pockets upward and invert them over a short top chute.",
+      "distinguishing_idea": "The object rides in circulating pockets rather than on a lifting carriage, allowing acquisition to continue while another pocket approaches scoring height.",
+      "main_uncertainty": "Pocket shape must retain both orientations without jamming as it rounds the upper sprockets.",
+      "parts": [
+        {
+          "name": "left elevator mast",
+          "shape": "box",
+          "center_mm": [
+            40.0,
+            66.0,
+            300.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            430.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right elevator mast",
+          "shape": "box",
+          "center_mm": [
+            40.0,
+            -66.0,
+            300.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            430.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "upper mast bridge",
+          "shape": "box",
+          "center_mm": [
+            40.0,
+            0.0,
+            515.0
+          ],
+          "size_mm": [
+            35.0,
+            160.0,
+            25.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "lower chain axle",
+          "shape": "cylinder",
+          "center_mm": [
+            35.0,
+            0.0,
+            125.0
+          ],
+          "size_mm": [
+            32.0,
+            32.0,
+            170.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "upper chain axle",
+          "shape": "cylinder",
+          "center_mm": [
+            35.0,
+            0.0,
+            480.0
+          ],
+          "size_mm": [
+            45.0,
+            45.0,
+            170.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left rising chain",
+          "shape": "capsule",
+          "center_mm": [
+            60.0,
+            65.0,
+            302.0
+          ],
+          "size_mm": [
+            15.0,
+            15.0,
+            365.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "right rising chain",
+          "shape": "capsule",
+          "center_mm": [
+            60.0,
+            -65.0,
+            302.0
+          ],
+          "size_mm": [
+            15.0,
+            15.0,
+            365.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "lower intake roller",
+          "shape": "cylinder",
+          "center_mm": [
+            175.0,
+            0.0,
+            82.0
+          ],
+          "size_mm": [
+            48.0,
+            48.0,
+            150.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "upper intake roller",
+          "shape": "cylinder",
+          "center_mm": [
+            145.0,
+            0.0,
+            133.0
+          ],
+          "size_mm": [
+            40.0,
+            40.0,
+            150.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "intake floor",
+          "shape": "box",
+          "center_mm": [
+            137.0,
+            0.0,
+            69.0
+          ],
+          "size_mm": [
+            145.0,
+            145.0,
+            12.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "lower pocket back",
+          "shape": "box",
+          "center_mm": [
+            72.0,
+            0.0,
+            155.0
+          ],
+          "size_mm": [
+            20.0,
+            145.0,
+            120.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "lower pocket lip",
+          "shape": "box",
+          "center_mm": [
+            112.0,
+            0.0,
+            105.0
+          ],
+          "size_mm": [
+            85.0,
+            145.0,
+            14.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "upper pocket back",
+          "shape": "box",
+          "center_mm": [
+            57.0,
+            0.0,
+            410.0
+          ],
+          "size_mm": [
+            20.0,
+            145.0,
+            120.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "upper pocket lip",
+          "shape": "box",
+          "center_mm": [
+            95.0,
+            0.0,
+            455.0
+          ],
+          "size_mm": [
+            85.0,
+            145.0,
+            14.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "tip chute",
+          "shape": "box",
+          "center_mm": [
+            138.0,
+            0.0,
+            470.0
+          ],
+          "size_mm": [
+            175.0,
+            150.0,
+            14.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "chain drive motor",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            -105.0,
+            135.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "intake motor",
+          "shape": "box",
+          "center_mm": [
+            165.0,
+            -105.0,
+            100.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        }
+      ]
+    },
+    {
+      "name": "Lead-Screw Tilting Table",
+      "chassis": {
+        "layout": "h_frame",
+        "drive": "mixed_omni",
+        "length_mm": 400.0,
+        "width_mm": 360.0,
+        "wheelbase_mm": 335.0,
+        "wheel_diameter_mm": 101.6,
+        "wheel_count": 6,
+        "battery_xy_mm": [
+          -105.0,
+          0.0
+        ],
+        "gearing_rpm": 100
+      },
+      "mechanism_family": "Differential lead-screw lift table with powered orientation nest",
+      "scoring_sequence": "Counter-rotating floor rollers draw an object onto a V-shaped table; two independently driven screw struts raise and tilt the table until its front gate opens over a Goal.",
+      "distinguishing_idea": "Elevation and controlled discharge come from differential screw extension, without a mast, swinging boom, or scissor stack.",
+      "main_uncertainty": "The screws and table guides may experience high side loading when the object sits near the front edge.",
+      "parts": [
+        {
+          "name": "left rear tower",
+          "shape": "box",
+          "center_mm": [
+            -75.0,
+            92.0,
+            220.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            270.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right rear tower",
+          "shape": "box",
+          "center_mm": [
+            -75.0,
+            -92.0,
+            220.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            270.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "left lead screw",
+          "shape": "cylinder",
+          "center_mm": [
+            -35.0,
+            82.0,
+            250.0
+          ],
+          "size_mm": [
+            18.0,
+            18.0,
+            300.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "right lead screw",
+          "shape": "cylinder",
+          "center_mm": [
+            -35.0,
+            -82.0,
+            250.0
+          ],
+          "size_mm": [
+            18.0,
+            18.0,
+            300.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left screw nut block",
+          "shape": "box",
+          "center_mm": [
+            -12.0,
+            82.0,
+            360.0
+          ],
+          "size_mm": [
+            45.0,
+            45.0,
+            35.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "right screw nut block",
+          "shape": "box",
+          "center_mm": [
+            -12.0,
+            -82.0,
+            360.0
+          ],
+          "size_mm": [
+            45.0,
+            45.0,
+            35.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "tilting table deck",
+          "shape": "box",
+          "center_mm": [
+            85.0,
+            0.0,
+            355.0
+          ],
+          "size_mm": [
+            245.0,
+            165.0,
+            18.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -12.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left table side",
+          "shape": "box",
+          "center_mm": [
+            78.0,
+            78.0,
+            392.0
+          ],
+          "size_mm": [
+            235.0,
+            18.0,
+            75.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -12.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "right table side",
+          "shape": "box",
+          "center_mm": [
+            78.0,
+            -78.0,
+            392.0
+          ],
+          "size_mm": [
+            235.0,
+            18.0,
+            75.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -12.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "left loading roller",
+          "shape": "cylinder",
+          "center_mm": [
+            168.0,
+            48.0,
+            330.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            85.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "right loading roller",
+          "shape": "cylinder",
+          "center_mm": [
+            168.0,
+            -48.0,
+            330.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            85.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "front release gate",
+          "shape": "box",
+          "center_mm": [
+            199.0,
+            0.0,
+            377.0
+          ],
+          "size_mm": [
+            18.0,
+            165.0,
+            75.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -12.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "gate axle",
+          "shape": "cylinder",
+          "center_mm": [
+            188.0,
+            0.0,
+            414.0
+          ],
+          "size_mm": [
+            16.0,
+            16.0,
+            185.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left screw motor",
+          "shape": "box",
+          "center_mm": [
+            -68.0,
+            82.0,
+            103.0
+          ],
+          "size_mm": [
+            60.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "right screw motor",
+          "shape": "box",
+          "center_mm": [
+            -68.0,
+            -82.0,
+            103.0
+          ],
+          "size_mm": [
+            60.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "roller motor",
+          "shape": "box",
+          "center_mm": [
+            120.0,
+            -120.0,
+            315.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        }
+      ]
+    },
+    {
+      "name": "Arc-Rail Placement Trolley",
+      "chassis": {
+        "layout": "u_front",
+        "drive": "traction",
+        "length_mm": 430.0,
+        "width_mm": 355.0,
+        "wheelbase_mm": 360.0,
+        "wheel_diameter_mm": 82.55,
+        "wheel_count": 8,
+        "battery_xy_mm": [
+          -125.0,
+          0.0
+        ],
+        "gearing_rpm": 200
+      },
+      "mechanism_family": "Curved-rail trolley with roller cradle",
+      "scoring_sequence": "The open bay admits a Pin or Cup into the roller cradle; a chain-driven trolley follows paired quarter-arc rails, carrying the cradle upward and forward before a wrist roller meters the object onto the Goal.",
+      "distinguishing_idea": "A constrained trolley follows a curved placement path instead of translating on a straight elevator or rotating about one arm pivot.",
+      "main_uncertainty": "Low-friction guidance through the segmented arc and chain tension around the curve require development.",
+      "parts": [
+        {
+          "name": "left arc lower segment",
+          "shape": "box",
+          "center_mm": [
+            30.0,
+            78.0,
+            145.0
+          ],
+          "size_mm": [
+            150.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right arc lower segment",
+          "shape": "box",
+          "center_mm": [
+            30.0,
+            -78.0,
+            145.0
+          ],
+          "size_mm": [
+            150.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "left arc middle segment",
+          "shape": "box",
+          "center_mm": [
+            -15.0,
+            78.0,
+            245.0
+          ],
+          "size_mm": [
+            145.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -55.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right arc middle segment",
+          "shape": "box",
+          "center_mm": [
+            -15.0,
+            -78.0,
+            245.0
+          ],
+          "size_mm": [
+            145.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -55.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "left arc upper segment",
+          "shape": "box",
+          "center_mm": [
+            20.0,
+            78.0,
+            350.0
+          ],
+          "size_mm": [
+            150.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -102.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right arc upper segment",
+          "shape": "box",
+          "center_mm": [
+            20.0,
+            -78.0,
+            350.0
+          ],
+          "size_mm": [
+            150.0,
+            24.0,
+            24.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -102.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "trolley crossbeam",
+          "shape": "box",
+          "center_mm": [
+            55.0,
+            0.0,
+            320.0
+          ],
+          "size_mm": [
+            45.0,
+            190.0,
+            35.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left trolley wheel",
+          "shape": "cylinder",
+          "center_mm": [
+            48.0,
+            78.0,
+            320.0
+          ],
+          "size_mm": [
+            45.0,
+            45.0,
+            18.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "right trolley wheel",
+          "shape": "cylinder",
+          "center_mm": [
+            48.0,
+            -78.0,
+            320.0
+          ],
+          "size_mm": [
+            45.0,
+            45.0,
+            18.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "cradle floor",
+          "shape": "box",
+          "center_mm": [
+            125.0,
+            0.0,
+            307.0
+          ],
+          "size_mm": [
+            150.0,
+            150.0,
+            16.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "left cradle roller",
+          "shape": "cylinder",
+          "center_mm": [
+            118.0,
+            58.0,
+            337.0
+          ],
+          "size_mm": [
+            36.0,
+            36.0,
+            130.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "right cradle roller",
+          "shape": "cylinder",
+          "center_mm": [
+            118.0,
+            -58.0,
+            337.0
+          ],
+          "size_mm": [
+            36.0,
+            36.0,
+            130.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "front metering roller",
+          "shape": "cylinder",
+          "center_mm": [
+            195.0,
+            0.0,
+            330.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            155.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "trolley chain link",
+          "shape": "capsule",
+          "center_mm": [
+            -20.0,
+            0.0,
+            258.0
+          ],
+          "size_mm": [
+            14.0,
+            14.0,
+            265.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "trolley drive motor",
+          "shape": "box",
+          "center_mm": [
+            -105.0,
+            -105.0,
+            145.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "roller drive motor",
+          "shape": "box",
+          "center_mm": [
+            75.0,
+            -120.0,
+            285.0
+          ],
+          "size_mm": [
+            60.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        }
+      ]
+    },
+    {
+      "name": "Twin-Rocker Hand-Off Loader",
+      "chassis": {
+        "layout": "twin_pod",
+        "drive": "mixed_omni",
+        "length_mm": 410.0,
+        "width_mm": 370.0,
+        "wheelbase_mm": 345.0,
+        "wheel_diameter_mm": 69.85,
+        "wheel_count": 4,
+        "battery_xy_mm": [
+          -105.0,
+          0.0
+        ],
+        "gearing_rpm": 600
+      },
+      "mechanism_family": "Sequential rocking saddles with controlled hand-off",
+      "scoring_sequence": "A front saddle captures a lying or upright object, rocks rearward to stand and elevate it, then transfers it into a second saddle that rocks forward to the chosen Goal height.",
+      "distinguishing_idea": "Two short rotary stages pass the object between guarded nests, avoiding one large lift arm and keeping each stage within the chassis envelope.",
+      "main_uncertainty": "Reliable hand-off timing across varying Pin and Cup orientations is the principal geometric risk.",
+      "parts": [
+        {
+          "name": "left pivot tower",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            95.0,
+            175.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            205.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "right pivot tower",
+          "shape": "box",
+          "center_mm": [
+            -25.0,
+            -95.0,
+            175.0
+          ],
+          "size_mm": [
+            30.0,
+            30.0,
+            205.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "structure"
+        },
+        {
+          "name": "front rocker axle",
+          "shape": "cylinder",
+          "center_mm": [
+            75.0,
+            0.0,
+            135.0
+          ],
+          "size_mm": [
+            24.0,
+            24.0,
+            205.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "front left rocker",
+          "shape": "box",
+          "center_mm": [
+            128.0,
+            68.0,
+            190.0
+          ],
+          "size_mm": [
+            145.0,
+            22.0,
+            22.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -48.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "front right rocker",
+          "shape": "box",
+          "center_mm": [
+            128.0,
+            -68.0,
+            190.0
+          ],
+          "size_mm": [
+            145.0,
+            22.0,
+            22.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -48.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "front saddle floor",
+          "shape": "box",
+          "center_mm": [
+            176.0,
+            0.0,
+            240.0
+          ],
+          "size_mm": [
+            105.0,
+            145.0,
+            16.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -18.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "front saddle roller",
+          "shape": "cylinder",
+          "center_mm": [
+            185.0,
+            0.0,
+            276.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            150.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "rear rocker axle",
+          "shape": "cylinder",
+          "center_mm": [
+            -45.0,
+            0.0,
+            245.0
+          ],
+          "size_mm": [
+            26.0,
+            26.0,
+            205.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "rear left rocker",
+          "shape": "box",
+          "center_mm": [
+            0.0,
+            70.0,
+            332.0
+          ],
+          "size_mm": [
+            205.0,
+            22.0,
+            22.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -62.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "rear right rocker",
+          "shape": "box",
+          "center_mm": [
+            0.0,
+            -70.0,
+            332.0
+          ],
+          "size_mm": [
+            205.0,
+            22.0,
+            22.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -62.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "upper saddle floor",
+          "shape": "box",
+          "center_mm": [
+            72.0,
+            0.0,
+            418.0
+          ],
+          "size_mm": [
+            135.0,
+            150.0,
+            16.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "moving_link"
+        },
+        {
+          "name": "upper saddle back",
+          "shape": "box",
+          "center_mm": [
+            15.0,
+            0.0,
+            462.0
+          ],
+          "size_mm": [
+            18.0,
+            150.0,
+            100.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -8.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "upper metering roller",
+          "shape": "cylinder",
+          "center_mm": [
+            132.0,
+            0.0,
+            440.0
+          ],
+          "size_mm": [
+            42.0,
+            42.0,
+            155.0
+          ],
+          "rotation_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "role": "intake"
+        },
+        {
+          "name": "handoff guide",
+          "shape": "box",
+          "center_mm": [
+            58.0,
+            0.0,
+            315.0
+          ],
+          "size_mm": [
+            115.0,
+            155.0,
+            14.0
+          ],
+          "rotation_deg": [
+            0.0,
+            -35.0,
+            0.0
+          ],
+          "role": "guide"
+        },
+        {
+          "name": "front rocker motor",
+          "shape": "box",
+          "center_mm": [
+            70.0,
+            -120.0,
+            135.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "rear rocker motor",
+          "shape": "box",
+          "center_mm": [
+            -75.0,
+            -120.0,
+            245.0
+          ],
+          "size_mm": [
+            65.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        },
+        {
+          "name": "roller motor",
+          "shape": "box",
+          "center_mm": [
+            145.0,
+            -112.0,
+            390.0
+          ],
+          "size_mm": [
+            60.0,
+            45.0,
+            45.0
+          ],
+          "rotation_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "role": "motor"
+        }
+      ]
+    }
+  ]
+}

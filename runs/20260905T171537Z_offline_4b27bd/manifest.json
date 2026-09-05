@@ -1,0 +1,57 @@
+{
+  "mode": "OFFLINE handwritten sample designs (not AI-generated)",
+  "created_utc": "20260905T171537Z",
+  "model": null,
+  "development_seeds": [
+    11,
+    23,
+    37
+  ],
+  "final_seeds": [
+    101,
+    211,
+    307
+  ],
+  "versions": {
+    "mujoco": "3.12.0",
+    "numpy": "2.5.2",
+    "pydantic": "2.13.5",
+    "openai": "3.8.0",
+    "pillow": "12.3.0"
+  },
+  "python": "3.14.2 (v3.14.2:df793163d58, Dec  5 2025, 12:18:06) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "timestep_s": 0.002,
+  "timeout_s": 45.0,
+  "ai_limits": {
+    "max_calls": 4,
+    "max_output_tokens_per_call": 2500,
+    "max_repairs_per_proposal": 1,
+    "generations": 2
+  },
+  "source_hashes": {
+    "__init__.py": "d42cd80f3e8c600412e9b0ecb83385a14426efe1df15140c3223f0bd99f7b745",
+    "__main__.py": "d1798580bb315b56ac19ed88baae435fa1673c7a1d0c622f716847c62dde98a5",
+    "ai.py": "0dc9a46acff5930696dcb80622659eae3fb19146bde3a318a7261526d09515d8",
+    "assumptions.py": "08e6423633e948d6b2886bb6a6dbf0f549b2e7a9125ded46dfbf0b843c5723b3",
+    "benchmark.py": "ac2922ea4818e369fd2e2cfa75a7b76a576060f74146f33383d78d3a0e811a3a",
+    "experiment.py": "1a5a7c27b17a7ddf4d06a33e2dfc75da38cf958ae30054a63f9ffb286577c8d2",
+    "physics.py": "060851b7234530bd0609c9b8e2028cd9b4899887ccf0753d9bcb3683e339a10d",
+    "render.py": "507ca611d74c7dd2ba61dee6352c057f8b13faccb85787f3815da779e7dc614e",
+    "report.py": "1fd22e4704053880a15fad620d773ae3ccc34a5833c947b7d6c746a92a7fdd51",
+    "schema.py": "e233bb6e4fe0f3a92303367f689c8095e56aca68d9769b20847a64ac6108dff4"
+  },
+  "status": "complete",
+  "rendering": {
+    "0": {
+      "success": true,
+      "returncode": 0,
+      "note": "Initial sandbox CGL failure; successful separate render with macOS graphics access."
+    },
+    "1": {
+      "success": true,
+      "returncode": 0,
+      "note": "Initial sandbox CGL failure; successful separate render with macOS graphics access."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Hinged Channel Tip-Bucket",
+  "mechanism": "tilting_tray",
+  "display_angle_deg": 52.0,
+  "lateral_spacing_mm": 152.4,
+  "rationale": "A broad channel cradle passively scoops objects at chassis height, carries them against a lined back wall, and pivots as a single tray for placement. Its acquisition relies on driving objects into a cradle rather than rollers, forks, or a claw.",
+  "scoring_sequence": [
+    "Drive objects into the lowered cradle.",
+    "Pivot the loaded tray upward.",
+    "Tip the cradle toward the target."
+  ],
+  "hypothesis": "A wide lined cradle may retain multiple objects until tipped, but loading geometry, release threshold, pivot torque, structural twist, and object trajectories remain unknown.",
+  "required_parts": [
+    "276-7285",
+    "276-2304",
+    "276-4842",
+    "276-3438",
+    "276-7368",
+    "276-1209",
+    "228-2500-263",
+    "276-2010",
+    "275-1272",
+    "275-0121",
+    "276-4998",
+    "275-1026"
+  ],
+  "unresolved_connections": [
+    "The hinge axis, shaft support, bearing placement, collars, fasteners, motor mount, gear reduction, hard stops, and chassis bracing are not mating-solved; listed non-CAD components will not be positioned reliably by the layout alone.",
+    "The tray lacks resolved side walls, a front retaining lip, and a controlled release gate; the anti-slip liner attachment is also unspecified.",
+    "The 52-degree display is static, not a demonstrated dump angle or operating range; gear clearance, required torque, and chassis tipping margin are unknown.",
+    "Cradle width, lip height, and discharge position have not been calibrated to benchmark objects or field-goal openings."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "version": "assembly-1",
+  "name": "Image-inspired arm and claw",
+  "parts": [
+    {
+      "id": "arm",
+      "parent": "chassis",
+      "attachment": "origin",
+      "catalog": "beam",
+      "offset_m": [
+        -0.0508,
+        0.0,
+        0.14
+      ],
+      "size_m": [
+        0.27,
+        0.04,
+        0.0127
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "limits": [
+          -0.45,
+          1.1
+        ],
+        "reduction": 5,
+        "role": "lift"
+      }
+    },
+    {
+      "id": "wrist",
+      "parent": "arm",
+      "attachment": "tip",
+      "catalog": "tool_mount",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.03,
+        0.14,
+        0.016
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "limits": [
+          -1.2,
+          0.6
+        ],
+        "reduction": 3,
+        "role": "wrist"
+      }
+    },
+    {
+      "id": "left_finger",
+      "parent": "wrist",
+      "attachment": "tool",
+      "catalog": "finger",
+      "offset_m": [
+        0.0,
+        0.06,
+        0.0
+      ],
+      "size_m": [
+        0.08,
+        0.009,
+        0.04
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": [
+          -0.8,
+          0.35
+        ],
+        "reduction": 1,
+        "role": "grip_left"
+      }
+    },
+    {
+      "id": "right_finger",
+      "parent": "wrist",
+      "attachment": "tool",
+      "catalog": "finger",
+      "offset_m": [
+        0.0,
+        -0.06,
+        0.0
+      ],
+      "size_m": [
+        0.08,
+        0.009,
+        0.04
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "limits": [
+          -0.35,
+          0.8
+        ],
+        "reduction": 1,
+        "role": "grip_right"
+      }
+    }
+  ]
+}

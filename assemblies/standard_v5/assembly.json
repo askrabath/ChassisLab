@@ -1,0 +1,659 @@
+{
+  "description": "Fixed V5-style standard four-wheel chassis assembly test",
+  "units": "meters, kilograms, seconds; +x forward, +y left, +z up",
+  "nominal_geometry": {
+    "hole_pitch_m": 0.0127,
+    "channel_length_m": 0.3175,
+    "wheel_diameter_m": 0.1016,
+    "wheelbase_m": 0.2286,
+    "track_width_m": 0.2413,
+    "shaft_square_width_m": 0.003175
+  },
+  "parts": [
+    {
+      "name": "left_inner_rail",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "left_outer_rail",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "right_inner_rail",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "right_outer_rail",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "front_crossmember",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "left_inner_front_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "left_inner_rail_front_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_inner_front_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_outer_front_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "left_outer_rail_front_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_outer_front_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_inner_front_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "right_inner_rail_front_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_inner_front_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_outer_front_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "right_outer_rail_front_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_outer_front_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "rear_crossmember",
+      "type": "1x3x1x25 C-channel"
+    },
+    {
+      "name": "left_inner_rear_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "left_inner_rail_rear_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_inner_rear_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_outer_rear_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "left_outer_rail_rear_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "left_outer_rear_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_inner_rear_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "right_inner_rail_rear_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_inner_rear_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_outer_rear_standoff",
+      "type": "1.5 inch 8-32 standoff"
+    },
+    {
+      "name": "right_outer_rail_rear_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "right_outer_rear_standoff_upper_bolt",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "electronics_strip_0",
+      "type": "perforated mounting strip"
+    },
+    {
+      "name": "strip_0_bolt_-1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "strip_0_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "electronics_strip_1",
+      "type": "perforated mounting strip"
+    },
+    {
+      "name": "strip_1_bolt_-1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "strip_1_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "battery",
+      "type": "V5 battery envelope"
+    },
+    {
+      "name": "brain",
+      "type": "V5 brain envelope"
+    },
+    {
+      "name": "brain_bolt_0",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "brain_bolt_1",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "motor_0",
+      "type": "V5 Smart Motor envelope"
+    },
+    {
+      "name": "bearing_0_inner",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_0_inner_bolt_0",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_0_inner_bolt_1",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_0_outer",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_0_outer_bolt_0",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "bearing_0_outer_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "axle_wheel_0",
+      "type": "shaft and wheel rotating assembly"
+    },
+    {
+      "name": "wheel_0",
+      "type": "4 inch traction wheel"
+    },
+    {
+      "name": "collar_0_0",
+      "type": "shaft collar"
+    },
+    {
+      "name": "collar_0_1",
+      "type": "shaft collar"
+    },
+    {
+      "name": "motor_1",
+      "type": "V5 Smart Motor envelope"
+    },
+    {
+      "name": "bearing_1_inner",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_1_inner_bolt_0",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_1_inner_bolt_1",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_1_outer",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_1_outer_bolt_0",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "bearing_1_outer_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "axle_wheel_1",
+      "type": "shaft and wheel rotating assembly"
+    },
+    {
+      "name": "wheel_1",
+      "type": "4 inch traction wheel"
+    },
+    {
+      "name": "collar_1_0",
+      "type": "shaft collar"
+    },
+    {
+      "name": "collar_1_1",
+      "type": "shaft collar"
+    },
+    {
+      "name": "motor_2",
+      "type": "V5 Smart Motor envelope"
+    },
+    {
+      "name": "bearing_2_inner",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_2_inner_bolt_0",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_2_inner_bolt_1",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_2_outer",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_2_outer_bolt_0",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "bearing_2_outer_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "axle_wheel_2",
+      "type": "shaft and wheel rotating assembly"
+    },
+    {
+      "name": "wheel_2",
+      "type": "4 inch traction wheel"
+    },
+    {
+      "name": "collar_2_0",
+      "type": "shaft collar"
+    },
+    {
+      "name": "collar_2_1",
+      "type": "shaft collar"
+    },
+    {
+      "name": "motor_3",
+      "type": "V5 Smart Motor envelope"
+    },
+    {
+      "name": "bearing_3_inner",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_3_inner_bolt_0",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_3_inner_bolt_1",
+      "type": "8-32 motor screw"
+    },
+    {
+      "name": "bearing_3_outer",
+      "type": "bearing flat"
+    },
+    {
+      "name": "bearing_3_outer_bolt_0",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "bearing_3_outer_bolt_1",
+      "type": "8-32 screw and nut"
+    },
+    {
+      "name": "axle_wheel_3",
+      "type": "shaft and wheel rotating assembly"
+    },
+    {
+      "name": "wheel_3",
+      "type": "4 inch traction wheel"
+    },
+    {
+      "name": "collar_3_0",
+      "type": "shaft collar"
+    },
+    {
+      "name": "collar_3_1",
+      "type": "shaft collar"
+    }
+  ],
+  "connections": [
+    {
+      "part": "left_inner_rail",
+      "to": "frame_crossmembers",
+      "type": "bolted",
+      "fasteners": "left_inner_rail_front_bolt, left_inner_rail_rear_bolt"
+    },
+    {
+      "part": "left_outer_rail",
+      "to": "frame_crossmembers",
+      "type": "bolted",
+      "fasteners": "left_outer_rail_front_bolt, left_outer_rail_rear_bolt"
+    },
+    {
+      "part": "right_inner_rail",
+      "to": "frame_crossmembers",
+      "type": "bolted",
+      "fasteners": "right_inner_rail_front_bolt, right_inner_rail_rear_bolt"
+    },
+    {
+      "part": "right_outer_rail",
+      "to": "frame_crossmembers",
+      "type": "bolted",
+      "fasteners": "right_outer_rail_front_bolt, right_outer_rail_rear_bolt"
+    },
+    {
+      "part": "left_inner_front_standoff",
+      "to": [
+        "left_inner_rail",
+        "front_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "left_outer_front_standoff",
+      "to": [
+        "left_outer_rail",
+        "front_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "right_inner_front_standoff",
+      "to": [
+        "right_inner_rail",
+        "front_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "right_outer_front_standoff",
+      "to": [
+        "right_outer_rail",
+        "front_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "left_inner_rear_standoff",
+      "to": [
+        "left_inner_rail",
+        "rear_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "left_outer_rear_standoff",
+      "to": [
+        "left_outer_rail",
+        "rear_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "right_inner_rear_standoff",
+      "to": [
+        "right_inner_rail",
+        "rear_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "right_outer_rear_standoff",
+      "to": [
+        "right_outer_rail",
+        "rear_crossmember"
+      ],
+      "type": "two-ended bolted standoff"
+    },
+    {
+      "part": "electronics_strip_0",
+      "to": "inner_rails",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "electronics_strip_1",
+      "to": "inner_rails",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "battery",
+      "to": "electronics_strip_0",
+      "type": "rigid strap mount"
+    },
+    {
+      "part": "brain",
+      "to": "electronics_strip_1",
+      "type": "bolted",
+      "fasteners": [
+        "brain_bolt_0",
+        "brain_bolt_1"
+      ]
+    },
+    {
+      "part": "motor_0",
+      "to": "left_inner_rail",
+      "type": "bolted through bearing",
+      "fasteners": [
+        "bearing_0_inner_bolt_0",
+        "bearing_0_inner_bolt_1"
+      ]
+    },
+    {
+      "part": "bearing_0_inner",
+      "to": "left_inner_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "bearing_0_outer",
+      "to": "left_outer_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "wheel_0",
+      "to": "axle_wheel_0",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_0_0",
+      "to": "axle_wheel_0",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_0_1",
+      "to": "axle_wheel_0",
+      "type": "fixed"
+    },
+    {
+      "part": "axle_wheel_0",
+      "to": [
+        "bearing_0_inner",
+        "bearing_0_outer",
+        "motor_0"
+      ],
+      "type": "revolute shaft support and direct drive"
+    },
+    {
+      "part": "motor_1",
+      "to": "left_inner_rail",
+      "type": "bolted through bearing",
+      "fasteners": [
+        "bearing_1_inner_bolt_0",
+        "bearing_1_inner_bolt_1"
+      ]
+    },
+    {
+      "part": "bearing_1_inner",
+      "to": "left_inner_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "bearing_1_outer",
+      "to": "left_outer_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "wheel_1",
+      "to": "axle_wheel_1",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_1_0",
+      "to": "axle_wheel_1",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_1_1",
+      "to": "axle_wheel_1",
+      "type": "fixed"
+    },
+    {
+      "part": "axle_wheel_1",
+      "to": [
+        "bearing_1_inner",
+        "bearing_1_outer",
+        "motor_1"
+      ],
+      "type": "revolute shaft support and direct drive"
+    },
+    {
+      "part": "motor_2",
+      "to": "right_inner_rail",
+      "type": "bolted through bearing",
+      "fasteners": [
+        "bearing_2_inner_bolt_0",
+        "bearing_2_inner_bolt_1"
+      ]
+    },
+    {
+      "part": "bearing_2_inner",
+      "to": "right_inner_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "bearing_2_outer",
+      "to": "right_outer_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "wheel_2",
+      "to": "axle_wheel_2",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_2_0",
+      "to": "axle_wheel_2",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_2_1",
+      "to": "axle_wheel_2",
+      "type": "fixed"
+    },
+    {
+      "part": "axle_wheel_2",
+      "to": [
+        "bearing_2_inner",
+        "bearing_2_outer",
+        "motor_2"
+      ],
+      "type": "revolute shaft support and direct drive"
+    },
+    {
+      "part": "motor_3",
+      "to": "right_inner_rail",
+      "type": "bolted through bearing",
+      "fasteners": [
+        "bearing_3_inner_bolt_0",
+        "bearing_3_inner_bolt_1"
+      ]
+    },
+    {
+      "part": "bearing_3_inner",
+      "to": "right_inner_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "bearing_3_outer",
+      "to": "right_outer_rail",
+      "type": "bolted",
+      "fasteners": 2
+    },
+    {
+      "part": "wheel_3",
+      "to": "axle_wheel_3",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_3_0",
+      "to": "axle_wheel_3",
+      "type": "fixed"
+    },
+    {
+      "part": "collar_3_1",
+      "to": "axle_wheel_3",
+      "type": "fixed"
+    },
+    {
+      "part": "axle_wheel_3",
+      "to": [
+        "bearing_3_inner",
+        "bearing_3_outer",
+        "motor_3"
+      ],
+      "type": "revolute shaft support and direct drive"
+    }
+  ],
+  "sources": [
+    "https://kb.vex.com/hc/en-us/articles/360035953131-Designing-a-V5-Chassis",
+    "https://kb.vex.com/hc/en-us/articles/360035591372-Using-V5-Shafts",
+    "https://kb.vex.com/hc/en-us/articles/360035952791-Using-V5-Fasteners",
+    "https://www.vexrobotics.com/v5-structure.html"
+  ],
+  "limitations": [
+    "Nominal VEX-style parts, not imported manufacturer CAD or a certified build.",
+    "C-channel perforations are visual meshes; simple hidden collision proxies and approximate component masses are used.",
+    "Bolted/strapped connections are rigid child bodies, not simulated screw thread engagement.",
+    "Shaft rotation is constrained by a hinge; bearing hole friction and fastener stress are not simulated.",
+    "Motor/brain/battery case dimensions and fastening details are simplified."
+  ]
+}

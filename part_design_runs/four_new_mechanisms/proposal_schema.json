@@ -1,0 +1,97 @@
+{
+  "$defs": {
+    "Proposal": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "mechanism": {
+          "enum": [
+            "four_bar_fork",
+            "roller_feeder",
+            "tilting_tray",
+            "overhead_claw"
+          ],
+          "title": "Mechanism",
+          "type": "string"
+        },
+        "display_angle_deg": {
+          "maximum": 60,
+          "minimum": 15,
+          "title": "Display Angle Deg",
+          "type": "number"
+        },
+        "lateral_spacing_mm": {
+          "enum": [
+            101.6,
+            127.0,
+            152.4
+          ],
+          "title": "Lateral Spacing Mm",
+          "type": "number"
+        },
+        "rationale": {
+          "title": "Rationale",
+          "type": "string"
+        },
+        "scoring_sequence": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Scoring Sequence",
+          "type": "array"
+        },
+        "hypothesis": {
+          "title": "Hypothesis",
+          "type": "string"
+        },
+        "required_parts": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Parts",
+          "type": "array"
+        },
+        "unresolved_connections": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Unresolved Connections",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "mechanism",
+        "display_angle_deg",
+        "lateral_spacing_mm",
+        "rationale",
+        "scoring_sequence",
+        "hypothesis",
+        "required_parts",
+        "unresolved_connections"
+      ],
+      "title": "Proposal",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "designs": {
+      "items": {
+        "$ref": "#/$defs/Proposal"
+      },
+      "maxItems": 4,
+      "minItems": 4,
+      "title": "Designs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "designs"
+  ],
+  "title": "Four",
+  "type": "object"
+}

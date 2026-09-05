@@ -1,0 +1,303 @@
+{
+  "name": "Rotary Pin Indexing Drum",
+  "chassis": {
+    "layout": "h_frame",
+    "drive": "holonomic",
+    "length_mm": 400.0,
+    "width_mm": 370.0,
+    "wheelbase_mm": 335.0,
+    "wheel_diameter_mm": 69.85,
+    "wheel_count": 8,
+    "battery_xy_mm": [
+      -120.0,
+      0.0
+    ],
+    "gearing_rpm": 600
+  },
+  "mechanism_family": "Horizontal-axis indexing drum with intake throat and discharge p\u2011",
+  "scoring_sequence": "Feed a Pin into one drum pocket, rotate the drum to orient and elevate it, then open the upper guide gate so the pocket rolls it onto the Goal.",
+  "distinguishing_idea": "Acquisition, reorientation, and lift are combined in a quarter-turn pocketed drum rather than a separate arm and gripper.",
+  "main_uncertainty": "Pocket geometry for both upright and lying Pins is approximate; joints and controllers are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "left_drum_support",
+      "shape": "box",
+      "center_mm": [
+        15.0,
+        137.0,
+        214.0
+      ],
+      "size_mm": [
+        38.0,
+        28.0,
+        285.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right_drum_support",
+      "shape": "box",
+      "center_mm": [
+        15.0,
+        -137.0,
+        214.0
+      ],
+      "size_mm": [
+        38.0,
+        28.0,
+        285.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "support_bridge",
+      "shape": "box",
+      "center_mm": [
+        15.0,
+        0.0,
+        340.0
+      ],
+      "size_mm": [
+        38.0,
+        275.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "drum_axle",
+      "shape": "cylinder",
+      "center_mm": [
+        42.0,
+        0.0,
+        235.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        285.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left_drum_disc",
+      "shape": "cylinder",
+      "center_mm": [
+        42.0,
+        98.0,
+        235.0
+      ],
+      "size_mm": [
+        190.0,
+        190.0,
+        16.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_drum_disc",
+      "shape": "cylinder",
+      "center_mm": [
+        42.0,
+        -98.0,
+        235.0
+      ],
+      "size_mm": [
+        190.0,
+        190.0,
+        16.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "pocket_floor",
+      "shape": "box",
+      "center_mm": [
+        94.0,
+        0.0,
+        190.0
+      ],
+      "size_mm": [
+        118.0,
+        165.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        35.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "pocket_back",
+      "shape": "box",
+      "center_mm": [
+        35.0,
+        0.0,
+        270.0
+      ],
+      "size_mm": [
+        105.0,
+        165.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -55.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "front_throat_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        170.0,
+        0.0,
+        103.0
+      ],
+      "size_mm": [
+        48.0,
+        48.0,
+        205.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "upper_compliance_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        145.0,
+        0.0,
+        165.0
+      ],
+      "size_mm": [
+        40.0,
+        40.0,
+        190.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "discharge_ramp",
+      "shape": "box",
+      "center_mm": [
+        126.0,
+        0.0,
+        315.0
+      ],
+      "size_mm": [
+        150.0,
+        170.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "gate_link",
+      "shape": "capsule",
+      "center_mm": [
+        170.0,
+        88.0,
+        327.0
+      ],
+      "size_mm": [
+        16.0,
+        16.0,
+        105.0
+      ],
+      "rotation_deg": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "drum_motor",
+      "shape": "box",
+      "center_mm": [
+        -30.0,
+        -145.0,
+        230.0
+      ],
+      "size_mm": [
+        68.0,
+        48.0,
+        48.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "intake_motor",
+      "shape": "box",
+      "center_mm": [
+        136.0,
+        132.0,
+        90.0
+      ],
+      "size_mm": [
+        60.0,
+        44.0,
+        44.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

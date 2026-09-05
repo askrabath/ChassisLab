@@ -1,0 +1,18 @@
+{
+  "source": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "low",
+  "count": 20,
+  "physics_steps": 0,
+  "performance_tests_run": false,
+  "status": "rendered",
+  "max_calls": 8,
+  "max_output_tokens_per_call": 10000,
+  "description": "Untested concept previews; architecture extension separate from evaluated assembly schema.",
+  "actual_api_calls": 4,
+  "token_usage": {
+    "input_tokens": 5504,
+    "output_tokens": 18736,
+    "total_tokens": 24240
+  }
+}

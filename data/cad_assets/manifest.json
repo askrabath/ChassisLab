@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "sources": {
+    "clawbot": {
+      "provided_path": "/Users/joshuamichealscarano/Downloads/claw bot.step",
+      "canonical_path": "data/cad_assets/clawbot/canonical.step",
+      "bytes": 97163028,
+      "sha256": "c42a5a0dc9190c7ca6187117470d261041fa4dfd0f0e2baa51ecefa547a56eab",
+      "authority": "user-provided Clawbot CAD; provenance not independently verified"
+    },
+    "override_field": {
+      "provided_path": "/Users/joshuamichealscarano/Downloads/v5rc-override-fieldcad.zip",
+      "canonical_path": "data/cad_assets/override_field/canonical.step",
+      "bytes": 131867705,
+      "sha256": "3f24b7572d21195522ad44f265b358bc96d0f5767920cdc6fc817c2891477a1e",
+      "authority": "user-provided ZIP identified as official VEX Override field CAD"
+    }
+  },
+  "representations": {
+    "canonical": "STEP source, never loaded in the simulation loop",
+    "visual": "tessellated and decimated mesh",
+    "collision": "separate primitives or validated convex pieces; visual mesh is not collision geometry",
+    "metadata": "dimensions, provenance, transforms and unknown values"
+  }
+}

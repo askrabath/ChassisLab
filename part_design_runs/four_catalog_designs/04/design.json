@@ -1,0 +1,15 @@
+{
+  "name": "Omni / Omni Representation",
+  "driven_wheels": "source_omni",
+  "passive_wheels": "source_omni",
+  "rationale": "Leaves the full source chassis, motor locations, battery, lift transmission, arm, and claw unchanged and represents all driven and passive wheel positions with the existing 276-2185 omni-wheel CAD. As an untested hypothesis, this arrangement may depict lower lateral resistance than all-traction representation, but it could also change directional restraint and handling assumptions; neither improvement nor suitability is claimed. It is a modest source-CAD representation variant for simplified display plus separate physics, not a novel mechanism or complete parts-search system.",
+  "scoring_mechanism": "unchanged_source_clawbot_arm_and_claw",
+  "unresolved_build_risks": [
+    "Axle lengths and engagement at both driven and passive omni-wheel positions are unknown due to absent verified mating constraints and shaft BOM.",
+    "Spacer stacks, offsets, collars, and retention details are unknown.",
+    "Ground clearance and possible chassis or hardware interference have not been verified.",
+    "The source assembly may lack complete fastening, bearing, hub, washer, collar, or retaining hardware representation.",
+    "Catalog mass properties are not calibrated and must not be treated as validated simulation inputs.",
+    "Physical buildability and competition legality are not established."
+  ]
+}

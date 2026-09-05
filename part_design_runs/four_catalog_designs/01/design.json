@@ -1,0 +1,15 @@
+{
+  "name": "Baseline Traction / Traction Representation",
+  "driven_wheels": "source_traction",
+  "passive_wheels": "source_traction",
+  "rationale": "Retains the complete source Clawbot chassis, motor locations, battery, lift transmission, arm, and claw while representing both driven and passive wheel positions with the existing 4-inch traction-wheel CAD. As an untested hypothesis, uniform traction wheels may depict greater lateral scrub during turning than configurations using passive omnis; no performance, buildability, or legality is claimed. This is only a conservative source-CAD variant intended for later lower-detail display geometry and separate physics modeling, not a complete parts-search result.",
+  "scoring_mechanism": "unchanged_source_clawbot_arm_and_claw",
+  "unresolved_build_risks": [
+    "Axle lengths and actual shaft engagement are unknown because no verified mating constraints or shaft BOM are available.",
+    "Required spacer quantities, thicknesses, and ordering are unknown.",
+    "Ground clearance has not been verified after substituting or retaining the catalog wheel representations.",
+    "The source assembly may omit or incompletely represent collars, bearings, fasteners, hubs, washers, or other installation hardware.",
+    "Catalog mass properties are not calibrated, so this CAD variant cannot support validated weight, balance, or physics claims.",
+    "Physical buildability and competition legality are not established."
+  ]
+}

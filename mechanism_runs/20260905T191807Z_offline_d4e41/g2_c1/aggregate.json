@@ -1,0 +1,22 @@
+{
+  "id": "g2_c1",
+  "parent": "g1_c1",
+  "architecture": "beam+guide+roller+tool_mount",
+  "source": "handwritten fixture edit",
+  "development": {
+    "trials": 2,
+    "successes": 2,
+    "success_rate": 1.0,
+    "mean_success_time_s": 27.245999999995778,
+    "ranking": [
+      -2,
+      0,
+      0,
+      27.245999999995778,
+      -2
+    ],
+    "failures": [],
+    "collision_episodes": 0,
+    "unstable_trials": 0
+  }
+}

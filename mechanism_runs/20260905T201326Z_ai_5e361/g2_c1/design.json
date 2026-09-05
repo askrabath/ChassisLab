@@ -1,0 +1,126 @@
+{
+  "version": "assembly-1",
+  "name": "Image-inspired arm and claw revision revision",
+  "parts": [
+    {
+      "id": "arm",
+      "parent": "chassis",
+      "attachment": "origin",
+      "catalog": "beam",
+      "offset_m": [
+        -0.0508,
+        0.0,
+        0.14
+      ],
+      "size_m": [
+        0.27,
+        0.04,
+        0.0127
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "limits": [
+          -0.45,
+          1.1
+        ],
+        "reduction": 5,
+        "role": "lift"
+      }
+    },
+    {
+      "id": "wrist",
+      "parent": "arm",
+      "attachment": "tip",
+      "catalog": "tool_mount",
+      "offset_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.03,
+        0.14,
+        0.016
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "limits": [
+          -1.2,
+          0.6
+        ],
+        "reduction": 3,
+        "role": "wrist"
+      }
+    },
+    {
+      "id": "left_finger",
+      "parent": "wrist",
+      "attachment": "tool",
+      "catalog": "roller",
+      "offset_m": [
+        0.05,
+        0.034,
+        0.0
+      ],
+      "size_m": [
+        0.045,
+        0.025,
+        0.025
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -3.14,
+          3.14
+        ],
+        "reduction": 1,
+        "role": "roller_left"
+      }
+    },
+    {
+      "id": "right_finger",
+      "parent": "wrist",
+      "attachment": "tool",
+      "catalog": "roller",
+      "offset_m": [
+        0.05,
+        -0.034,
+        0.0
+      ],
+      "size_m": [
+        0.045,
+        0.025,
+        0.025
+      ],
+      "joint": {
+        "kind": "revolute",
+        "axis": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "limits": [
+          -3.14,
+          3.14
+        ],
+        "reduction": 1,
+        "role": "roller_right"
+      }
+    }
+  ]
+}

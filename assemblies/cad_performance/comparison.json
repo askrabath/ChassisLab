@@ -1,0 +1,22 @@
+{
+  "full": {
+    "load_s": 1.962380166980438,
+    "physics_10s_wall_s": 0.16945179202593863,
+    "render_median_ms": 1247.4769164982717,
+    "render_fps": 0.8016180393999182,
+    "visible_mesh_triangles": 23735962,
+    "geoms": 1748,
+    "renderer": "800x600 offscreen; 3 warmup + 10 timed frames; update_scene and readback included"
+  },
+  "optimized": {
+    "load_s": 0.2292741669807583,
+    "physics_10s_wall_s": 0.09586137501173653,
+    "render_median_ms": 15.57741648866795,
+    "render_fps": 64.1954974194512,
+    "visible_mesh_triangles": 593950,
+    "geoms": 182,
+    "renderer": "800x600 offscreen; 3 warmup + 10 timed frames; update_scene and readback included"
+  },
+  "trajectory_max_abs_difference": 0.0,
+  "render_speedup": 80.08240117388975
+}

@@ -1,0 +1,303 @@
+{
+  "name": "Inclined Winch Cradle",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "tracks",
+    "length_mm": 400.0,
+    "width_mm": 390.0,
+    "wheelbase_mm": 350.0,
+    "wheel_diameter_mm": 82.55,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -135.0,
+      0.0
+    ],
+    "gearing_rpm": 100
+  },
+  "mechanism_family": "Cable-winch funicular cradle on paired inclined rails",
+  "scoring_sequence": "A split front scoop captures the object, the winch pulls its wheeled cradle up straight inclined rails, and a hinged nose plate rolls the object gently onto the selected Goal.",
+  "distinguishing_idea": "The loaded cradle climbs a fixed diagonal railway under cable tension, combining lift and forward reach without a vertical mast or curved trolley path.",
+  "main_uncertainty": "Cable routing, cradle retention on abrupt motion, and useful rail angle remain unresolved; joints and controls are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "left incline rail",
+      "shape": "box",
+      "center_mm": [
+        18.0,
+        105.0,
+        227.0
+      ],
+      "size_mm": [
+        390.0,
+        20.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -42.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right incline rail",
+      "shape": "box",
+      "center_mm": [
+        18.0,
+        -105.0,
+        227.0
+      ],
+      "size_mm": [
+        390.0,
+        20.0,
+        24.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -42.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left rear brace",
+      "shape": "box",
+      "center_mm": [
+        -118.0,
+        105.0,
+        205.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        280.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right rear brace",
+      "shape": "box",
+      "center_mm": [
+        -118.0,
+        -105.0,
+        205.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        280.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "cradle floor",
+      "shape": "box",
+      "center_mm": [
+        82.0,
+        0.0,
+        242.0
+      ],
+      "size_mm": [
+        175.0,
+        180.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "cradle rear hoop",
+      "shape": "box",
+      "center_mm": [
+        17.0,
+        0.0,
+        315.0
+      ],
+      "size_mm": [
+        20.0,
+        185.0,
+        145.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left cradle cheek",
+      "shape": "box",
+      "center_mm": [
+        75.0,
+        92.0,
+        274.0
+      ],
+      "size_mm": [
+        155.0,
+        16.0,
+        90.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right cradle cheek",
+      "shape": "box",
+      "center_mm": [
+        75.0,
+        -92.0,
+        274.0
+      ],
+      "size_mm": [
+        155.0,
+        16.0,
+        90.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left entry roller",
+      "shape": "cylinder",
+      "center_mm": [
+        167.0,
+        60.0,
+        211.0
+      ],
+      "size_mm": [
+        38.0,
+        38.0,
+        76.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right entry roller",
+      "shape": "cylinder",
+      "center_mm": [
+        167.0,
+        -60.0,
+        211.0
+      ],
+      "size_mm": [
+        38.0,
+        38.0,
+        76.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "hinged placement nose",
+      "shape": "box",
+      "center_mm": [
+        166.0,
+        0.0,
+        266.0
+      ],
+      "size_mm": [
+        112.0,
+        170.0,
+        14.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -24.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "winch drum",
+      "shape": "cylinder",
+      "center_mm": [
+        -151.0,
+        0.0,
+        94.0
+      ],
+      "size_mm": [
+        66.0,
+        66.0,
+        116.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "winch motor",
+      "shape": "box",
+      "center_mm": [
+        -151.0,
+        -92.0,
+        94.0
+      ],
+      "size_mm": [
+        64.0,
+        55.0,
+        55.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "nose motor",
+      "shape": "cylinder",
+      "center_mm": [
+        105.0,
+        -112.0,
+        273.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        52.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

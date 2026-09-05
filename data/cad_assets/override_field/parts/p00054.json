@@ -1,0 +1,27 @@
+{
+  "id": "p00054",
+  "name": "Tape- Toggle Zones_Diamond Center- Divided Zones",
+  "mesh": "data/cad_assets/override_field/parts/p00054.obj",
+  "bounds_mm": [
+    [
+      -1514.2691719109894,
+      0.0,
+      -1543.3922779232812
+    ],
+    [
+      1514.2691719109923,
+      0.1,
+      1543.3922779232807
+    ]
+  ],
+  "faces": 128,
+  "rgba": [
+    0.5906188488006592,
+    0.637596845626831,
+    0.8549926280975342,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

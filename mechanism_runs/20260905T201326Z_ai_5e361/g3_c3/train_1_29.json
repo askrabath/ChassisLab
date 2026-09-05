@@ -1,0 +1,88 @@
+{
+  "timeout_s": 32,
+  "seed": 29,
+  "task": "pin",
+  "success": false,
+  "time_s": null,
+  "elapsed_s": 31.999999999993143,
+  "picked_up": true,
+  "placed_subset": false,
+  "phase": "settle",
+  "failures": [
+    "placement_failed",
+    "goal_collision"
+  ],
+  "drop": false,
+  "jam": false,
+  "recovery_attempts": 0,
+  "pickup_time_s": 5.237999999999645,
+  "pickup_best_error_m": 6.836690697327867e-05,
+  "placement_error_m": 0.5241011403972351,
+  "peak_object_height_m": 0.28577860873162075,
+  "collision_episodes": 1,
+  "unstable": false,
+  "saturation_fraction": 0.1263203125,
+  "wheel_travel_m": [
+    0.7281467773372866,
+    0.7577272784279374,
+    0.7256526045588659,
+    0.7726097703018122
+  ],
+  "friction": 0.6557702088889135,
+  "initial_object_xy": [
+    0.3528007515256651,
+    0.00010115677714319027
+  ],
+  "controller": {
+    "closure": 0.66,
+    "privileged_state": true
+  },
+  "rule_violations": [
+    "collision is a benchmark failure, not automatically a game violation"
+  ],
+  "official_match_score": null,
+  "construction": {
+    "assembled_in_simulation": true,
+    "implemented_construction_checks": true,
+    "reviewed_physically_buildable": false,
+    "official_legality": false,
+    "initial_envelope_m": [
+      0.3846346914330794,
+      0.3175,
+      0.4288303493381285
+    ],
+    "mass_kg": 4.389000000000002
+  },
+  "transitions": [
+    {
+      "time_s": 2.501999999999946,
+      "from_phase": "approach",
+      "to_phase": "close"
+    },
+    {
+      "time_s": 5.003999999999671,
+      "from_phase": "close",
+      "to_phase": "lift"
+    },
+    {
+      "time_s": 9.003999999999676,
+      "from_phase": "lift",
+      "to_phase": "transport"
+    },
+    {
+      "time_s": 12.590000000000874,
+      "from_phase": "transport",
+      "to_phase": "lower"
+    },
+    {
+      "time_s": 19.06800000000031,
+      "from_phase": "lower",
+      "to_phase": "release"
+    },
+    {
+      "time_s": 20.569999999999478,
+      "from_phase": "release",
+      "to_phase": "settle"
+    }
+  ]
+}

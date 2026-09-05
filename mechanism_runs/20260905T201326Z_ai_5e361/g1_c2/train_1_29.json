@@ -1,0 +1,85 @@
+{
+  "timeout_s": 32,
+  "seed": 29,
+  "task": "pin",
+  "success": false,
+  "time_s": null,
+  "elapsed_s": 22.06399999999865,
+  "picked_up": false,
+  "placed_subset": false,
+  "phase": "failed_pickup",
+  "failures": [
+    "pickup_failed"
+  ],
+  "drop": false,
+  "jam": true,
+  "recovery_attempts": 1,
+  "pickup_time_s": null,
+  "pickup_best_error_m": 4.064738047766256e-05,
+  "placement_error_m": 0.4471992368827453,
+  "peak_object_height_m": 0.0845,
+  "collision_episodes": 0,
+  "unstable": false,
+  "saturation_fraction": 0.24460659898477158,
+  "wheel_travel_m": [
+    0.1279610639246559,
+    0.12372646443192911,
+    0.12812977923334257,
+    0.12383547056093266
+  ],
+  "friction": 0.6557702088889135,
+  "initial_object_xy": [
+    0.3528007515256651,
+    0.00010115677714319027
+  ],
+  "controller": {
+    "closure": 0.66,
+    "privileged_state": true
+  },
+  "rule_violations": [],
+  "official_match_score": null,
+  "construction": {
+    "assembled_in_simulation": true,
+    "implemented_construction_checks": true,
+    "reviewed_physically_buildable": false,
+    "official_legality": false,
+    "initial_envelope_m": [
+      0.3471346914330794,
+      0.3175,
+      0.4288303493381285
+    ],
+    "mass_kg": 4.419000000000002
+  },
+  "transitions": [
+    {
+      "time_s": 8.08799999999937,
+      "from_phase": "approach",
+      "to_phase": "close"
+    },
+    {
+      "time_s": 10.588000000000205,
+      "from_phase": "close",
+      "to_phase": "lift"
+    },
+    {
+      "time_s": 14.588000000001541,
+      "from_phase": "lift",
+      "to_phase": "approach"
+    },
+    {
+      "time_s": 15.558000000001865,
+      "from_phase": "approach",
+      "to_phase": "close"
+    },
+    {
+      "time_s": 18.06000000000087,
+      "from_phase": "close",
+      "to_phase": "lift"
+    },
+    {
+      "time_s": 22.06199999999865,
+      "from_phase": "lift",
+      "to_phase": "failed_pickup"
+    }
+  ]
+}

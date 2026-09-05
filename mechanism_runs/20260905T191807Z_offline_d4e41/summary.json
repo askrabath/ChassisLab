@@ -1,0 +1,302 @@
+[
+  {
+    "id": "seed",
+    "parent": null,
+    "architecture": "beam+finger+tool_mount",
+    "source": "image-inspired handwritten seed",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "final": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "cup_extension": {
+      "trials": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c1",
+    "parent": "seed",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 25.50999999999674,
+      "ranking": [
+        -2,
+        0,
+        0,
+        25.50999999999674,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "final": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 24.886999999997087,
+      "ranking": [
+        -2,
+        0,
+        0,
+        24.886999999997087,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "cup_extension": {
+      "trials": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c2",
+    "parent": "seed",
+    "architecture": "beam+finger+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c3",
+    "parent": "seed",
+    "architecture": "beam+finger+guide+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c1",
+    "parent": "g1_c1",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 27.245999999995778,
+      "ranking": [
+        -2,
+        0,
+        0,
+        27.245999999995778,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c2",
+    "parent": "seed",
+    "architecture": "beam+finger+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c3",
+    "parent": "g1_c1",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 27.245999999995778,
+      "ranking": [
+        -2,
+        0,
+        0,
+        27.245999999995778,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c1",
+    "parent": "g1_c1",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 27.245999999995778,
+      "ranking": [
+        -2,
+        0,
+        0,
+        27.245999999995778,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c2",
+    "parent": "seed",
+    "architecture": "beam+finger+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c3",
+    "parent": "g1_c1",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "handwritten fixture edit",
+    "development": {
+      "trials": 2,
+      "successes": 2,
+      "success_rate": 1.0,
+      "mean_success_time_s": 27.245999999995778,
+      "ranking": [
+        -2,
+        0,
+        0,
+        27.245999999995778,
+        -2
+      ],
+      "failures": [],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  }
+]

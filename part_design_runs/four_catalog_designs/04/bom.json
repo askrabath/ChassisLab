@@ -1,0 +1,386 @@
+[
+  {
+    "definition": "p00002",
+    "name": "V5 Smart Motor (5.5W) (276-4842)",
+    "part_number": "276-4842",
+    "quantity": 4
+  },
+  {
+    "definition": "p00003",
+    "name": "Flat Bearing (276-1209)",
+    "part_number": "276-1209",
+    "quantity": 5
+  },
+  {
+    "definition": "p00004",
+    "name": "3/8\" x\u200e\u200f\u200f\u200e \u200e3/8\" OD x #8 Nylon Spacer\u200e\u200f\u200f\u200e \u200e(276-6340)",
+    "part_number": "276-6340",
+    "quantity": 4
+  },
+  {
+    "definition": "p00005",
+    "name": "2 x 2 x\u200e \u200e20\u200e \u200eAluminum Angle (276-2304)",
+    "part_number": "276-2304",
+    "quantity": 2
+  },
+  {
+    "definition": "p00006",
+    "name": "1-Post Hex Nut Retainer with Bearing Flat (276-6481)",
+    "part_number": "276-6481",
+    "quantity": 14
+  },
+  {
+    "definition": "p00007",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "part_number": "276-7285",
+    "quantity": 3
+  },
+  {
+    "definition": "p00008",
+    "name": "V5 Battery Clip (276-6020)",
+    "part_number": "276-6020",
+    "quantity": 2
+  },
+  {
+    "definition": "p00009",
+    "name": "V5 Robot Battery (276-4811)",
+    "part_number": "276-4811",
+    "quantity": 1
+  },
+  {
+    "definition": "p00012",
+    "name": "4\" Omni-Directional Wheel (276-2185)",
+    "part_number": "276-2185",
+    "quantity": 4
+  },
+  {
+    "definition": "p00011",
+    "name": "V5 Robot Brain (276-4810)",
+    "part_number": "276-4810",
+    "quantity": 1
+  },
+  {
+    "definition": "p00014",
+    "name": "1/8\" x\u200e\u200f\u200f\u200e \u200e1/2\" OD x #8 Nylon Spacer\u200e\u200f\u200f\u200e \u200e(275-1066)",
+    "part_number": "275-1066",
+    "quantity": 7
+  },
+  {
+    "definition": "p00015",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e15\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "part_number": "276-7285",
+    "quantity": 2
+  },
+  {
+    "definition": "p00016",
+    "name": "4-Post Hex Nut Retainer (276-6483)",
+    "part_number": "276-6483",
+    "quantity": 1
+  },
+  {
+    "definition": "p00017",
+    "name": "1/2\" x\u200e\u200f\u200f\u200e \u200e1/2\" OD x #8 Nylon Spacer\u200e\u200f\u200f\u200e \u200e(275-1066)",
+    "part_number": "275-1066",
+    "quantity": 1
+  },
+  {
+    "definition": "p00018",
+    "name": "High Strength Gear Shaft Insert (276-3881)",
+    "part_number": "276-3881",
+    "quantity": 2
+  },
+  {
+    "definition": "p00019",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "part_number": "276-7285",
+    "quantity": 2
+  },
+  {
+    "definition": "p00020",
+    "name": "12T High Strength Gear (276-2251)",
+    "part_number": "276-2251",
+    "quantity": 1
+  },
+  {
+    "definition": "p00021",
+    "name": "1-Post Standoff Retainer (276-8020)",
+    "part_number": "276-8020",
+    "quantity": 1
+  },
+  {
+    "definition": "p00022",
+    "name": "84T High Strength Gear (276-3438)",
+    "part_number": "276-3438",
+    "quantity": 1
+  },
+  {
+    "definition": "p00023",
+    "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e5\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+    "part_number": "276-7285",
+    "quantity": 2
+  },
+  {
+    "definition": "p00025",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00026",
+    "name": "V5 Claw Section 5",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00027",
+    "name": "#8-32 Hex Nut (275-1028)",
+    "part_number": "275-1028",
+    "quantity": 21
+  },
+  {
+    "definition": "p00028",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00029",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00030",
+    "name": "Rubber Band",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00031",
+    "name": "V5 Claw Section 1.1",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00032",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00033",
+    "name": "V5 Claw Section 2.1",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00034",
+    "name": "V5 Claw Section 4",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00035",
+    "name": "V5 Claw Section 1",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00036",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00037",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00038",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00039",
+    "name": "#8-32 x\u200f\u200f\u200e\u200f\u200f\u200e \u200e1-1/2\"\u200f\u200f\u200e \u200eStar Drive Screw\u200f\u200f\u200e \u200e(276-4998)",
+    "part_number": "276-4998",
+    "quantity": 2
+  },
+  {
+    "definition": "p00040",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00041",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00042",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00043",
+    "name": "V5 Claw Section 2",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00044",
+    "name": "V5 Claw Section 3",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00045",
+    "name": "#8-32 x\u200f\u200f\u200e\u200f\u200f\u200e \u200e1\"\u200f\u200f\u200e \u200eStar Drive Screw\u200f\u200f\u200e \u200e(276-4996)",
+    "part_number": "276-4996",
+    "quantity": 19
+  },
+  {
+    "definition": "p00046",
+    "name": "Rubber Band",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00047",
+    "name": "V5 Claw Section 2.3",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00048",
+    "name": "V5 Claw Section 2.2",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00049",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00050",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00051",
+    "name": "V5 Claw Section 3.1",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00052",
+    "name": "V5 Claw 12T Gear",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00053",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00054",
+    "name": "V5 Claw Section 5",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00055",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00056",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00057",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00058",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00059",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00060",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00061",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00062",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00063",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00064",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00065",
+    "name": "V5 Claw Section 4.1",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00066",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00067",
+    "name": "V5 Claw Washer",
+    "part_number": null,
+    "quantity": 1
+  },
+  {
+    "definition": "p00068",
+    "name": "V5 Claw Standoff",
+    "part_number": null,
+    "quantity": 1
+  }
+]

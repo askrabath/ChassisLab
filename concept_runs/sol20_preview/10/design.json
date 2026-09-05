@@ -1,0 +1,363 @@
+{
+  "name": "Twin-Rocker Hand-Off Loader",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "mixed_omni",
+    "length_mm": 410.0,
+    "width_mm": 370.0,
+    "wheelbase_mm": 345.0,
+    "wheel_diameter_mm": 69.85,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -105.0,
+      0.0
+    ],
+    "gearing_rpm": 600
+  },
+  "mechanism_family": "Sequential rocking saddles with controlled hand-off",
+  "scoring_sequence": "A front saddle captures a lying or upright object, rocks rearward to stand and elevate it, then transfers it into a second saddle that rocks forward to the chosen Goal height.",
+  "distinguishing_idea": "Two short rotary stages pass the object between guarded nests, avoiding one large lift arm and keeping each stage within the chassis envelope.",
+  "main_uncertainty": "Reliable hand-off timing across varying Pin and Cup orientations is the principal geometric risk.",
+  "parts": [
+    {
+      "name": "left pivot tower",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        95.0,
+        175.0
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        205.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right pivot tower",
+      "shape": "box",
+      "center_mm": [
+        -25.0,
+        -95.0,
+        175.0
+      ],
+      "size_mm": [
+        30.0,
+        30.0,
+        205.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "front rocker axle",
+      "shape": "cylinder",
+      "center_mm": [
+        75.0,
+        0.0,
+        135.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        205.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "front left rocker",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        68.0,
+        190.0
+      ],
+      "size_mm": [
+        145.0,
+        22.0,
+        22.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -48.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "front right rocker",
+      "shape": "box",
+      "center_mm": [
+        128.0,
+        -68.0,
+        190.0
+      ],
+      "size_mm": [
+        145.0,
+        22.0,
+        22.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -48.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "front saddle floor",
+      "shape": "box",
+      "center_mm": [
+        176.0,
+        0.0,
+        240.0
+      ],
+      "size_mm": [
+        105.0,
+        145.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -18.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "front saddle roller",
+      "shape": "cylinder",
+      "center_mm": [
+        185.0,
+        0.0,
+        276.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "rear rocker axle",
+      "shape": "cylinder",
+      "center_mm": [
+        -45.0,
+        0.0,
+        245.0
+      ],
+      "size_mm": [
+        26.0,
+        26.0,
+        205.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "rear left rocker",
+      "shape": "box",
+      "center_mm": [
+        0.0,
+        70.0,
+        332.0
+      ],
+      "size_mm": [
+        205.0,
+        22.0,
+        22.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -62.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "rear right rocker",
+      "shape": "box",
+      "center_mm": [
+        0.0,
+        -70.0,
+        332.0
+      ],
+      "size_mm": [
+        205.0,
+        22.0,
+        22.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -62.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper saddle floor",
+      "shape": "box",
+      "center_mm": [
+        72.0,
+        0.0,
+        418.0
+      ],
+      "size_mm": [
+        135.0,
+        150.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper saddle back",
+      "shape": "box",
+      "center_mm": [
+        15.0,
+        0.0,
+        462.0
+      ],
+      "size_mm": [
+        18.0,
+        150.0,
+        100.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "upper metering roller",
+      "shape": "cylinder",
+      "center_mm": [
+        132.0,
+        0.0,
+        440.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        155.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "handoff guide",
+      "shape": "box",
+      "center_mm": [
+        58.0,
+        0.0,
+        315.0
+      ],
+      "size_mm": [
+        115.0,
+        155.0,
+        14.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -35.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "front rocker motor",
+      "shape": "box",
+      "center_mm": [
+        70.0,
+        -120.0,
+        135.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "rear rocker motor",
+      "shape": "box",
+      "center_mm": [
+        -75.0,
+        -120.0,
+        245.0
+      ],
+      "size_mm": [
+        65.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "roller motor",
+      "shape": "box",
+      "center_mm": [
+        145.0,
+        -112.0,
+        390.0
+      ],
+      "size_mm": [
+        60.0,
+        45.0,
+        45.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

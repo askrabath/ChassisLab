@@ -1,0 +1,27 @@
+{
+  "id": "p00080",
+  "name": "276-9250-036",
+  "mesh": "data/cad_assets/override_field/parts/p00080.obj",
+  "bounds_mm": [
+    [
+      -4.489509461357427,
+      0.0,
+      -4.5
+    ],
+    [
+      4.489509461357427,
+      5.0,
+      4.5
+    ]
+  ],
+  "faces": 368,
+  "rgba": [
+    0.5906188488006592,
+    0.637596845626831,
+    0.8549926280975342,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

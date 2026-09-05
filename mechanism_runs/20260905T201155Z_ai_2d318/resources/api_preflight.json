@@ -1,0 +1,24 @@
+{
+  "time_utc": "2026-09-05T20:11:35.639529+00:00",
+  "model": "gpt-5.6-sol",
+  "credential": {
+    "source": ".env.local",
+    "present": true,
+    "project_key_format": true,
+    "length": 164,
+    "sha256_prefix": "a0a97807ce30"
+  },
+  "status": "completed",
+  "usage": {
+    "input_tokens": 13,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 5,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 18
+  }
+}

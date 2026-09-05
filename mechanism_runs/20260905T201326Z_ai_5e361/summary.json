@@ -1,0 +1,317 @@
+[
+  {
+    "id": "seed",
+    "parent": null,
+    "architecture": "beam+finger+tool_mount",
+    "source": "image-inspired handwritten seed",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "final": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "cup_extension": {
+      "trials": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c1",
+    "parent": "seed",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "final": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    },
+    "cup_extension": {
+      "trials": 1,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c2",
+    "parent": "seed",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g1_c3",
+    "parent": "seed",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c1",
+    "parent": "g1_c1",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        2,
+        32.0,
+        -2
+      ],
+      "failures": [
+        "goal_collision",
+        "placement_failed"
+      ],
+      "collision_episodes": 2,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c2",
+    "parent": "g1_c1",
+    "architecture": "beam+guide+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g2_c3",
+    "parent": "g1_c1",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c1",
+    "parent": "g1_c1",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        2,
+        32.0,
+        -2
+      ],
+      "failures": [
+        "goal_collision",
+        "placement_failed"
+      ],
+      "collision_episodes": 2,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c2",
+    "parent": "g1_c1",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        0,
+        32.0,
+        0
+      ],
+      "failures": [
+        "pickup_failed"
+      ],
+      "collision_episodes": 0,
+      "unstable_trials": 0
+    }
+  },
+  {
+    "id": "g3_c3",
+    "parent": "g1_c1",
+    "architecture": "beam+roller+tool_mount",
+    "source": "OpenAI Responses API",
+    "development": {
+      "trials": 2,
+      "successes": 0,
+      "success_rate": 0.0,
+      "mean_success_time_s": null,
+      "ranking": [
+        0,
+        0,
+        2,
+        32.0,
+        -2
+      ],
+      "failures": [
+        "goal_collision",
+        "placement_failed"
+      ],
+      "collision_episodes": 2,
+      "unstable_trials": 0
+    }
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "sku": "276-7285",
+    "name": "2x2x2x20 Aluminum U-Channel",
+    "category": "Structure",
+    "source_rows": [
+      310
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "source_clawbot_configuration_available",
+    "cad": [
+      {
+        "definition": "p00007",
+        "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00007.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00007_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -127.0,
+            -14.500000000000002,
+            -24.2316000000002
+          ],
+          [
+            127.0,
+            14.500000000000302,
+            1.6
+          ]
+        ]
+      },
+      {
+        "definition": "p00015",
+        "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e15\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00015.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00015_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -127.0,
+            -14.500000000000002,
+            -12.7000000000003
+          ],
+          [
+            63.5,
+            14.5000000000003,
+            1.6
+          ]
+        ]
+      },
+      {
+        "definition": "p00019",
+        "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e20\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00019.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00019_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -127.0,
+            -14.500000000000002,
+            -12.7000000000003
+          ],
+          [
+            127.0,
+            14.5000000000003,
+            1.6
+          ]
+        ]
+      },
+      {
+        "definition": "p00023",
+        "name": "2 x 2 x 2 x\u200f\u200f\u200e \u200e\u200f\u200f\u200e5\u200f\u200f\u200e \u200e\u200f\u200f\u200eAluminum U-Channel\u200f\u200f\u200e \u200e\u200f\u200f\u200e(276-7285)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00023.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00023_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -127.0,
+            -14.500000000000002,
+            -12.7000000000003
+          ],
+          [
+            -63.5,
+            14.5000000000003,
+            1.6
+          ]
+        ]
+      }
+    ],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-2304",
+    "name": "2x2x35 Aluminum Angle",
+    "category": "Structure",
+    "source_rows": [
+      203
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "source_clawbot_configuration_available",
+    "cad": [
+      {
+        "definition": "p00005",
+        "name": "2 x 2 x\u200e \u200e20\u200e \u200eAluminum Angle (276-2304)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00005.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00005_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -7.518400000000112,
+            -6.3500000000000805,
+            -1.62630325872826e-14
+          ],
+          [
+            17.881600000000002,
+            247.65,
+            25.4
+          ]
+        ]
+      }
+    ],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-4842",
+    "name": "Smart Motor (5.5W)",
+    "category": "Electronics",
+    "source_rows": [
+      243
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "source_clawbot_configuration_available",
+    "cad": [
+      {
+        "definition": "p00002",
+        "name": "V5 Smart Motor (5.5W) (276-4842)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00002.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00002_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -28.4999648128266,
+            -40.125,
+            -12.699960113735699
+          ],
+          [
+            28.500035187173403,
+            24.299999999999997,
+            12.7000398862643
+          ]
+        ]
+      }
+    ],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-8881",
+    "name": "2\" Compression Wheel - 40A Durometer",
+    "category": "Wheel",
+    "source_rows": [
+      384
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "228-2500-124",
+    "name": "8x Pitch (4\") Shaft",
+    "category": "Motion",
+    "source_rows": [
+      13
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-1209",
+    "name": "Bearing Flat",
+    "category": "Motion",
+    "source_rows": [
+      108
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "source_clawbot_configuration_available",
+    "cad": [
+      {
+        "definition": "p00003",
+        "name": "Flat Bearing (276-1209)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00003.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00003_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -6.35,
+            -5.08000245785082,
+            -17.779996091581598
+          ],
+          [
+            0.6858000000224055,
+            5.08000927039965,
+            17.7800058641192
+          ]
+        ]
+      }
+    ],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-2010",
+    "name": "Shaft Collar",
+    "category": "Motion",
+    "source_rows": [
+      143
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-2166-002",
+    "name": "10t Sprocket",
+    "category": "Motion",
+    "source_rows": [
+      165
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-2166-003",
+    "name": "15t Sprocket",
+    "category": "Motion",
+    "source_rows": [
+      166
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "228-2500-1160",
+    "name": "Chain Link",
+    "category": "Motion",
+    "source_rows": [
+      164
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "276-4996",
+    "name": "#8-32 x 1.000\" Star Drive Screw",
+    "category": "Fastener",
+    "source_rows": [
+      263
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "source_clawbot_configuration_available",
+    "cad": [
+      {
+        "definition": "p00045",
+        "name": "#8-32 x\u200f\u200f\u200e\u200f\u200f\u200e \u200e1\"\u200f\u200f\u200e \u200eStar Drive Screw\u200f\u200f\u200e \u200e(276-4996)",
+        "high_mesh": "data/cad_assets/clawbot/parts/p00045.obj",
+        "low_mesh": "data/cad_assets/clawbot/parts/p00045_lod.obj",
+        "source_step": "data/cad_assets/clawbot/canonical.step",
+        "configuration": "as supplied; may be cut/configured, not stock full length",
+        "bounds_mm": [
+          [
+            -3.959986212980464,
+            -3.9527477927495274,
+            -25.4
+          ],
+          [
+            3.9599862129804646,
+            3.9623999999999997,
+            2.2098
+          ]
+        ]
+      }
+    ],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  },
+  {
+    "sku": "275-1026",
+    "name": "#8-32 Keps Nut",
+    "category": "Fastener",
+    "source_rows": [
+      69
+    ],
+    "legal_status": "listed_in_official_R16_parts_list",
+    "legal_source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxumg3GopriUY8RF5cBCl_KomUCh_OeFnYosLip3rnEFuFYWdneuZUBEyODj52kCqCQCtvD3J2P4EQ/pub?output=csv&gid=1118739975",
+    "cad_status": "not_downloaded",
+    "cad": [],
+    "connection_points": null,
+    "mass_kg": null,
+    "assembly_legality": "not_evaluated",
+    "restrictions": "Subject to current manual, official Q&A, modification, motor and assembly rules."
+  }
+]

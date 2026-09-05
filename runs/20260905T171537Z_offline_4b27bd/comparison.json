@@ -1,0 +1,97 @@
+{
+  "verdict": "improvement",
+  "candidates": [
+    {
+      "id": 0,
+      "parent": null,
+      "aggregates": {
+        "development": {
+          "trials": 3,
+          "clean_completions": 3,
+          "completions": 3,
+          "ranking_key": [
+            -3,
+            -3,
+            0,
+            0,
+            -1.0,
+            36.449333333331914,
+            0.053848991925270116
+          ],
+          "mean_time_with_timeout_s": 36.449333333331914,
+          "mean_tracking_error_m": 0.053848991925270116,
+          "mean_progress": 1.0,
+          "collision_episodes": 0,
+          "unstable_runs": 0,
+          "failures": []
+        },
+        "final": {
+          "trials": 3,
+          "clean_completions": 3,
+          "completions": 3,
+          "ranking_key": [
+            -3,
+            -3,
+            0,
+            0,
+            -1.0,
+            36.23866666666499,
+            0.060731578212920447
+          ],
+          "mean_time_with_timeout_s": 36.23866666666499,
+          "mean_tracking_error_m": 0.060731578212920447,
+          "mean_progress": 1.0,
+          "collision_episodes": 0,
+          "unstable_runs": 0,
+          "failures": []
+        }
+      }
+    },
+    {
+      "id": 1,
+      "parent": 0,
+      "aggregates": {
+        "development": {
+          "trials": 3,
+          "clean_completions": 3,
+          "completions": 3,
+          "ranking_key": [
+            -3,
+            -3,
+            0,
+            0,
+            -1.0,
+            26.526666666662845,
+            0.050261249339333264
+          ],
+          "mean_time_with_timeout_s": 26.526666666662845,
+          "mean_tracking_error_m": 0.050261249339333264,
+          "mean_progress": 1.0,
+          "collision_episodes": 0,
+          "unstable_runs": 0,
+          "failures": []
+        },
+        "final": {
+          "trials": 3,
+          "clean_completions": 3,
+          "completions": 3,
+          "ranking_key": [
+            -3,
+            -3,
+            0,
+            0,
+            -1.0,
+            28.331333333328512,
+            0.051722261576980205
+          ],
+          "mean_time_with_timeout_s": 28.331333333328512,
+          "mean_tracking_error_m": 0.051722261576980205,
+          "mean_progress": 1.0,
+          "collision_episodes": 0,
+          "unstable_runs": 0,
+          "failures": []
+        }
+      }
+    }
+  ]
+}

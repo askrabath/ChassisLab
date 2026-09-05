@@ -1,0 +1,323 @@
+{
+  "name": "Scissor Basket Goal Loader",
+  "chassis": {
+    "layout": "twin_pod",
+    "drive": "tracks",
+    "length_mm": 430.0,
+    "width_mm": 390.0,
+    "wheelbase_mm": 360.0,
+    "wheel_diameter_mm": 101.6,
+    "wheel_count": 4,
+    "battery_xy_mm": [
+      -125.0,
+      0.0
+    ],
+    "gearing_rpm": 100
+  },
+  "mechanism_family": "Scissor lift carrying a split-entry retention basket",
+  "scoring_sequence": "Sweep a Pin or Cup into the low basket, close the flexible entry rollers, raise the basket vertically with the scissor, and tilt its floor to release onto a Goal.",
+  "distinguishing_idea": "The game object remains in one guarded basket from floor pickup through scoring while the symmetric scissor supplies elevation.",
+  "main_uncertainty": "Scissor stiffness, basket tipping clearance, and track packaging are conceptual; joints and controllers are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "scissor_base_crossbar",
+      "shape": "box",
+      "center_mm": [
+        -30.0,
+        0.0,
+        103.0
+      ],
+      "size_mm": [
+        85.0,
+        260.0,
+        25.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "left_scissor_a",
+      "shape": "capsule",
+      "center_mm": [
+        -5.0,
+        95.0,
+        238.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        34.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left_scissor_b",
+      "shape": "capsule",
+      "center_mm": [
+        -5.0,
+        95.0,
+        238.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -34.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_scissor_a",
+      "shape": "capsule",
+      "center_mm": [
+        -5.0,
+        -95.0,
+        238.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        34.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "right_scissor_b",
+      "shape": "capsule",
+      "center_mm": [
+        -5.0,
+        -95.0,
+        238.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        315.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -34.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "center_pivot_axle",
+      "shape": "cylinder",
+      "center_mm": [
+        -5.0,
+        0.0,
+        238.0
+      ],
+      "size_mm": [
+        18.0,
+        18.0,
+        230.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "basket_floor",
+      "shape": "box",
+      "center_mm": [
+        18.0,
+        0.0,
+        388.0
+      ],
+      "size_mm": [
+        210.0,
+        205.0,
+        18.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "basket_back",
+      "shape": "box",
+      "center_mm": [
+        -75.0,
+        0.0,
+        443.0
+      ],
+      "size_mm": [
+        20.0,
+        205.0,
+        120.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left_basket_side",
+      "shape": "box",
+      "center_mm": [
+        20.0,
+        98.0,
+        432.0
+      ],
+      "size_mm": [
+        205.0,
+        16.0,
+        95.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right_basket_side",
+      "shape": "box",
+      "center_mm": [
+        20.0,
+        -98.0,
+        432.0
+      ],
+      "size_mm": [
+        205.0,
+        16.0,
+        95.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -8.0,
+        0.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "left_entry_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        132.0,
+        72.0,
+        353.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right_entry_roller",
+      "shape": "cylinder",
+      "center_mm": [
+        132.0,
+        -72.0,
+        353.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        105.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "tip_link",
+      "shape": "capsule",
+      "center_mm": [
+        -51.0,
+        112.0,
+        390.0
+      ],
+      "size_mm": [
+        16.0,
+        16.0,
+        105.0
+      ],
+      "rotation_deg": [
+        0.0,
+        44.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lift_motor",
+      "shape": "box",
+      "center_mm": [
+        -130.0,
+        -105.0,
+        105.0
+      ],
+      "size_mm": [
+        70.0,
+        48.0,
+        48.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "basket_motor",
+      "shape": "box",
+      "center_mm": [
+        -88.0,
+        120.0,
+        368.0
+      ],
+      "size_mm": [
+        58.0,
+        42.0,
+        42.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

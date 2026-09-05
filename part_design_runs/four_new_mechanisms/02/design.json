@@ -1,0 +1,33 @@
+{
+  "name": "Inclined Twin-Roller Elevator",
+  "mechanism": "roller_feeder",
+  "display_angle_deg": 31.0,
+  "lateral_spacing_mm": 101.6,
+  "rationale": "Powered wheels above an inclined channel guide would draw objects from a low entry and advance them upward. Compliant intake wheels and a chain-linked upper roller concept provide continuous feeding rather than lifting a fixed cradle.",
+  "scoring_sequence": [
+    "Contact objects with the lower rollers.",
+    "Feed them up the inclined guide.",
+    "Reverse or advance to release near the target."
+  ],
+  "hypothesis": "A staged roller path may move objects upward without a separate lift, but compression, traction, guide clearance, feed timing, and discharge direction are unknown.",
+  "required_parts": [
+    "276-7285",
+    "276-2304",
+    "276-4842",
+    "276-8881",
+    "228-2500-124",
+    "276-1209",
+    "276-2010",
+    "276-2166-002",
+    "276-2166-003",
+    "228-2500-1160",
+    "276-4996",
+    "275-1026"
+  ],
+  "unresolved_connections": [
+    "Roller shafts, bearing locations, collars, screw stacks, motor-to-sprocket coupling, chain length/tension, inclined-frame bracing, and chassis attachment are not mating-solved; most transmission CAD is absent.",
+    "The compiler pose does not establish wheel compression against the object, clearance through the channel, or synchronization between rollers.",
+    "Side guides, an entry funnel, an anti-rollback feature, and discharge retention are missing, so jamming or unintended ejection is possible.",
+    "The 31-degree guide and 101.6 mm spacing have not been calibrated to benchmark objects or field-goal openings."
+  ]
+}

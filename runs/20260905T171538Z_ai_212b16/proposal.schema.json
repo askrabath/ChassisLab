@@ -1,0 +1,138 @@
+{
+  "$defs": {
+    "Design": {
+      "additionalProperties": false,
+      "properties": {
+        "frame_width_m": {
+          "description": "Outer frame edges, lateral; wheels outside",
+          "maximum": 0.32,
+          "minimum": 0.18,
+          "title": "Frame Width M",
+          "type": "number"
+        },
+        "frame_length_m": {
+          "description": "Outer frame edges, longitudinal",
+          "maximum": 0.42,
+          "minimum": 0.25,
+          "title": "Frame Length M",
+          "type": "number"
+        },
+        "wheelbase_m": {
+          "description": "Front to rear wheel center distance",
+          "maximum": 0.32,
+          "minimum": 0.14,
+          "title": "Wheelbase M",
+          "type": "number"
+        },
+        "track_width_m": {
+          "description": "Left to right wheel center distance",
+          "maximum": 0.4,
+          "minimum": 0.23,
+          "title": "Track Width M",
+          "type": "number"
+        },
+        "wheel_diameter_m": {
+          "enum": [
+            0.08255,
+            0.1016,
+            0.104775
+          ],
+          "title": "Wheel Diameter M",
+          "type": "number"
+        },
+        "gearing_rpm": {
+          "enum": [
+            100,
+            200,
+            600
+          ],
+          "title": "Gearing Rpm",
+          "type": "integer"
+        },
+        "battery": {
+          "$ref": "#/$defs/Position"
+        },
+        "ballast": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Position"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Null omits ballast; otherwise fixed 0.30 kg block"
+        }
+      },
+      "required": [
+        "frame_width_m",
+        "frame_length_m",
+        "wheelbase_m",
+        "track_width_m",
+        "wheel_diameter_m",
+        "gearing_rpm",
+        "battery",
+        "ballast"
+      ],
+      "title": "Design",
+      "type": "object"
+    },
+    "Position": {
+      "additionalProperties": false,
+      "properties": {
+        "x_m": {
+          "description": "Forward from frame center, meters",
+          "maximum": 0.2,
+          "minimum": -0.2,
+          "title": "X M",
+          "type": "number"
+        },
+        "y_m": {
+          "description": "Left from frame center, meters",
+          "maximum": 0.15,
+          "minimum": -0.15,
+          "title": "Y M",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x_m",
+        "y_m"
+      ],
+      "title": "Position",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "design": {
+      "$ref": "#/$defs/Design"
+    },
+    "rationale": {
+      "maxLength": 1200,
+      "minLength": 1,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "predicted_benefit": {
+      "maxLength": 800,
+      "minLength": 1,
+      "title": "Predicted Benefit",
+      "type": "string"
+    },
+    "hypothesis": {
+      "maxLength": 800,
+      "minLength": 1,
+      "title": "Hypothesis",
+      "type": "string"
+    }
+  },
+  "required": [
+    "design",
+    "rationale",
+    "predicted_benefit",
+    "hypothesis"
+  ],
+  "title": "Proposal",
+  "type": "object"
+}

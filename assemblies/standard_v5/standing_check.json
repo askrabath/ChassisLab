@@ -1,0 +1,18 @@
+{
+  "standing": true,
+  "simulated_seconds": 2.999999999999891,
+  "wheels_touching_floor": [
+    "tire_0",
+    "tire_1",
+    "tire_2",
+    "tire_3"
+  ],
+  "tilt_degrees": 0.00021434310038690832,
+  "root_height_m": 0.05076605116853257,
+  "root_speed_m_s": 2.4652004514166793e-08,
+  "mass_kg": 2.9690000000000016,
+  "degrees_of_freedom": 10,
+  "fixed_body_count": 80,
+  "root_pose_driven": false,
+  "rendered": true
+}

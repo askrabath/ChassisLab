@@ -1,0 +1,11 @@
+{
+  "pytest": {
+    "passed": 29,
+    "duration_s": 33.14
+  },
+  "headless_replay_frames": 520,
+  "resume": "completed using cached trials",
+  "physical_trials": 46,
+  "candidate_visual_replays": 10,
+  "ai_candidates_returned": 0
+}

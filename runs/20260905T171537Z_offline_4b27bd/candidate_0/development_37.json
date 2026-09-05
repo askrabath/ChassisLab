@@ -1,0 +1,30 @@
+{
+  "seed": 37,
+  "friction": 0.7257004117774297,
+  "initial_pose": [
+    0.01020765158067848,
+    0.008083436040123704,
+    -0.0344805411014382
+  ],
+  "completed": true,
+  "completion_time_s": 36.461999999998596,
+  "elapsed_s": 36.461999999998596,
+  "waypoint_progress": 1.0,
+  "waypoints_reached": 6,
+  "collision_episodes": 0,
+  "rms_tracking_error_m": 0.05323022779692412,
+  "parking_position_error_m": 0.0587040992323411,
+  "parking_heading_error_rad": 0.01935183478237379,
+  "unstable": false,
+  "failures": [],
+  "wheel_travel_m": [
+    9.696733724558992,
+    9.70274686009447,
+    10.331667967808166,
+    10.368464671397367
+  ],
+  "saturation_fraction": 0.6386649114146234,
+  "distance_traveled_m": 7.2165150992273235,
+  "peak_speed_m_s": 0.7870107081847909,
+  "braking_stop_time_s": 1.4039999999998458
+}

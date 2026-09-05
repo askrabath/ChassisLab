@@ -1,0 +1,323 @@
+{
+  "name": "Helical Paddle Pin Riser",
+  "chassis": {
+    "layout": "u_front",
+    "drive": "traction",
+    "length_mm": 450.0,
+    "width_mm": 380.0,
+    "wheelbase_mm": 350.0,
+    "wheel_diameter_mm": 101.6,
+    "wheel_count": 6,
+    "battery_xy_mm": [
+      -125.0,
+      0.0
+    ],
+    "gearing_rpm": 200
+  },
+  "mechanism_family": "Vertical auger elevator with compliant paddle flights and a top e",
+  "scoring_sequence": "Front rollers draw a lying or upright object into the guarded well; rotating helical paddles raise and turn it, then a short top gate directs it onto the Goal.",
+  "distinguishing_idea": "A central auger-like paddle stack continuously elevates and reorients the object without a carriage, circulating bucket, or belt conveyor.",
+  "main_uncertainty": "Approximate paddle pitch, guide clearance, and flange interaction require development; joints and controls are not implemented in this preview.",
+  "parts": [
+    {
+      "name": "left intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        185.0,
+        92.0,
+        82.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "right intake roller",
+      "shape": "cylinder",
+      "center_mm": [
+        185.0,
+        -92.0,
+        82.0
+      ],
+      "size_mm": [
+        42.0,
+        42.0,
+        150.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "intake"
+    },
+    {
+      "name": "left throat guide",
+      "shape": "box",
+      "center_mm": [
+        112.0,
+        118.0,
+        116.0
+      ],
+      "size_mm": [
+        190.0,
+        18.0,
+        150.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        -12.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "right throat guide",
+      "shape": "box",
+      "center_mm": [
+        112.0,
+        -118.0,
+        116.0
+      ],
+      "size_mm": [
+        190.0,
+        18.0,
+        150.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        12.0
+      ],
+      "role": "guide"
+    },
+    {
+      "name": "auger shaft",
+      "shape": "cylinder",
+      "center_mm": [
+        35.0,
+        0.0,
+        220.0
+      ],
+      "size_mm": [
+        24.0,
+        24.0,
+        330.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower paddle",
+      "shape": "box",
+      "center_mm": [
+        35.0,
+        0.0,
+        94.0
+      ],
+      "size_mm": [
+        145.0,
+        30.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        12.0,
+        10.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "lower-middle paddle",
+      "shape": "box",
+      "center_mm": [
+        35.0,
+        0.0,
+        154.0
+      ],
+      "size_mm": [
+        145.0,
+        30.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        12.0,
+        55.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper-middle paddle",
+      "shape": "box",
+      "center_mm": [
+        35.0,
+        0.0,
+        214.0
+      ],
+      "size_mm": [
+        145.0,
+        30.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        12.0,
+        100.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "upper paddle",
+      "shape": "box",
+      "center_mm": [
+        35.0,
+        0.0,
+        274.0
+      ],
+      "size_mm": [
+        145.0,
+        30.0,
+        12.0
+      ],
+      "rotation_deg": [
+        0.0,
+        12.0,
+        145.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "left tower post",
+      "shape": "box",
+      "center_mm": [
+        34.0,
+        104.0,
+        220.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        350.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "right tower post",
+      "shape": "box",
+      "center_mm": [
+        34.0,
+        -104.0,
+        220.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        350.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "rear tower post",
+      "shape": "box",
+      "center_mm": [
+        -62.0,
+        0.0,
+        220.0
+      ],
+      "size_mm": [
+        22.0,
+        22.0,
+        350.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "structure"
+    },
+    {
+      "name": "top discharge gate",
+      "shape": "box",
+      "center_mm": [
+        82.0,
+        0.0,
+        365.0
+      ],
+      "size_mm": [
+        135.0,
+        120.0,
+        16.0
+      ],
+      "rotation_deg": [
+        0.0,
+        -13.0,
+        0.0
+      ],
+      "role": "moving_link"
+    },
+    {
+      "name": "auger motor",
+      "shape": "box",
+      "center_mm": [
+        -36.0,
+        0.0,
+        78.0
+      ],
+      "size_mm": [
+        62.0,
+        54.0,
+        54.0
+      ],
+      "rotation_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    },
+    {
+      "name": "gate motor",
+      "shape": "cylinder",
+      "center_mm": [
+        18.0,
+        -122.0,
+        350.0
+      ],
+      "size_mm": [
+        44.0,
+        44.0,
+        54.0
+      ],
+      "rotation_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "role": "motor"
+    }
+  ]
+}

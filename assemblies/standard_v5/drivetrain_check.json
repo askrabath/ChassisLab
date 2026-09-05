@@ -1,0 +1,16 @@
+{
+  "forward": {
+    "displacement_m": 0.9884227227433023,
+    "yaw_change_rad": 3.552713678800501e-15,
+    "finite": true,
+    "speed_after_braking_m_s": 3.119867016495583e-11,
+    "tilt_deg": 0.00021434310038690832
+  },
+  "turn": {
+    "displacement_m": 0.03298477618919118,
+    "yaw_change_rad": 1.7752251535408679,
+    "finite": true,
+    "speed_after_braking_m_s": 0.08221060790603801,
+    "tilt_deg": 0.030095683314373792
+  }
+}

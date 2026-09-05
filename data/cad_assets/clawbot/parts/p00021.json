@@ -1,0 +1,27 @@
+{
+  "id": "p00021",
+  "name": "1-Post Standoff Retainer (276-8020)",
+  "mesh": "data/cad_assets/clawbot/parts/p00021.obj",
+  "bounds_mm": [
+    [
+      -8.63,
+      -4.738499999999999,
+      -6.3
+    ],
+    [
+      11.321548501110101,
+      4.738499999999999,
+      3.175
+    ]
+  ],
+  "faces": 8555,
+  "rgba": [
+    0.07421357184648514,
+    0.07421357184648514,
+    0.07421357184648514,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}

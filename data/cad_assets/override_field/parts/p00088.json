@@ -1,0 +1,27 @@
+{
+  "id": "p00088",
+  "name": "SBT0832_276-8016-001",
+  "mesh": "data/cad_assets/override_field/parts/p00088.obj",
+  "bounds_mm": [
+    [
+      -3.96,
+      -3.958673043795546,
+      -63.5
+    ],
+    [
+      3.96,
+      3.958673043795546,
+      2.21
+    ]
+  ],
+  "faces": 2816,
+  "rgba": [
+    0.5906188488006592,
+    0.637596845626831,
+    0.8549926280975342,
+    1
+  ],
+  "mass_kg": null,
+  "connection_points": null,
+  "legal_vrc": null
+}
